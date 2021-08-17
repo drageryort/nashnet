@@ -1,0 +1,379 @@
+.seo-page{
+  padding: 0 0 70px;
+  .page-title{
+    padding: 0 0 15px;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 120%;
+  }
+  .map-block{
+    margin: 15px auto 30px;
+    background: var(--color-white);
+    border-radius: 14px;
+    .check-address{
+      display: flex;
+      justify-content: space-between;
+      padding: 30px;
+      .block-title{
+        max-width: 410px;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 120%;
+      }
+      .check-availability-form{
+        display: flex;
+        align-items: center;
+        column-gap: 30px;
+        input{
+          padding: 7px 10px;
+          border: none;
+          border-bottom: 1px solid var(--color-light-gray);
+          font-weight: normal;
+          font-size: 16px;
+          line-height: 20px;
+          &:first-child{
+            width: 515px;
+          }
+          &:last-child{
+            width: 190px;
+          }
+        }
+      }
+    }
+    .map{
+      .image{
+        width: 100%;
+      }
+    }
+    .legend{
+      padding: 30px;
+      .legend-list{
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 20px;
+        row-gap: 20px;
+        .legend-el{
+          display: flex;
+          width: calc((100% - 40px) / 3);
+          .icon{
+            margin: 0 10px 0 0;
+            width: 20px;
+            height: 20px;
+          }
+        }
+      }
+    }
+  }
+  .info-block{
+    padding: 30px 0;
+    .block-title{
+      margin: 0 0 30px;
+      font-weight: bold;
+      font-size: 30px;
+      line-height: 120%;
+    }
+    .content{
+      display: flex;
+      column-gap: 30px;
+      justify-content: space-between;
+      .left-col{
+        width: 625px;
+        .block-main-image{
+          margin: 0 0 30px;
+          width: 100%;
+          height: 380px;
+          filter: drop-shadow(0px 0px 30px rgba(0, 0, 0, 0.08));
+          border-radius: 14px;
+          overflow: hidden;
+          img{}
+        }
+        .calendar{
+          display: flex;
+          padding: 20px;
+          margin: 0 0 40px;
+          align-items: center;
+          justify-content: flex-start;
+          background: var(--color-white);
+          border-radius: 14px;
+          .icon{
+            margin: 0 20px 0 0;
+            width: 56px;
+            height: 56px;
+
+          }
+          .description{
+            display: flex;
+            flex-direction: column;
+            row-gap: 7px;
+            .name{
+              font-size: 16px;
+              line-height: 20px;
+            }
+            .value{
+              font-weight: bold;
+              font-size: 30px;
+              line-height: 29px;
+              color: var(--color-orange);
+            }
+          }
+          .btn{
+            margin: 0 0 0 auto;
+            width: 185px;
+          }
+        }
+        .tariffs{
+          .title{
+            margin: 0 0 30px;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 120%;
+          }
+          .tariffs-list{
+            .tariffs-el{
+              display: flex;
+              padding: 0 0 25px;
+              flex-direction: column;
+              align-items: center;
+              width: 235px;
+              background: var(--color-white);
+              border-radius: 14px;
+              border: 2px solid var(--color-orange);
+              box-shadow: 0 0 40px rgba(0, 0, 0, 0.05);
+              .tariff-top{
+                display: flex;
+                width: calc(100% + 4px);
+                align-items: center;
+                justify-content: space-between;
+                padding: 9px 12px;
+                background: var(--color-orange);
+                border-radius: 14px 14px 0 0;
+                top: -2px;
+                .name{
+                  font-weight: bold;
+                  font-size: 12px;
+                  line-height: 120%;
+                  text-decoration-line: underline;
+                  color: var(--color-white);
+                }
+                .date{
+                  font-size: 12px;
+                  line-height: 120%;
+                  color: var(--color-white);
+                }
+              }
+              .tariff-base-info{
+                display: flex;
+                flex-direction: column;
+                padding: 12px 14px 20px;
+                text-align: center;
+                height: 115px;
+                .tariff-name{
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  font-weight: bold;
+                  column-gap: 10px;
+                  margin: 0 0 5px;
+                  font-size: 20px;
+                  line-height: 120%;
+                  .icon{
+                    width: 18px;
+                    height: 18px;
+                  }
+                }
+                .tariff-recommendation{
+                  font-size: 10px;
+                  line-height: 12px;
+                  text-align: center;
+                  color: var(--color-placeholder-gray);
+                }
+                .tariff-speed{
+                  margin: auto 0 0;
+                  font-weight: bold;
+                  font-size: 14px;
+                  line-height: 20px;
+                  color: var(--color-blue);
+                }
+              }
+              .iptv-tariff-slider{
+                padding: 10px 0;
+                background: var(--color-green-blue);
+                width: 100%;
+                .iptv-tariff-text{
+                  margin: 0 0 10px;
+                  font-size: 12px;
+                  line-height: 11px;
+                  text-align: center;
+                }
+                .iptv-tariff-slider-el{
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+                  .iptv-tariff-name{
+                    display: flex;
+                    align-items: center;
+                    margin: 0 0 10px;
+                    .icon{
+                      margin: 0 10px 0 0;
+                      width: 18px;
+                      height: 18px;
+                    }
+                  }
+                  .iptv-tariff-description{
+                    font-size: 10px;
+                    line-height: 120%;
+                    color: var(--color-placeholder-gray);
+                  }
+                  .link{
+                    font-size: 12px;
+                    line-height: 120%;
+                    color: var(--color-blue);
+                    text-decoration-line: underline;
+                  }
+                }
+                .navigation{
+                  display: flex;
+                  justify-content: center;
+                  margin: 15px 0 0;
+                  column-gap: 3px;
+                  .dots{
+                    span{
+                      display: inline-block;
+                      width: 5px;
+                      height: 5px;
+                      border-radius: 50%;
+                      border: 1px solid var(--color-blue);
+                      cursor: pointer;
+                    }
+                    &.active{
+                      span{
+                        background: var(--color-blue);
+                      }
+                    }
+                  }
+                }
+              }
+              .additional-attributes{
+                width: 100%;
+                padding: 10px 12px;
+                margin: 0 0 10px;
+                .block-text{
+                  margin: 0 0 8px;
+                  font-size: 10px;
+                  line-height: 12px;
+                  text-align: center;
+                  color: var(--color-placeholder-gray);
+                }
+                .label{
+                  display: flex;
+                  width: 100%;
+                  align-items: center;
+                  padding: 10px 15px 10px 10px;
+                  background: var(--color-green-blue);
+                  border-radius: 6px;
+                  cursor: pointer;
+                  input:checked + .checkbox{
+                    background: var(--color-blue);
+                    border: 1px solid var(--color-blue);
+                    &:before{
+                      content: url("../images/svg/common/checked-icon.svg");
+                      position: absolute;
+                      top: 50%;
+                      left: 50%;
+                      z-index: 1;
+                      transform: translate(-50%, -50%);
+                    }
+                  }
+                  .checkbox{
+                    display: block;
+                    margin: 8px;
+                    background: var(--color-white);
+                    width: 18px;
+                    height: 18px;
+                    border: 1px solid var(--color-light-gray);
+                    border-radius: 4px;
+                  }
+                  .attr-name{
+                    font-weight: bold;
+                    font-size: 14px;
+                    line-height: 16px;
+                  }
+                  .attr-price{
+                    margin: 0 0 0 auto;
+                    font-size: 12px;
+                    line-height: 11px;
+                    text-align: center;
+                  }
+                }
+              }
+              .price-block{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin: 0 0 10px;
+                .old-price{
+                  font-weight: 500;
+                  font-size: 12px;
+                  line-height: 120%;
+                  text-align: center;
+                  text-decoration-line: line-through;
+                  color: var(--color-placeholder-gray);
+                }
+                .new-price{
+                  font-weight: bold;
+                  font-size: 20px;
+                  line-height: 30px;
+                }
+                .economy{
+                  font-weight: 500;
+                  font-size: 12px;
+                  line-height: 120%;
+                  text-align: center;
+                  color: var(--color-placeholder-gray);
+                }
+              }
+              .btn{
+                width: 165px;
+              }
+            }
+          }
+        }
+      }
+      .right-col{
+        width: 625px;
+        p{
+          font-size: 16px;
+          line-height: 120%;
+          &:not(:last-child){
+            margin: 0 0 20px;
+          }
+        }
+        .bordered-text{
+          margin: 0 0 20px;
+          padding: 20px;
+          border: 1px solid #D0D5FF;
+          box-sizing: border-box;
+          border-radius: 14px;
+          p{
+            font-style: italic;
+          }
+        }
+      }
+    }
+  }
+  .promotions-block{
+    padding: 30px 0;
+    .block-title{
+      margin: 0 0 30px;
+      font-weight: bold;
+      font-size: 30px;
+      line-height: 120%;
+      text-align: center;
+    }
+    .promotions-list{
+      display: flex;
+      column-gap: 30px;
+      row-gap: 30px;
+    }
+  }
+}

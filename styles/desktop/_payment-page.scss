@@ -1,0 +1,184 @@
+.payment-page{
+  padding: 0 0 85px;
+  .page-title{
+    padding: 0 0 15px;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 120%;
+  }
+  .tab-selector-block{
+    padding: 15px 0;
+    .tab-selector-list{
+      display: flex;
+      align-items: center;
+      width: max-content;
+      height: 48px;
+      border: 2px solid var(--color-light-gray);
+      box-sizing: border-box;
+      border-radius: 50px;
+      .tab-selector{
+        padding: 14px 24px;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        color: var(--color-blue);
+        border-radius: 50px;
+        cursor: pointer;
+        &:first-child{
+          left: -2px;
+        }
+        &:last-child{
+          right: -2px;
+        }
+        &.active{
+          background: var(--color-blue);
+          color: var(--color-white);
+        }
+      }
+    }
+  }
+  .tab-content-block{
+    padding: 15px 0;
+    .tab-content{
+      display: none;
+      &.active{
+        display: block;
+      }
+      .table-content-title{
+        margin: 0 0 30px;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 120%;
+      }
+      .content{
+        display: flex;
+        &.online{
+          column-gap: 30px;
+          .left-col{
+            display: flex;
+            width: calc((100% - 30px) / 2);
+            row-gap: 30px;
+            flex-direction: column;
+            .card{
+              display: flex;
+              flex-direction: column;
+              justify-content: space-between;
+              width: 100%;
+              height: 245px;
+              padding: 45px 30px 30px;
+              background: var(--color-white);
+              border-radius: 14px;
+              .system-logo{
+                height: 85px;
+                width: max-content;
+              }
+              .content{
+                display: flex;
+                align-items: flex-end;
+                justify-content: space-between;
+                .text{
+                  width: 200px;
+                  font-size: 16px;
+                  line-height: 120%;
+                }
+                .button-block{
+                  display: flex;
+                  column-gap: 20px;
+                }
+              }
+            }
+          }
+          .right-col{
+            display: flex;
+            flex-wrap: wrap;
+            width: calc((100% - 30px) / 2);
+            gap: 30px;
+            .card{
+              display: flex;
+              flex-direction: column;
+              justify-content: space-between;
+              width: calc((100% - 30px)/2);
+              height: 150px;
+              padding: 35px 30px 30px;
+              background: var(--color-white);
+              border-radius: 14px;
+              .system-logo{
+                height: 35px;
+                width: max-content;
+              }
+              .content{
+                justify-content: space-between;
+                align-items: flex-end;
+                .text{
+                  font-weight: normal;
+                  font-size: 16px;
+                  line-height: 120%;
+                }
+              }
+              &.wide{
+                width: 100%;
+                .system-logo{}
+                .content{
+                  .text{}
+                  .button-block{}
+                }
+              }
+            }
+          }
+        }
+        &.cash{
+          justify-content: center;
+          gap: 30px;
+          .card{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: 245px;
+            padding: 30px;
+            background: var(--color-white);
+            border-radius: 14px;
+            .system-logo{
+              margin: 0 0 30px;
+              height: 45px;
+              width: max-content;
+            }
+            .text{
+              font-size: 16px;
+              line-height: 120%;
+            }
+            .btn{
+              margin: auto 0 0 0;
+            }
+          }
+        }
+        &.bank{
+          flex-direction: column;
+          .block-text{
+            padding: 7px 0;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 140%;
+            a{
+              color: var(--color-blue);
+            }
+          }
+          .block-title{
+            padding: 15px 0;
+            font-weight: bold;
+            font-size: 30px;
+            line-height: 140%;
+          }
+          .list{
+            padding: 15px 0;
+            li{
+              font-weight: normal;
+              font-size: 16px;
+              line-height: 140%;
+            }
+          }
+        }
+      }
+    }
+  }
+}

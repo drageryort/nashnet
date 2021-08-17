@@ -1,12 +1,14 @@
 <!doctype html>
-    <html lang="en">
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Home</title>
-    <link rel="stylesheet" href="../styles/fonts.min.css">
-    <link rel="stylesheet" href="../styles/style.min.css">
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+              content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Home</title>
+        <link rel="stylesheet" href="../styles/fonts.min.css">
+        <link rel="stylesheet" href="../styles/style.min.css">
+    </head>
     <body>
         <header>
             <div class="top-header-block">
@@ -78,7 +80,7 @@
                     <div class="main-header__left-col">
                         <a href="" class="logo">
                             <picture>
-                                <img src="../images/svg/header/big-logo.svg" alt="logo">
+                                <img src="../images/svg/common/big-logo.svg" alt="logo">
                             </picture>
                         </a>
                         <menu class="main-menu">
@@ -92,10 +94,38 @@
                                     Тарифи
                                 </a>
                             </li>
-                            <li class="list-el">
+                            <li class="list-el has-children">
                                 <a href="#" class="link">
                                     Абоненту
                                 </a>
+                                <div class="sub-menu-list-wrapper">
+                                    <ul class="sub-menu-list">
+                                        <li class="list-el">
+                                            <a href="#" class="link">Відео сервер</a>
+                                        </li>
+                                        <li class="list-el">
+                                            <a href="#" class="link">IPTV</a>
+                                        </li>
+                                        <li class="list-el">
+                                            <a href="#" class="link">Інструкції</a>
+                                        </li>
+                                        <li class="list-el">
+                                            <a href="#" class="link">Документи</a>
+                                        </li>
+                                        <li class="list-el">
+                                            <a href="#" class="link">Питання та відповіді</a>
+                                        </li>
+                                        <li class="list-el">
+                                            <a href="#" class="link">Програма лояльності</a>
+                                        </li>
+                                        <li class="list-el">
+                                            <a href="#" class="link">Магазин</a>
+                                        </li>
+                                        <li class="list-el">
+                                            <a href="#" class="link">Відеонагляд</a>
+                                        </li>
+                                    </ul>
+                                </div>
                             </li>
                             <li class="list-el">
                                 <a href="#" class="link">
@@ -155,7 +185,7 @@
             <div class="top-banner-block container">
                 <div class="top-banner-block__left-col">
                     <picture>
-                        <img src="../images/png/home/top-banner.png" alt="banner">
+                        <img loading="lazy" src="../images/png/home/top-banner.png" alt="banner">
                     </picture>
                     <div class="banner-content">
                         <h3 class="title">
@@ -167,16 +197,115 @@
                     </div>
                 </div>
                 <div class="top-banner-block__right-col">
-                    <h3 class="title">
-                        Перевірте чи підключений ваш будинок до Nashnet
-                    </h3>
-                    <p class="subtitle">
-                        Введіть вашу адресу та дізнайтеся чи маєте ви можливість підключення
-                    </p>
-                    <form action="" class="check-availability-form">
-                        <input type="text" name="street" placeholder="Назва вулиці">
-                        <input type="text" name="house" placeholder="№ будинку">
-                    </form>
+                    <!-- Stages for form -->
+                    <div class="stage1">
+                        <h3 class="form-title">
+                            Перевірте чи підключений ваш будинок до Nashnet
+                        </h3>
+                        <p class="form-text">
+                            Введіть вашу адресу та дізнайтеся чи маєте ви можливість підключення
+                        </p>
+                        <form action="" class="check-availability-form">
+                            <input type="text" name="street" placeholder="Назва вулиці">
+                            <input type="text" name="house" placeholder="№ будинку">
+                        </form>
+                    </div>
+<!--                    <div class="stage2 negative">-->
+<!--                        <img class="result-icon" src="../images/svg/common/sad.svg" alt="sad-icon">-->
+<!--                        <h4 class="form-title">-->
+<!--                            На жаль ваш будинок не підключений.-->
+<!--                        </h4>-->
+<!--                        <p class="form-subtitle">-->
+<!--                            вул. Маяковського, 25-->
+<!--                        </p>-->
+<!--                        <p class="form-text">-->
+<!--                            Заповніть необхідні дані і співробітник відділу продажів зателефонує Вам коли ваш будинок-->
+<!--                            буде підключено до мережі Nashnet.-->
+<!--                        </p>-->
+<!--                        <form action="" class="personal-data-form">-->
+<!--                            <div class="input-wrapper">-->
+<!--                                <input type="text" name="street" placeholder="Ім'я">-->
+<!--                                <input type="text" name="house" placeholder="+38 (0__) ___ - __ - __">-->
+<!--                            </div>-->
+<!--                            <button class="link">-->
+<!--                                Перевірити іншу адресу-->
+<!--                            </button>-->
+<!--                            <button class="btn btn-blue-rounded">Відправити форму</button>-->
+<!--                        </form>-->
+<!--                        <small class="info">-->
+<!--                            Відправивши заявку, ви погоджуєтесь з обробкою персональних даних-->
+<!--                        </small>-->
+<!--                    </div>-->
+<!--                    <div class="stage2 positive">-->
+<!--                        <img class="result-icon" src="../images/svg/common/happy.svg" alt="sad-icon">-->
+<!--                        <h4 class="form-title">-->
+<!--                            Ваш дім має можливість підключення!-->
+<!--                        </h4>-->
+<!--                        <p class="form-subtitle">-->
+<!--                            вул. Маяковського, 25-->
+<!--                        </p>-->
+<!--                        <p class="form-text">-->
+<!--                            Введіть дані для підключення-->
+<!--                        </p>-->
+<!--                        <form action="" class="personal-data-form">-->
+<!--                            <div class="input-wrapper">-->
+<!--                                <input type="text" name="street" placeholder="Ім'я">-->
+<!--                                <input type="text" name="house" placeholder="+38 (0__) ___ - __ - __">-->
+<!--                            </div>-->
+<!--                            <button class="link">-->
+<!--                                Перевірити іншу адресу-->
+<!--                            </button>-->
+<!--                            <button class="btn btn-blue-rounded">Відправити форму</button>-->
+<!--                        </form>-->
+<!--                        <small class="info">-->
+<!--                            Відправивши заявку, ви погоджуєтесь з обробкою персональних даних-->
+<!--                        </small>-->
+<!--                    </div>-->
+<!--                    <div class="stage3 positive">-->
+<!--                        <img class="result-icon" src="../images/svg/common/positive-icon.svg" alt="result-icon">-->
+<!--                        <h2 class="form-title">-->
+<!--                            Дякуємо! Ваша заявка прийнята.-->
+<!--                        </h2>-->
+<!--                        <p class="form-subtitle">-->
+<!--                            Номер заявки: 2505-->
+<!--                        </p>-->
+<!--                        <ul class="data-list">-->
+<!--                            <li class="data-list-el">-->
+<!--                                <span class="name">-->
+<!--                                    Ваші дані:-->
+<!--                                </span>-->
+<!--                                <span class="value">-->
+<!--                                    Олег, 063 340 00 00-->
+<!--                                </span>-->
+<!--                            </li>-->
+<!--                            <li class="data-list-el">-->
+<!--                                <span class="name">-->
+<!--                                    Адреса:-->
+<!--                                </span>-->
+<!--                                <span class="value">-->
+<!--                                    вул. Маяковського, 25-->
+<!--                                </span>-->
+<!--                            </li>-->
+<!--                        </ul>-->
+<!--                    </div>-->
+<!--                    <div class="stage3 positive">-->
+<!--                        <img class="result-icon" src="../images/svg/common/positive-icon.svg" alt="result-icon">-->
+<!--                        <h2 class="form-title">-->
+<!--                            Дякуємо!-->
+<!--                        </h2>-->
+<!--                        <p class="form-subtitle">-->
+<!--                            Ми зв'яжемося з вами коли будемо мати можливість підключити вас-->
+<!--                        </p>-->
+<!--                    </div>-->
+<!--                    <div class="stage3 error">-->
+<!--                        <img class="result-icon" src="../images/svg/common/negative-icon.svg" alt="result-icon">-->
+<!--                        <h2 class="form-title">-->
+<!--                            Упс... Что-то пошло не так-->
+<!--                        </h2>-->
+<!--                        <p class="form-subtitle">-->
+<!--                            Попробуйте позже-->
+<!--                        </p>-->
+<!--                    </div>-->
                 </div>
             </div>
             <div class="hot-propositions-block container">
@@ -187,7 +316,7 @@
                     <div class="hot-propositions-el">
                         <div class="top-part">
                             <picture class="block-main-image">
-                                <img src="../images/png/home/hot-proposition1.png" alt="el-image">
+                                <img loading="lazy" src="../images/png/home/hot-proposition1.png" alt="el-image">
                             </picture>
                             <div class="timer">
                                 <img class="icon"  src="../images/svg/home/clock.svg" alt="clock-icon">
@@ -238,18 +367,18 @@
                             <div class="left-col">
                                 <div class="top-row">
                                     <div class="info-wrapper">
-                                        <img src="../images/svg/home/wifi-icon.svg" alt="icon">
-                                        <span class="info">Бест</span>
+                                        <img src="../images/svg/common/wifi-icon.svg" alt="icon">
+                                        <span class="info" title="Бест">Бест</span>
                                     </div>
                                     <div class="info-wrapper">
                                         <img src="../images/svg/home/download-speed-icon.svg" alt="icon">
-                                        <span class="info">1000 Мбіт</span>
+                                        <span class="info" title="1000 Мбіт">1000 Мбіт</span>
                                     </div>
                                 </div>
                                 <div class="mid-row">
                                     <div class="info-wrapper">
-                                        <img src="../images/svg/home/tv-icon.svg" alt="icon">
-                                        <span class="info">Безкоштовні канали</span>
+                                        <img src="../images/svg/common/tv-icon.svg" alt="icon">
+                                        <span class="info" title="Безкоштовні канали">Безкоштовні канали</span>
                                     </div>
                                     <div class="info-wrapper">
                                         <a class="link" href="#">28 каналів</a>
@@ -267,7 +396,7 @@
                     <div class="hot-propositions-el present">
                         <div class="top-part">
                             <picture class="block-main-image">
-                                <img src="../images/png/home/hot-proposition2.png" alt="el-image">
+                                <img loading="lazy" src="../images/png/home/hot-proposition2.png" alt="el-image">
                             </picture>
                             <div class="timer">
                                 <img class="icon"  src="../images/svg/home/clock.svg" alt="clock-icon">
@@ -318,19 +447,19 @@
                             <div class="left-col">
                                 <div class="top-row">
                                     <div class="info-wrapper">
-                                        <img src="../images/svg/home/wifi-icon.svg" alt="icon">
-                                        <span class="info">Бест</span>
-                                        <span class="sale">-100 грн</span>
+                                        <img src="../images/svg/common/wifi-icon.svg" alt="icon">
+                                        <span class="info" title="Бест">Бест</span>
+                                        <span class="sale" >-100 грн</span>
                                     </div>
                                     <div class="info-wrapper">
                                         <img src="../images/svg/home/download-speed-icon.svg" alt="icon">
-                                        <span class="info">1000 Мбіт</span>
+                                        <span class="info" title="1000 Мбіт">1000 Мбіт</span>
                                     </div>
                                 </div>
                                 <div class="mid-row">
                                     <div class="info-wrapper">
-                                        <img src="../images/svg/home/tv-icon.svg" alt="icon">
-                                        <span class="info">Безкоштовні канали</span>
+                                        <img src="../images/svg/common/tv-icon.svg" alt="icon">
+                                        <span class="info" title="Безкоштовні канали">Безкоштовні канали</span>
                                         <span class="sale">-100 грн</span>
                                     </div>
                                     <div class="info-wrapper">
@@ -379,7 +508,7 @@
                 <div class="promotions-list">
                     <div class="promotions-el">
                         <picture class="block-main-image">
-                            <img src="../images/png/home/promotion1.png" alt="el-image">
+                            <img loading="lazy" src="../images/png/home/promotion1.png" alt="el-image">
                         </picture>
                         <div class="calendar">
                             <img class="icon"  src="../images/svg/home/calendar-icon.svg" alt="calendar-icon">
@@ -416,7 +545,7 @@
                     </div>
                     <div class="promotions-el">
                         <picture class="block-main-image">
-                            <img src="../images/png/home/promotion2.png" alt="el-image">
+                            <img loading="lazy" src="../images/png/home/promotion2.png" alt="el-image">
                         </picture>
                         <div class="calendar">
                             <img class="icon"  src="../images/svg/home/calendar-icon.svg" alt="calendar-icon">
@@ -470,12 +599,476 @@
                 </div>
                 <div class="right-col">
                     <picture>
-                        <img src="../images/png/home/single-promo.png" alt="single-promo-image">
+                        <img loading="lazy" src="../images/png/home/single-promo.png" alt="single-promo-image">
                     </picture>
+                </div>
+            </div>
+            <div class="full-width-promo-block">
+                <picture class="block-main-image">
+                    <img loading="lazy" src="../images/png/home/full-width-promo.png" alt="full-width-promo">
+                </picture>
+                <div class="container content">
+                    <h2 class="block-title">
+                        Підключай друзів та отримуй бонуси!
+                    </h2>
+                    <p class="description">
+                        Запрошуйте своїх друзів підключитися до Nash’ої родини — і цілий рік всі разом отримуйте
+                        додаткову вигоду!
+                    </p>
+                    <a class="btn btn-transparent-rounded" href="#">
+                        Детальніше
+                    </a>
+                </div>
+            </div>
+            <div class="info-block container">
+                <div class="left-col">
+                    <h2 class="block-title">
+                        Телебачення (IPTV)
+                    </h2>
+                    <ul class="features-list">
+                        <li class="list-el">
+                            висока якість зображення;
+                        </li>
+                        <li class="list-el">
+                            наявність програми телепередач (EPG);
+                        </li>
+                        <li class="list-el">
+                            перегляду на будь-якому пристрої.
+                        </li>
+                    </ul>
+                    <div class="button-block">
+                        <a href="#" class="btn btn-blue-rounded">
+                            Переглянути
+                        </a>
+                        <a href="#" class="btn btn-transparent-blue-rounded">
+                            Список каналів
+                        </a>
+                    </div>
+                    <div class="tech-list">
+                        <img class="tech-list-el" src="../images/svg/home/tech-1.svg" alt="tech-icon">
+                        <img class="tech-list-el" src="../images/svg/home/tech-2.svg" alt="tech-icon">
+                        <img class="tech-list-el" src="../images/svg/home/tech-3.svg" alt="tech-icon">
+                        <img class="tech-list-el" src="../images/svg/home/tech-4.svg" alt="tech-icon">
+                        <img class="tech-list-el" src="../images/svg/home/tech-5.svg" alt="tech-icon">
+                        <img class="tech-list-el" src="../images/svg/home/tech-6.svg" alt="tech-icon">
+                    </div>
+                </div>
+                <div class="right-col">
+                    <picture class="block-main-image">
+                        <img loading="lazy" src="../images/png/home/tech-image.png" alt="tech-image">
+                    </picture>
+                </div>
+            </div>
+            <div class="activity-news-block container">
+                <h2 class="block-title">
+                    Актуальна інформація та Новини
+                </h2>
+                <div class="content">
+                    <div class="left-col activity">
+                        <h3 class="block-title">Активність підключення</h3>
+                        <ul class="activity-list">
+                            <li class="activity-list-el">
+                                <span class="time">13:02:59</span>
+                                <span class="info"><b>Нова заявка</b> на підключення пакету <b>Смарт</b>.</span>
+                            </li>
+                            <li class="activity-list-el" title="Нова заявка на підключення пакету Твій + Легкий старт">
+                                <span class="time">13:02:59</span>
+                                <span class="info"><b>Нова заявка</b> на підключення пакету <b>Твій + Легкий старт</b>.</span>
+                            </li>
+                            <li class="activity-list-el">
+                                <span class="time">13:02:59</span>
+                                <span class="info"><b>Нова заявка</b> на підключення пакету <b>Бест</b>.</span>
+                            </li>
+                            <li class="activity-list-el">
+                                <span class="time">13:02:59</span>
+                                <span class="info"><b>Нова заявка</b> на підключення пакету <b>Смарт</b>.</span>
+                            </li>
+                            <li class="activity-list-el">
+                                <span class="time">13:02:59</span>
+                                <span class="info"><b>Нова заявка</b> на підключення пакету <b>Смарт</b>.</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="right-col news">
+                        <div class="title-block">
+                            <h3 class="block-title">
+                                Новини
+                            </h3>
+                            <a class="link" href="#">
+                                Всі новини
+                            </a>
+                        </div>
+                        <ul class="news-list">
+                            <li class="news-list-el">
+                                <div class="left-col">
+                                    <h4 class="title">
+                                        Даруємо медіаплеєри, рік «Інтернет+ТБ» та супер-приз — телевізор!
+                                    </h4>
+                                    <a class="link" href="#">Читати новину</a>
+                                </div>
+                                <div class="right-col">
+                                    <span class="day">24</span>
+                                    <span class="month">грудня</span>
+                                </div>
+                            </li>
+                            <li class="news-list-el">
+                                <div class="left-col">
+                                    <h4 class="title">
+                                        Даруємо медіаплеєри, рік «Інтернет+ТБ» та супер-приз — телевізор!
+                                        Даруємо медіаплеєри, рік «Інтернет+ТБ» та супер-приз — телевізор!
+                                        Даруємо медіаплеєри, рік «Інтернет+ТБ» та супер-приз — телевізор!
+                                    </h4>
+                                    <a class="link" href="#">Читати новину</a>
+                                </div>
+                                <div class="right-col">
+                                    <span class="day">14</span>
+                                    <span class="month">грудня</span>
+                                </div>
+                            </li>
+                            <li class="news-list-el">
+                                <div class="left-col">
+                                    <h4 class="title">
+                                        Даруємо медіаплеєри, рік «Інтернет+ТБ» та супер-приз — телевізор!
+                                    </h4>
+                                    <a class="link" href="#">Читати новину</a>
+                                </div>
+                                <div class="right-col">
+                                    <span class="day">05</span>
+                                    <span class="month">грудня</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="advantages-block container">
+                <h2 class="title-block">
+                    Переваги
+                </h2>
+                <div class="advantages-list">
+                    <div class="list-el">
+                        <div class="image">
+                            <img src="../images/svg/home/advantage1.svg" alt="advantage-icon">
+                        </div>
+                        <span class="text">
+                            Lorem mauris.
+                        </span>
+                    </div>
+                    <div class="list-el">
+                        <div class="image">
+                            <img src="../images/svg/home/advantage2.svg" alt="advantage-icon">
+                        </div>
+                        <span class="text">
+                            Imperdiet tincidunt amet.
+                        </span>
+                    </div>
+                    <div class="list-el">
+                        <div class="image">
+                            <img src="../images/svg/home/advantage3.svg" alt="advantage-icon">
+                        </div>
+                        <span class="text">
+                            Pulvinar urna quis.
+                        </span>
+                    </div>
+                    <div class="list-el">
+                        <div class="image">
+                            <img src="../images/svg/home/advantage4.svg" alt="advantage-icon">
+                        </div>
+                        <span class="text">
+                            Amet commodo tortor.
+                        </span>
+                    </div>
+                </div>
+                <div class="show-more-block">
+                    <div class="content show-more-text">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa et placerat magna quam turpis
+                            sed eleifend sed aenean. Donec volutpat nulla hendrerit eu neque. Ut ac, vel amet, habitant
+                            sed. Accumsan tellus turpis placerat blandit mauris feugiat commodo sagittis ante. Auctor
+                            tincidunt arcu dolor cum. Feugiat proin scelerisque laoreet facilisis vitae porttitor augue
+                            vestibulum ultrices. Ante curabitur at nullam neque tincidunt. Aliquam phasellus mauris eu
+                            et hendrerit fringilla semper. Dolor lorem consequat facilisi et vitae felis.
+
+                            Ipsum lorem sed ipsum etiam pellentesque. Tellus tortor, massa lacinia faucibus est id
+                            praesent urna nisi. Metus tempus tortor vitae imperdiet ultricies ipsum. Condimentum
+                            rhoncus non vel at ornare sed vel diam elementum. Faucibus quis scelerisque pharetra quam
+                            et in tellus, commodo. Dui purus mollis amet at ipsum mauris enim nunc mattis. Morbi
+                            condimentum scelerisque elementum pharetra feugiat tortor luctus. Elementum dictum eget sed
+                            integer dui mattis gravida felis tincidunt. Molestie magna congue pellentesque nunc, sem.
+                        </p>
+                        <p>
+                            Iaculis nisl, fringilla adipiscing ut tortor. At enim dictum quis habitant. Adipiscing
+                            fringilla ipsum nec feugiat sed nisl, nulla. Nunc integer nulla metus fames purus. Vivamus
+                            vivamus augue semper tincidunt. Lectus etiam magna non interdum tristique. Non risus arcu
+                            cursus sed etiam feugiat. Fames aliquam sit dui tristique massa non in lectus. Convallis
+                            amet lorem pretium sed vestibulum. Viverra adipiscing ullamcorper eu ullamcorper tincidunt
+                            sit.
+                        </p>
+                        <p>
+                            Bibendum dolor elementum diam accumsan velit enim cursus. Lectus diam neque velit nunc,
+                            venenatis. Amet est nunc, dictum sagittis, urna gravida. Vel pretium pretium, congue justo
+                            dictumst. Blandit augue sem praesent tellus pellentesque elit, sed. Viverra dui mollis in
+                            feugiat habitant.
+                        </p>
+                        <p>
+                            Est etiam lectus cras mattis imperdiet turpis habitant. Nec id orci interdum nunc. Egestas
+                            massa interdum sit ut ultricies quis aliquet elementum nulla. Sit pharetra id gravida
+                            vehicula blandit bibendum eu et et. Dignissim pellentesque nibh consequat diam praesent
+                            elementum libero. Tincidunt lorem ullamcorper bibendum malesuada. Mattis ante a urna
+                            pharetra. Non integer senectus faucibus adipiscing urna, lacus, egestas ut. Venenatis morbi
+                            sit orci congue nascetur eget.
+
+                        </p>
+                        <p>
+                            Bibendum dolor elementum diam accumsan velit enim cursus. Lectus diam neque velit nunc,
+                            venenatis. Amet est nunc, dictum sagittis, urna gravida. Vel pretium pretium, congue justo
+                            dictumst. Blandit augue sem praesent tellus pellentesque elit, sed. Viverra dui mollis in
+                            feugiat habitant.
+                        </p>
+                        <p>
+                            Est etiam lectus cras mattis imperdiet turpis habitant. Nec id orci interdum nunc. Egestas
+                            massa interdum sit ut ultricies quis aliquet elementum nulla. Sit pharetra id gravida
+                            vehicula blandit bibendum eu et et. Dignissim pellentesque nibh consequat diam praesent
+                            elementum libero. Tincidunt lorem ullamcorper bibendum malesuada. Mattis ante a urna
+                            pharetra. Non integer senectus faucibus adipiscing urna, lacus, egestas ut. Venenatis morbi
+                            sit orci congue nascetur eget.
+
+                        </p>
+                    </div>
+                    <button class="show-more-btn btn-arrow-rounded">
+                        <img src="../images/svg/common/arrow-bottom-blue.svg" alt="arrow-icon">
+                    </button>
                 </div>
             </div>
         </main>
         <footer>
+            <div class="footer-wrapper">
+                <div class="footer container">
+                    <div class="logo-block">
+                        <a href="#" class="link">
+                            <img class="image" src="../images/svg/common/big-logo-white.svg" alt="logo">
+                        </a>
+                    </div>
+                    <div class="main-part">
+                        <div class="left-col">
+                            <p class="address">
+                                02232, м. Київ, пр-т. Маяковського 73-А, ТОВ «НАШНЕТ»
+                            </p>
+                            <div class="phone-block">
+                                <div class="column">
+                                    <h5 class="department">
+                                        Відділ продажів:
+                                    </h5>
+                                    <ul class="phone-list">
+                                        <li class="list-el">
+                                            <a href="tel:0445851111">(044) 585-11-11</a>
+                                        </li>
+                                        <li class="list-el vodafone">
+                                            <a href="tel:0505851111">(050) 585-11-11</a>
+                                        </li>
+                                        <li class="list-el lifecell">
+                                            <a href="tel:0935851111">(093) 585-11-11</a>
+                                        </li>
+                                        <li class="list-el ks">
+                                            <a href="tel:0965851111">(096) 585-11-11</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="column">
+                                    <h5 class="department">
+                                        Тех. підтримка:
+                                    </h5>
+                                    <ul class="phone-list">
+                                        <li class="list-el">
+                                            <a href="tel:0445851110">(044) 585-11-10</a>
+                                        </li>
+                                        <li class="list-el vodafone">
+                                            <a href="tel:0505851110">(050) 585-11-10</a>
+                                        </li>
+                                        <li class="list-el lifecell">
+                                            <a href="tel:0935851110">(093) 585-11-10</a>
+                                        </li>
+                                        <li class="list-el ks">
+                                            <a href="tel:0965851110">(096) 585-11-10</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="social-media-messengers-block">
+                                <div class="left-col">
+                                    <a href="#" class="link">
+                                        <img src="../images/svg/footer/facebook.svg" alt="facebook-icon">
+                                        Facebook
+                                    </a>
+                                    <a href="#" class="link">
+                                        <img src="../images/svg/footer/instagram.svg" alt="instagram-icon">
+                                        Instagram
+                                    </a>
+                                </div>
+                                <div class="right-col">
+                                    <a href="#" class="link">
+                                        <img src="../images/svg/footer/telegram-icon.svg" alt="telegram-icon">
+                                    </a>
+                                    <a href="#" class="link">
+                                        <img src="../images/svg/footer/viber-icon.svg" alt="viber-icon">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="rate-block">
+                                <div class="column">
+                                    <img class="block-logo" src="../images/svg/footer/google-logo.svg" alt="brand-label">
+                                    <div class="info">
+                                        <div class="left-col">
+                                            <span>4,6</span>
+                                        </div>
+                                        <div class="right-col">
+                                            <div class="stars-block">
+                                                <img class="star" src="../images/svg/common/full-star.svg" alt="full-star">
+                                                <img class="star" src="../images/svg/common/full-star.svg" alt="full-star">
+                                                <img class="star" src="../images/svg/common/full-star.svg" alt="full-star">
+                                                <img class="star" src="../images/svg/common/full-star.svg" alt="full-star">
+                                                <img class="star" src="../images/svg/common/half-star.svg" alt="half-star">
+                                            </div>
+                                            <span class="reviews">
+                                                Отзывов: 274
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="column">
+                                    <img class="block-logo" src="../images/svg/footer/2ip.svg" alt="brand-label">
+                                    <div class="info">
+                                        <div class="left-col">
+                                            <span>4,0</span>
+                                        </div>
+                                        <div class="right-col">
+                                            <div class="stars-block">
+                                                <img class="star" src="../images/svg/common/full-star.svg" alt="full-star">
+                                                <img class="star" src="../images/svg/common/full-star.svg" alt="full-star">
+                                                <img class="star" src="../images/svg/common/full-star.svg" alt="full-star">
+                                                <img class="star" src="../images/svg/common/full-star.svg" alt="full-star">
+                                                <img class="star" src="../images/svg/common/empty-star.svg" alt="empty-star">
+                                            </div>
+                                            <span class="reviews">
+                                                Отзывов: 226
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="column reviews">
+                                    <a href="#" class="link">
+                                        Відгуки на Google
+                                    </a>
+                                    <a href="#" class="link">
+                                        Відгуки на Facebook
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="right-col">
+                            <div class="column">
+                                <ul class="menu-list">
+                                    <li class="list-el">
+                                        <a href="#" class="link">
+                                            Абоненту
+                                        </a>
+                                        <ul class="sub-menu-list">
+                                            <li class="list-el">
+                                                <a href="#" class="link">Відео сервер</a>
+                                            </li>
+                                            <li class="list-el">
+                                                <a href="#" class="link">IPTV</a>
+                                            </li>
+                                            <li class="list-el">
+                                                <a href="#" class="link">Інструкції</a>
+                                            </li>
+                                            <li class="list-el">
+                                                <a href="#" class="link">Документи</a>
+                                            </li>
+                                            <li class="list-el">
+                                                <a href="#" class="link">Питання та відповіді</a>
+                                            </li>
+                                            <li class="list-el">
+                                                <a href="#" class="link">Програма лояльності</a>
+                                            </li>
+                                            <li class="list-el">
+                                                <a href="#" class="link">Магазин</a>
+                                            </li>
+                                            <li class="list-el">
+                                                <a href="#" class="link">Відеонагляд</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="list-el">
+                                        <a href="#" class="link">
+                                            Тарифы
+                                        </a>
+                                    </li>
+                                    <li class="list-el">
+                                        <a href="#" class="link">
+                                            Про компанію
+                                        </a>
+                                        <a href="#" class="link">
+                                            Вакансії
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="column">
+                                <ul class="menu-list">
+                                    <li class="list-el">
+                                        <a href="#" class="link">
+                                            Телебачення (IPTV)
+                                        </a>
+                                    </li>
+                                    <li class="list-el">
+                                        <a href="#" class="link">
+                                            Для бізнесу
+                                        </a>
+                                    </li>
+                                    <li class="list-el">
+                                        <a href="#" class="link">
+                                            Для забудовників
+                                        </a>
+                                    </li>
+                                </ul>
+                                <ul class="menu-list">
+                                    <li class="list-el">
+                                        <a href="#" class="link">
+                                            Акції
+                                        </a>
+                                    </li>
+                                    <li class="list-el">
+                                        <a href="#" class="link">
+                                            Покриття
+                                        </a>
+                                    </li>
+                                    <li class="list-el">
+                                        <a href="#" class="link">
+                                            Оплата
+                                        </a>
+                                    </li>
+                                    <li class="list-el">
+                                        <a href="#" class="link">
+                                            Новини
+                                        </a>
+                                    </li>
+                                    <li class="list-el">
+                                        <a href="#" class="link">
+                                            Контакти
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyrights-wrapper">
+                <p class="copyrights container">
+                    © «НАШНЕТ», 2002-2021. Інформаційне наповнення та підтримка © «НАШНЕТ», 2004-2020.
+                </p>
+            </div>
 
         </footer>
     </body>

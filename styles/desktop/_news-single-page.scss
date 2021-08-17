@@ -1,0 +1,112 @@
+.news-single-page{
+  padding: 0 0 70px;
+  .news-block-wrapper{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
+    .news-block{
+      width: calc(100% - 410px);
+      .banner-block{
+        width: 100%;
+        height: 340px;
+        margin: 0 0 30px;
+        filter: drop-shadow(0px 0px 40px rgba(0, 0, 0, 0.05));
+        border-radius: 14px;
+        overflow: hidden;
+      }
+      .page-title{
+        margin: 0 0 8px;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 120%;
+      }
+      .date{
+        margin: 0 0 30px;
+        font-size: 16px;
+        line-height: 20px;
+        color: var(--color-placeholder-gray);
+      }
+      .news-content{
+        margin: 0 0 20px;
+        font-size: 16px;
+        line-height: 20px;
+      }
+    }
+    .last-news{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      height: max-content;
+      padding: 25px 30px 20px;
+      max-width: 410px;
+      width: 100%;
+      background: var(--color-white);
+      box-shadow: 0 0 30px rgba(0, 0, 0, 0.08);
+      border-radius: 14px;
+      .block-title{
+        margin: 0 0 20px;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 30px;
+        text-align: center;
+      }
+      .news-list{
+        width: 100%;
+        .news-list-el{
+          display: flex;
+          row-gap: 30px;
+          align-items: center;
+          justify-content: space-between;
+          padding: 20px 30px 20px 25px;
+          border: 1px solid var(--color-blue);
+          border-radius: 6px;
+          &:not(:last-of-type){
+            margin: 0 0 20px;
+          }
+          .left-col{
+            width: 215px;
+            .title{
+              height: 40px;
+              margin: 0 0 15px;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 20px;
+              -webkit-line-clamp: 2;
+              display: -webkit-box;
+              -webkit-box-orient: vertical;
+              overflow: hidden;
+            }
+            .link{
+              font-weight: 500;
+              font-size: 16px;
+              line-height: 20px;
+              color: var(--color-blue);
+            }
+          }
+          .right-col{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .day{
+              font-weight: 700;
+              font-size: 28px;
+              line-height: 28px;
+              color: var(--color-blue);
+            }
+            .month{
+              font-size: 16px;
+              line-height: 20px;
+            }
+          }
+        }
+      }
+      .all-news{
+        margin: 20px 0 0;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        color: var(--color-blue);
+      }
+    }
+  }
+}
