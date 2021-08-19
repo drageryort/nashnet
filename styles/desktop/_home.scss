@@ -1,4 +1,5 @@
 .home{
+  padding: 0 0 20px;
   .top-banner-block{
     display: flex;
     justify-content: space-between;
@@ -233,7 +234,7 @@
   }
   .hot-propositions-block{
     padding: 20px 0;
-    >.block-title{
+    .block-title{
       margin: 0 0 30px;
       font-weight: bold;
       font-size: 30px;
@@ -242,209 +243,7 @@
     .hot-propositions-list{
       display: flex;
       column-gap: 30px;
-      .hot-propositions-el{
-        display: flex;
-        flex-direction: column;
-        width: 625px;
-        box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.08);
-        border-radius: 14px;
-        overflow: hidden;
-        .top-part{
-          .block-main-image{
-            width: 100%;
-            height: 340px;
-            &:after{
-              content: '';
-              width: 100%;
-              height: 100%;
-              background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 100%);
-              position: absolute;
-              top: 0;
-              left: 0;
-            }
-          }
-          .timer{
-            display: flex;
-            column-gap: 8px;
-            align-items: center;
-            padding: 10px;
-            background: var(--color-orange);
-            border-radius: 6px;
-            color: var(--color-white);
-            position: absolute;
-            top: 30px;
-            left: 30px;
-            .icon{
-              top: -1px;
-            }
-            .info-part{
-              display: flex;
-              flex-direction: column;
-              .value{
-                font-weight: bold;
-                font-size: 16px;
-                line-height: 14px;
-                color: var(--color-white);
-              }
-              .name{
-                font-size: 10px;
-                line-height: 14px;
-                color: var(--color-white);
-              }
-            }
-          }
-          .description{
-            width: calc(100% - 60px);
-            position: absolute;
-            bottom: 30px;
-            left: 30px;
-            .el-title{
-              font-weight: bold;
-              font-size: 24px;
-              line-height: 30px;
-              color: var(--color-white);
-            }
-            .el-text{
-              margin: 8px 0 0;
-              font-size: 16px;
-              line-height: 20px;
-              color: var(--color-white);
-            }
-          }
-        }
-        .bottom-part{
-          display: flex;
-          padding: 12px 30px 30px;
-          justify-content: space-between;
-          column-gap: 25px;
-          height: 100%;
-          background: var(--color-white);
-          .left-col{
-            display: flex;
-            flex-direction: column;
-            width: 100%;
-            .top-row, .mid-row{
-              display: flex;
-              justify-content: space-between;
-              padding: 13px 0;
-              border-bottom: 1px solid var(--color-light-gray);
-              .info-wrapper{
-                display: flex;
-                align-items: center;
-                column-gap: 7px;
-                .info{
-                  font-weight: bold;
-                  font-size: 14px;
-                  line-height: 20px;
-                }
-                .sale{
-                  padding: 4px 5px;
-                  font-weight: bold;
-                  font-size: 12px;
-                  line-height: 16px;
-                  background: var(--color-light-red);
-                  color: red;
-                }
-                .link{
-                  text-decoration-line: underline;
-                  color: var(--color-blue);
-                }
-              }
-            }
-            .bottom-row{
-              display: flex;
-              flex-direction: column;
-              align-items: flex-start;
-              padding: 20px 0 0;
-              margin: auto 0 0;
-              .old-price{
-                font-size: 12px;
-                line-height: 16px;
-                text-decoration-line: line-through;
-                color: var(--color-placeholder-gray);
-              }
-              .new-price{
-                font-weight: bold;
-                font-size: 24px;
-                line-height: 30px;
-              }
-              .economy{
-                font-weight: bold;
-                font-size: 14px;
-                line-height: 20px;
-                color: var(--color-red);
-              }
-              .btn{
-                margin: 20px 0 0;
-                width: 166px;
-              }
-            }
-          }
-          .right-col{
-            border: 1px solid var(--color-terrakot);
-            box-sizing: border-box;
-            border-radius: 6px;
-            padding: 0 0 8px;
-            height: max-content;
-            min-width: 240px;
-            width: 240px;
-            .block-main-image{
-              width: 100%;
-              height: 100px;
-            }
-            .label{
-              display: flex;
-              align-items: center;
-              padding: 6px 8px;
-              column-gap: 6px;
-              border-radius: 6px 0px;
-              background: var(--color-terrakot);
-              position: absolute;
-              top: 0;
-              left: 0;
-              img{
 
-              }
-              span{
-                font-weight: bold;
-                font-size: 12px;
-                line-height: 16px;
-                color: var(--color-white);
-              }
-            }
-            .block-title{
-              padding: 0 10px;
-              margin: 0 0 5px;
-              font-weight: bold;
-              font-size: 16px;
-              line-height: 20px;
-            }
-            .gift-attr-list{
-              .list-el{
-                font-size: 10px;
-                line-height: 14px;
-                padding: 0 10px;
-              }
-            }
-          }
-        }
-        &.present{
-          .bottom-part{
-            .left-col{
-              .top-row, .mid-row{
-                .info-wrapper{
-                  span{
-                    max-width: 100px;
-                    white-space: nowrap;
-                    overflow: hidden;
-                    text-overflow: ellipsis;
-                  }
-                }
-              }
-            }
-          }
-        }
-      }
     }
   }
   .promotions-block{
@@ -760,7 +559,7 @@
     }
   }
   .advantages-block{
-    padding: 50px 0 40px;
+    padding: 50px 0 20px;
     .title-block{
       text-align: center;
       font-weight: bold;
@@ -796,53 +595,9 @@
         }
       }
     }
-    .show-more-block{
-      .content{
-        display: flex;
-        flex-direction: column;
-        margin: 40px 0 0;
-        row-gap: 10px;
-        max-height: 220px;
-        transition: max-height 0.5s cubic-bezier(0, 1, 0, 1);
-        overflow: hidden;
-        &:before{
-          content: '';
-          width: 100%;
-          height: 135px;
-          background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, var(--color-main) 100%);
-          position: absolute;
-          bottom: 0;
-          left: 0;
-          z-index: 1;
-        }
-        p{
-          font-size: 16px;
-          line-height: 20px;
-        }
-        &.active{
-          max-height: 1000px;
-          transition: max-height 1s ease-in-out;
-          &:before{
-            height: 0;
-          }
-        }
-      }
-      .show-more-btn{
-        position: absolute;
-        bottom: 6px;
-        left: 50%;
-        transform: translateX(-50%) rotate(0deg);
-        z-index: 1;
-        img{
-          right: 0;
-          top: 2px;
-        }
-        &.active{
-          transform: translateX(-50%) rotate(180deg);
-          bottom: -45px;
-        }
-      }
-    }
+  }
+  .show-more-block{
+    padding: 20px 0;
   }
 }
 
