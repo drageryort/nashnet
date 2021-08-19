@@ -1,0 +1,131 @@
+.promotions-page{
+  padding: 0 0 20px;
+  .hot-propositions-block{
+    padding: 0 0 20px;
+    .block-title{
+      margin: 0 0 30px;
+      font-weight: bold;
+      font-size: 30px;
+      line-height: 120%;
+    }
+    .hot-propositions-list{
+      display: flex;
+      column-gap: 30px;
+    }
+  }
+  .new-clients-promotions-block{
+    padding: 20px 0;
+    .title-block{
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin: 0 0 30px;
+      .block-title{
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 120%;
+      }
+      .link{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        color: var(--color-blue);
+      }
+    }
+    .slider-block{
+      .slider-btn{
+        width: 36px;
+        height: 36px;
+        position: absolute;
+        z-index: 2;
+        &.left{
+          left: -50px;
+        }
+        &.right{
+          right: -50px;
+        }
+      }
+      .slider-content{
+        display: flex;
+        column-gap: 30px;
+        overflow: hidden;
+      }
+    }
+  }
+  .regular-clients-promotions-block{
+    padding: 20px 0;
+    .title-block{
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin: 0 0 30px;
+      .block-title{
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 120%;
+      }
+      .link{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        color: var(--color-blue);
+      }
+    }
+    .slider-block{
+      .slider-btn{
+        width: 36px;
+        height: 36px;
+        position: absolute;
+        z-index: 2;
+        &.left{
+          left: -50px;
+        }
+        &.right{
+          right: -50px;
+        }
+      }
+      .slider-content{
+        display: flex;
+        column-gap: 30px;
+        overflow: hidden;
+      }
+    }
+  }
+  .equipment-discounts-block{
+    padding: 20px 0 50px;
+    .title-block{
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin: 0 0 30px;
+      .block-title{
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 120%;
+      }
+    }
+    .slider-block{
+      .slider-btn{
+        width: 36px;
+        height: 36px;
+        position: absolute;
+        z-index: 2;
+        &.left{
+          left: -50px;
+        }
+        &.right{
+          right: -50px;
+        }
+      }
+      .slider-content{
+        display: flex;
+        column-gap: 30px;
+        overflow: hidden;
+
+      }
+    }
+  }
+  .show-more-block{
+    padding: 50px 0 20px;
+  }
+}
