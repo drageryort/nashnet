@@ -148,43 +148,14 @@
         line-height: 120%;
         cursor: pointer;
         .accordion-trigger{
-          display: block;
-          width: 24px;
-          height: 24px;
-          position: absolute;
-          top: 35px;
-          right: 35px;
-          transform: translate(50%, -50%);
           span{
-            display: block;
-            border-radius: 3px;
-            background: var(--color-blue);
-            position: absolute;
-            -moz-transition: all .25s ease;
-            -webkit-transition: all .25s ease;
-            -o-transition: all .25s ease;
-            transition: all .25s ease;
-            &:first-child{
-              margin: 0 10%;
-              width: 80%;
-              height: 3px;
-              /*- half the height*/
-              top: calc(50% - 1.5px);
-            }
-            &:last-child{
-              margin: 10% 0;
-              width: 3px;
-              height: 80%;
-              /*- half the width*/
-              left: calc(50% - 1.5px);
-            }
+            &:first-child{}
+            &:last-child{}
           }
         }
       }
       .accordion-content{
         padding: 0 30px;
-        max-height: 0;
-        overflow-y: hidden;
         p{
           font-size: 16px;
           line-height: 120%;
@@ -198,17 +169,11 @@
           .accordion-trigger{
             span{
               &:first-child{}
-              &:last-child{
-                -moz-transform: rotate(-90deg);
-                -webkit-transform: rotate(-90deg);
-                -o-transform: rotate(-90deg);
-                transform: rotate(-90deg);
-              }
+              &:last-child{}
             }
           }
         }
         .accordion-content{
-          max-height: 100%;
           padding: 0 30px 30px;
           p{
             &:not(:last-child){}

@@ -82,27 +82,11 @@
             }
           }
           .accordion-trigger{
-            display: block;
-            width: 24px;
-            height: 24px;
-            position: absolute;
-            top: 50%;
-            right: 38px;
-            transform: translate(50%, -50%);
-            img{
-              display: block;
-              position: absolute;
-              -moz-transition: transform .5s ease;
-              -webkit-transition: transform .5s ease;
-              -o-transition: transform .5s ease;
-              transition: transform .5s ease;
-            }
+            img{}
           }
         }
         .vacancy-content{
           padding: 0 30px;
-          max-height: 0;
-          overflow-y: hidden;
           .requirements{
             &:not(:last-child){
               margin: 0 0 30px;
@@ -135,16 +119,10 @@
         &.active{
           .accordion-title{
             .accordion-trigger{
-              img{
-                -moz-transform: rotate(180deg);
-                -webkit-transform: rotate(180deg);
-                -o-transform: rotate(180deg);
-                transform: rotate(180deg);
-              }
+              img{}
             }
           }
           .accordion-content{
-            max-height: 100%;
             padding: 0 36px 36px;
             p{
               &:not(:last-child){}
