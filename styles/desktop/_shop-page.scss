@@ -1,0 +1,94 @@
+.settings-instructions-page{
+  padding: 100px;
+  .page-title{
+    padding: 0 0 15px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 120%;
+  }
+  .tab-selector-block{
+    padding: 15px 0;
+    .tab-selector-list{}
+  }
+  .tab-content-block{
+    padding: 15px 0;
+    .tab-content{
+      .tab-content-title{
+        margin: 0 0 20px;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 120%;
+      }
+      .description{
+        margin: 0 0 20px;
+        font-size: 16px;
+        line-height: 120%;
+        &:last-of-type{
+          margin: 0 0 30px;
+        }
+      }
+      .btn{
+        margin: 0 0 60px;
+      }
+      .accordion-pack{
+        &:not(:last-of-type){
+          margin: 0 0 30px;
+        }
+        .pack-title{
+          margin: 0 0 20px;
+          font-weight: bold;
+          font-size: 20px;
+          line-height: 120%;
+        }
+        .accordion-el{
+          &:not(:last-of-type){
+            margin: 0 0 10px;
+          }
+          .accordion-title{
+            padding: 25px 60px 25px 30px;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 120%;
+            cursor: pointer;
+          }
+          .accordion-content{
+            padding: 0 30px;
+            p{
+              margin: 0 0 20px;
+              font-size: 16px;
+              line-height: 120%;
+              &:not(:last-of-type){
+                margin: 0 0 20px;
+              }
+            }
+          }
+        }
+      }
+      .instructions-pack-wrapper{
+        .pack-title{
+          margin: 0 0 20px;
+          font-weight: bold;
+          font-size: 20px;
+          line-height: 120%;
+        }
+        .instructions-pack{
+          display: flex;
+          column-gap: 30px;
+          .pack-list{
+            width: calc((100% - 3*30px) / 4);
+            .link{
+              font-weight: 500;
+              font-size: 16px;
+              line-height: 120%;
+              text-decoration-line: underline;
+              color: var(--color-blue);
+              &:not(:last-of-type){
+                margin: 0 0 10px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
