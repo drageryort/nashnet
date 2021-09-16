@@ -1,0 +1,48 @@
+.channels-archive-page{
+  padding: 0 0 60px;
+  .page-title{
+    padding: 0 0 10px;
+    font-size: 20px;
+  }
+  .channels-pack-block{
+    padding: 10px 0 15px;
+    >.accordion-el{
+      padding: 0;
+      &:not(:last-child){}
+      .accordion-title{
+        padding: 12px 50px 12px 12px;
+        .accordion-trigger{
+          right: 22px;
+        }
+      }
+      .accordion-content{
+        padding: 0 12px;
+        gap: 10px;
+        .accordion-el{
+          padding: 0;
+          &:not(:last-child){
+            margin: 0;
+          }
+          .accordion-title{}
+          .accordion-content{}
+        }
+        .active{
+          .accordion-content{
+            padding: 0 10px 10px;
+          }
+        }
+      }
+      &.active{
+        .accordion-content{
+          padding: 0 12px 12px;
+        }
+      }
+    }
+  }
+  .brief-info-block{
+    .block-text{
+      &:not(:last-child){}
+      .link{}
+    }
+  }
+}

@@ -1,0 +1,17 @@
+.subscriber-page{
+  padding: 0 0 30px;
+  .page-title{}
+  .categories-list{
+    .category-el{
+      width: calc((100% - 30px) / 2);
+      .icon{}
+      .name{}
+      &.long{
+        width: 100%;
+        .icon{}
+        .name{}
+      }
+    }
+  }
+  .show-more-block{}
+}

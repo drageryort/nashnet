@@ -1,0 +1,332 @@
+.product-page{
+  padding: 0 0 50px;
+  .card-info{
+    display: flex;
+    column-gap: 30px;
+    padding: 0 0 50px;
+    .left-col{
+      width: 625px;
+      .equipment-image-part{
+        margin: 0 0 20px;
+        border-radius: 14px;
+        overflow: hidden;
+        height: 385px;
+        .image{
+          width: 100%;
+          height: 100%;
+          img{}
+        }
+        .label{
+          &.pos-top-left{
+            top: 12px;
+            left: 12px;
+          }
+          &.pos-top-right{
+            top: 12px;
+            right: 12px;
+          }
+          &.pos-bottom-left{
+            bottom: 12px;
+            left: 12px;
+          }
+          &.pos-bottom-right{
+            bottom: 12px;
+            right: 12px;
+          }
+        }
+      }
+      .purchase-block{
+        display: flex;
+        flex-direction: column;
+        padding: 20px 24px 24px;
+        background: var(--color-white);
+        border-radius: 14px;
+        .price-row{
+          display: flex;
+          column-gap: 50px;
+          align-items: flex-end;
+          .price-col{
+            display: flex;
+            flex-direction: column;
+            &:first-child{
+              width: 220px;
+            }
+            .old-price{
+              margin: 0 0 4px;
+              font-size: 12px;
+              line-height: 120%;
+            }
+            .actual-price{
+              font-weight: bold;
+              font-size: 24px;
+              line-height: 120%;
+            }
+          }
+        }
+        .button-row{
+          display: flex;
+          align-items: center;
+          column-gap: 50px;
+          margin: 20px 0 0;
+          .col{
+            &:first-child{
+              width: 220px;
+            }
+            .btn{}
+          }
+
+        }
+        .cash-back-row{
+          display: flex;
+          align-items: center;
+          margin: 20px 0 0;
+          img{
+            width: 24px;
+            height: 24px;
+            margin: 0 8px 0 0;
+          }
+          span{
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 18px;
+            color: var(--color-orange);
+          }
+        }
+        .add-services-row{
+          padding: 14px 18px 18px;
+          margin: 30px 0 0;
+          background: var(--color-green-blue);
+          border-radius: 10px;
+          .row-title{
+            margin: 0 0 20px;
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 120%;
+          }
+          .add-services-list{
+            li{
+              &:not(:last-child){
+                margin: 0 0 10px;
+              }
+              .label{
+                display: flex;
+                width: 100%;
+                align-items: flex-start;
+                background: var(--color-green-blue);
+                border-radius: 6px;
+                cursor: pointer;
+                .add-service-name{
+                  font-size: 16px;
+                  line-height: 16px;
+                }
+                .add-service-price{
+                  margin: 0 0 0 auto;
+                  font-weight: bold;
+                  font-size: 16px;
+                  line-height: 16px;
+                  text-align: center;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .right-col{
+      width: 625px;
+      .description-block{
+        .block-title{
+          margin: 0 0 15px;
+          font-weight: bold;
+          font-size: 30px;
+          line-height: 120%;
+        }
+        .block-text{
+          font-size: 16px;
+          line-height: 120%;
+        }
+      }
+      .characteristics-block{
+        margin: 30px 0 0;
+        .block-title{
+          margin: 0 0 20px;
+          font-weight: bold;
+          font-size: 30px;
+          line-height: 120%;
+        }
+        .characteristics-list{
+          padding: 16px 20px;
+          border: 1px solid var(--color-light-gray);
+          border-radius: 14px;
+          li{
+            display: flex;
+            justify-content: space-between;
+            &:not(:last-child){
+              margin: 0 0 20px;
+            }
+            .name{
+              width: calc(100% - 150px);
+              font-size: 16px;
+              line-height: 120%;
+            }
+            .value{
+              width: 130px;
+              font-weight: bold;
+              font-size: 16px;
+              line-height: 120%;
+            }
+          }
+        }
+      }
+    }
+  }
+  .equipment-slider-block{
+    padding: 25px 0 50px;
+    .block-title{
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin: 0 0 30px;
+      font-weight: bold;
+      font-size: 30px;
+      line-height: 120%;
+    }
+  }
+  .pop-up-wrapper{
+    .pop-up{
+      width: 670px;
+      height: 525px;
+      max-height: 90vh;
+      border-radius: 14px;
+      background: var(--color-white);
+      overflow-y: auto;
+      .stage1{
+        min-height: inherit;
+        height: 100%;
+        padding: 40px 40px 50px;
+        .pop-up-title{
+          margin: 0 0 20px;
+          font-weight: bold;
+          font-size: 24px;
+          line-height: 120%;
+          text-align: center;
+        }
+        .ordering-equipment{
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          padding: 14px 30px 14px 14px;
+          margin: 0 0 20px;
+          column-gap: 30px;
+          background: var(--color-green-blue);
+          border-radius: 10px;
+          .image-part{
+            width: 235px;
+            height: 145px;
+            border-radius: 6px;
+            overflow: hidden;
+          }
+          .description-part{
+            display: flex;
+            flex-direction: column;
+            width: calc(100% - 30px - 235px);
+            .equipment-name{
+              font-weight: bold;
+              font-size: 16px;
+              line-height: 120%;
+            }
+            .equipment-price{
+              display: flex;
+              flex-direction: column;
+              margin: 18px 0 0;
+              .old-price{
+                font-size: 10px;
+                line-height: 120%;
+                color: var(--color-placeholder-gray);
+              }
+              .actual-price{
+                font-size: 16px;
+                line-height: 120%;
+              }
+            }
+          }
+        }
+        .pop-up-form{
+          display: flex;
+          flex-wrap: wrap;
+          width: 100%;
+          align-items: center;
+          gap: 15px 20px;
+          .input-field-label{
+            &[name="name"]{
+              width: 284px;
+            }
+            &[name="tel"]{
+              width: 283px;
+            }
+            &[name="street"]{
+              width: 411px;
+            }
+            &[name="house"]{
+              width: 68px;
+            }
+            &[name="flat"]{
+              width: 68px;
+            }
+          }
+        }
+        .btn{
+          margin: 40px auto 0;
+        }
+      }
+      .stage2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        min-height: inherit;
+        padding: 50px;
+        .pop-up-icon{
+          margin: 0 0 20px;
+          width: 64px;
+          height: 64px;
+        }
+        .pop-up-title{
+          font-weight: bold;
+          font-size: 24px;
+          line-height: 120%;
+          text-align: center;
+        }
+        .pop-up-text{
+          margin: 10px 0 0;
+          width: 560px;
+          font-size: 16px;
+          line-height: 120%;
+          text-align: center;
+        }
+        .order-info-list{
+          margin: 20px 0 0;
+          li{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            column-gap: 6px;
+            &:not(:last-child){
+              margin: 0 0 10px;
+            }
+            .name{
+              font-size: 16px;
+              line-height: 120%;
+            }
+            .value{
+              font-weight: bold;
+              font-size: 16px;
+              line-height: 120%;
+            }
+          }
+        }
+      }
+    }
+  }
+}

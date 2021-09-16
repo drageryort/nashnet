@@ -1,0 +1,46 @@
+.promotions-page{
+  padding: 0 0 20px;
+  .hot-propositions-block{
+    .block-title{
+      margin: 0 0 20px;
+    }
+    .hot-propositions-list{}
+  }
+  .new-clients-promotions-block{
+    .title-block{
+      margin: 0 0 20px;
+      .block-title{}
+      .link{}
+    }
+    .slider-block{
+      .slider-content{//mock
+      }
+      .dots-navigation{
+        margin: 20px 0 0;
+      }
+    }
+  }
+  .regular-clients-promotions-block{
+    .title-block{
+      margin: 0 0 20px;
+      .block-title{}
+      .link{}
+    }
+    .slider-block{
+      .slider-btn{}
+      .slider-content{//mock
+      }
+      .dots-navigation{
+        margin: 20px 0 0;
+      }
+    }
+  }
+  .equipment-slider-block{
+    .block-title{
+      margin: 0 0 20px;
+    }
+  }
+  .show-more-block{
+    padding: 50px 0 30px;
+  }
+}

@@ -181,17 +181,35 @@
     &__right-col{
       display: flex;
       align-items: center;
-      column-gap: 30px;
-      max-width: 410px;
+      column-gap: 15px;
+      width: 430px;
       .btn{
-        width: 165px;
         text-align: center;
       }
       .phone-block{
+        padding: 6px;
+        &.active{
+          background: var(--color-white);
+          box-shadow: 0 0 40px rgba(0, 0, 0, 0.05);
+          border-radius: 14px 14px 0 0;
+          .link-wrapper{
+            background: var(--color-salad);
+            .link{}
+            .arrow{
+              transition: .5s;
+              transform: rotate(180deg);
+            }
+          }
+          .phone-list{
+            display: block;
+          }
+        }
         .link-wrapper{
           display: flex;
           align-items: center;
           column-gap: 12px;
+          padding: 6px 10px;
+          border-radius: 8px;
           >.link{
             display: flex;
             align-items: center;
@@ -201,6 +219,9 @@
             line-height: 24px;
             img{}
           }
+          .arrow{
+            transition: .5s;
+          }
           img.arrow{
             width: 12px;
             height: 12px;
@@ -209,7 +230,30 @@
         }
         .phone-list{
           display: none;
+          width: 100%;
+          padding: 6px;
+          background: var(--color-white);
+          box-shadow: 0 0 40px rgba(0, 0, 0, 0.05);
+          border-radius:  0 0 14px 14px;
           position: absolute;
+          z-index: 5;
+          left: 0;
+          .list-el{
+            display: flex;
+            align-items: center;
+            column-gap: 12px;
+            padding: 6px 10px;
+            border-radius: 8px;
+            .link{
+              display: flex;
+              align-items: center;
+              column-gap: 12px;
+              font-weight: bold;
+              font-size: 20px;
+              line-height: 24px;
+              img{}
+            }
+          }
         }
       }
     }

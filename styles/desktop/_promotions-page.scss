@@ -34,10 +34,6 @@
     }
     .slider-block{
       .slider-btn{
-        width: 36px;
-        height: 36px;
-        position: absolute;
-        z-index: 2;
         &.left{
           left: -50px;
         }
@@ -73,10 +69,6 @@
     }
     .slider-block{
       .slider-btn{
-        width: 36px;
-        height: 36px;
-        position: absolute;
-        z-index: 2;
         &.left{
           left: -50px;
         }
@@ -91,38 +83,16 @@
       }
     }
   }
-  .equipment-discounts-block{
+  .equipment-slider-block{
     padding: 20px 0 50px;
-    .title-block{
+    .block-title{
       display: flex;
       justify-content: space-between;
       align-items: baseline;
       margin: 0 0 30px;
-      .block-title{
-        font-weight: bold;
-        font-size: 30px;
-        line-height: 120%;
-      }
-    }
-    .slider-block{
-      .slider-btn{
-        width: 36px;
-        height: 36px;
-        position: absolute;
-        z-index: 2;
-        &.left{
-          left: -50px;
-        }
-        &.right{
-          right: -50px;
-        }
-      }
-      .slider-content{
-        display: flex;
-        column-gap: 30px;
-        overflow: hidden;
-
-      }
+      font-weight: bold;
+      font-size: 30px;
+      line-height: 120%;
     }
   }
   .show-more-block{

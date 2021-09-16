@@ -1,0 +1,67 @@
+.promotions-single-page{
+  padding: 0 0 60px;
+  .promotions-info-block{
+    padding: 0 0 15px ;
+  }
+  .promotions-block{
+    padding: 15px 0 0;
+    .block-title{
+      font-size: 20px;
+    }
+    .promotions-list{
+      flex-direction: column;
+      gap: 15px;
+    }
+  }
+  .pop-up-wrapper{
+    .pop-up{
+      width: calc(100% - 30px);
+      .stage1{
+        padding: 30px 20px;
+        .pop-up-title{
+          margin: 0 0 20px;
+          font-size: 20px;
+        }
+        .address{
+          padding: 12px 16px;
+          .name{
+            margin: 0 0 10px;
+          }
+          .value{}
+        }
+        .pop-up-form{
+          flex-direction: column;
+
+          .input-field-label{
+            &[name='street'],
+            &[name='house'],
+            &[name='name'],
+            &[name='tel']{
+              width: 100%;
+            }
+          }
+          .btn{}
+        }
+      }
+      .stage2{
+        padding: 50px 20px;
+        .result-icon{}
+        .result-title{
+          font-size: 16px;
+          line-height: 120%;
+        }
+        .result-subtitle{
+          margin: 10px 0 0;
+        }
+        .data-list{
+          margin: 30px 0 0;
+          .data-list-el{
+            margin: 0 0 10px;
+            .name{}
+            .value{}
+          }
+        }
+      }
+    }
+  }
+}

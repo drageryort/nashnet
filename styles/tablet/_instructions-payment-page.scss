@@ -1,0 +1,18 @@
+.instructions-payment-page{
+  .page-title{}
+  .tab-selector-block{
+    .tab-selector-list{}
+  }
+  .tab-content{
+      p{}
+      .list{
+        li{
+          &:not(:last-child){}
+          img{
+            max-width: 100%;
+          }
+          &::marker{}
+        }
+      }
+    }
+}

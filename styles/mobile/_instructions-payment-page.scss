@@ -1,0 +1,21 @@
+.instructions-payment-page{
+  padding: 0 0 60px;
+  .page-title{
+    font-size: 20px;
+  }
+  .tab-selector-block{
+    .tab-selector-list{}
+  }
+  .tab-content{
+    p{}
+    .list{
+      li{
+        &:not(:last-child){}
+        img{
+          max-width: 100%;
+        }
+        &::marker{}
+      }
+    }
+  }
+}

@@ -1,0 +1,129 @@
+.shop-catalog-page{
+  .page-title{
+    font-size: 20px;
+  }
+  .tab-selector-block{
+    .tab-selector-list-wrapper{
+      .tab-selector-list{}
+    }
+  }
+  .tab-content-block{
+    .tab-content{
+      .equipment-card-list{}
+      .services-list-block{
+        .service-list-pack{
+          &:not(:last-child){}
+          .pack-title{}
+          .services-list{
+            li{
+              column-gap: 6px;
+              &:not(:last-child){}
+              .name, .value{}
+              .name{
+                max-width: calc(100% - 80px);
+              }
+            }
+          }
+        }
+      }
+      .show-more-btn-block{
+        .btn{}
+      }
+      .pagination-block{
+      }
+    }
+  }
+  .show-more-block{
+    padding: 45px 0 0;
+  }
+  .pop-up-wrapper{
+    .pop-up{
+      width: calc(100% - 30px);
+      min-height: 465px;
+      height: auto;
+      max-height: 90vh;
+      overflow-y: auto;
+      &::-webkit-scrollbar {
+        display: none;
+      }
+      .stage1{
+        min-height: inherit;
+        padding: 30px 20px 20px;
+        .pop-up-title{
+          max-width: 230px;
+          margin: 0 auto 18px;
+          font-size: 20px;
+        }
+        .ordering-equipment{
+          flex-direction: column;
+          align-items: center;
+          padding: 20px;
+          row-gap: 20px;
+          .image-part{
+            width: 163px;
+            height: 100px;
+          }
+          .description-part{
+            width: 100%;
+            .equipment-name{
+              text-align: center;
+            }
+            .equipment-price{
+              margin: 10px 0 0;
+              .old-price{
+                position: absolute;
+                top: 0;
+                left: 50%;
+                transform: translateX(-50%);
+              }
+              .actual-price{
+                padding: 12px 0 0;
+                text-align: center;
+              }
+            }
+          }
+        }
+        .pop-up-form{
+          .input-field-label{
+            &[name="name"]{
+              width: 100%;
+            }
+            &[name="tel"]{
+              width: 100%;
+            }
+            &[name="street"]{
+              width: 100%;
+            }
+            &[name="house"]{
+              width: calc((100% - 20px) / 2);
+            }
+            &[name="flat"]{
+              width: calc((100% - 20px) / 2);
+            }
+          }
+        }
+        .btn{
+          margin: 25px auto 0;
+        }
+      }
+      .stage2{
+        padding: 20px;
+        min-height: inherit;
+        .pop-up-icon{}
+        .pop-up-title{
+          font-size: 20px;}
+        .pop-up-text{
+          margin: 8px 0 0;
+          width: 100%;
+        }
+        .order-info-list{
+          li{
+            &:not(:last-child){}
+            .name{}
+            .value{}
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,126 @@
+.network-coverage-page{
+  padding: 0 0 100px;
+  .page-title{
+    padding: 0 0 15px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 120%;
+  }
+  .check-coverage-map{
+    margin: 15px auto 30px;
+  }
+  .ordering-form-block{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 15px auto 30px;
+    padding: 0 15px;
+    height: 370px;
+    background: var(--color-white);
+    border-radius: 14px;
+    overflow: hidden;
+    .connection-ordering-form{
+      width: 420px;
+      margin: 0 70px 0 0;
+      .form-title{
+        margin: 0 0 30px;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 120%;
+      }
+      .field-group{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 16px 20px;
+        margin: 0 0 40px;
+        .input-field-label{
+          &[name='street']{
+            width: 73.8%;
+          }
+          &[name='house']{
+            width: 21.42%;
+          }
+          &[name='name']{
+            width: 47.619%;
+          }
+          &[name='tel']{
+            width: 47.619%;
+          }
+        }
+      }
+      .btn{
+        margin: 40px auto 0;
+      }
+    }
+    .connection-ordering-result{
+      width: 490px;
+      text-align: center;
+      margin: 0 30px 0 0;
+      .result-icon{
+        margin: 0 0 20px;
+      }
+      .result-title{
+        margin: 0 0 3px;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 120%;
+      }
+      p{
+        font-size: 16px;
+        line-height: 120%;
+      }
+      .result-text{
+        margin: 30px 0 0;
+      }
+    }
+    .block-image{
+      width: 645px;
+      .image{
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+  .rules-block{
+    padding: 30px 0 0;
+    .block-title{
+      margin: 0 0 20px;
+      font-weight: bold;
+      font-size: 20px;
+      line-height: 120%;
+    }
+    .block-text{
+      margin: 10px 0;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 120%;
+      &:last-child{
+        margin: 10px 0 0;
+      }
+    }
+    .rules-list{
+      display: flex;
+      gap: 20px 30px;
+      flex-wrap: wrap;
+      padding: 15px 0 20px;
+      .list-el{
+        display: flex;
+        align-items: center;
+        column-gap: 10px;
+        width: calc((100% - 30px) / 2);
+        padding: 10px;
+        background: var(--color-white);
+        box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.05);
+        border-radius: 14px;
+        .list-icon{
+          width: 60px;
+          height: 60px;
+        }
+        .list-text{
+          font-size: 16px;
+          line-height: 120%;
+        }
+      }
+    }
+  }
+}

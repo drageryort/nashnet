@@ -1,7 +1,7 @@
 .vacancies-page{
   padding: 0 0 85px;
   .top-banner-block{
-    padding: 0 0 15px;
+    margin: 0 auto 15px;
     .block-main-image{
       width: 100%;
       height: 400px;
@@ -23,17 +23,18 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      width: 100%;
-      height: 100%;
       row-gap: 40px;
+      width: 90%;
       position: absolute;
-      top: 0;
-      left: 0;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
       .page-title{
         font-weight: bold;
         font-size: 46px;
         line-height: 52px;
         color: var(--color-white);
+        text-align: center;
       }
       .btn{}
     }
@@ -48,8 +49,6 @@
   .vacancies-list-block{
     padding: 15px 0;
     .vacancies-list-el{
-        background: var(--color-white);
-        border-radius: 14px;
         box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.05);
         &:not(:last-child){
           margin: 0 0 10px;
@@ -58,7 +57,7 @@
           display: flex;
           align-items: center;
           justify-content: space-between;
-          padding: 36px 110px 36px 36px;
+          padding: 35px 110px 35px 35px;
           cursor: pointer;
           column-gap: 20px;
           .name{
@@ -86,7 +85,7 @@
           }
         }
         .vacancy-content{
-          padding: 0 30px;
+          padding: 0 35px;
           .requirements{
             &:not(:last-child){
               margin: 0 0 30px;
@@ -99,12 +98,15 @@
             .requirements-list{
               li{
                 display: flex;
+                font-size: 16px;
+                line-height: 20px;
                 &:not(:last-child){
                   margin: 0 0 3px;
                 }
                 &:before{
                   content: '';
                   width: 5px;
+                  min-width: 5px;
                   height: 5px;
                   margin: 0 10px 0 0;
                   background: var(--color-black);
@@ -123,7 +125,7 @@
             }
           }
           .accordion-content{
-            padding: 0 36px 36px;
+            padding: 0 35px 35px;
             p{
               &:not(:last-child){}
             }
@@ -133,23 +135,14 @@
   }
 
   .pop-up-wrapper{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    z-index: 299;
-    background: rgba(0, 0, 0, 0.5);
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
     .pop-up{
       width: 660px;
       min-height: 515px;
-      max-height: 90%;
+      max-height: 90vh;
       overflow-y: auto;
       .stage1{
         height: 100%;
+        min-height: inherit;
         padding: 35px 110px 40px;
         background: var(--color-white);
         border-radius: 14px;
@@ -168,12 +161,12 @@
           justify-content: center;
           row-gap: 30px;
           column-gap: 20px;
-          .input-field{
+          .input-field-label{
             &[name='tel'],&[name='name']{
               width: calc((100% - 20px) / 2);
             }
           }
-          label{
+          .input-file{
             padding: 30px;
             width: 100%;
             background: var(--color-green-blue);
@@ -218,26 +211,18 @@
           height: 64px;
         }
         .pop-up-title{
-          margin: 0 0 10px;
           font-weight: bold;
           font-size: 24px;
           line-height: 120%;
           text-align: center;
         }
         .pop-up-text{
+          margin: 10px 0 0;
           width: 300px;
           font-size: 16px;
           line-height: 120%;
           text-align: center;
         }
-      }
-      .close-btn{
-        width: 30px;
-        height: 30px;
-        cursor: pointer;
-        position: absolute;
-        top: 20px;
-        right: 20px;
       }
     }
   }

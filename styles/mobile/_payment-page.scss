@@ -1,0 +1,102 @@
+.payment-page{
+  padding: 0 0 60px;
+  .page-title{
+    font-size: 20px;
+  }
+  .tab-selector-block{
+    .tab-selector-list{
+      .tab-selector{
+        &:first-child{}
+        &:last-child{}
+        &.active{}
+      }
+    }
+  }
+  .tab-content-block{
+    .tab-content{
+      .table-content-title{}
+      .content{
+        &.online{
+          padding: 0;
+          .left-col{
+            width: 100%;
+            .card{
+              align-items: center;
+              padding: 20px;
+              height: unset;
+              .system-logo{
+                height: 53px;
+                margin: 0 0 20px;
+              }
+              .content{
+                flex-direction: column;
+                align-items: center;
+                .text{
+                  width: 100%;
+                  margin: 0 0 30px;
+                }
+                .button-block{}
+              }
+            }
+          }
+          .right-col{
+            width: 100%;
+            .card{
+              width: 100%;
+              .system-logo{}
+              .content{
+                .text{}
+              }
+              &.wide{
+                height: unset;
+                align-items: center;
+                .system-logo{
+                  margin: 0 0 25px;
+                }
+                .content{
+                  flex-direction: column;
+                  align-items: center;
+                  .text{
+                    text-align: center;
+                  }
+                  .button-block{
+                    margin: 10px 0 0;
+                  }
+                }
+              }
+            }
+          }
+        }
+        &.cash{
+          .card{
+            height: unset;
+            align-items: center;
+            justify-content: space-between;
+            .system-logo{
+              margin: 0 0 24px;
+              height: 46px;
+            }
+            .bottom-wrapper{
+              flex-direction: column;
+              align-items: center;
+              .text{}
+              .btn{
+                margin: 30px 0 0;
+              }
+            }
+          }
+        }
+        &.bank{
+          .block-text{
+            a{}
+          }
+          .block-title{}
+          .list{
+            padding: 15px 0 0;
+            li{}
+          }
+        }
+      }
+    }
+  }
+}

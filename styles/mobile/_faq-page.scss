@@ -1,0 +1,22 @@
+.faq-page{
+  padding: 0 0 60px;
+  .page-title{
+    padding: 0 0 10px;
+    font-size: 20px;
+  }
+  .faq-list{
+    padding: 10px 0 0;
+    .accordion-el{
+      .accordion-title{}
+      .accordion-content{}
+      &.active{
+        .accordion-content{
+          p{
+            &:not(:last-child) {}
+            a{}
+          }
+        }
+      }
+    }
+  }
+}

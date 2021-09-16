@@ -5,9 +5,11 @@
         <meta name="viewport"
               content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>FAQ page</title>
+        <title>Documents page</title>
         <link rel="stylesheet" href="../styles/fonts.min.css">
         <link rel="stylesheet" href="../styles/style.min.css">
+        <link rel="stylesheet" href="../styles/tablet-styles.css">
+        <link rel="stylesheet" href="../styles/mobile-styles.css">
     </head>
     <body>
         <header>
@@ -83,7 +85,7 @@
                                 <img src="../images/svg/common/big-logo.svg" alt="logo">
                             </picture>
                         </a>
-                        <menu class="main-menu">
+                        <menu class="main-menu desktop">
                             <li class="list-el">
                                 <a href="#" class="link">
                                     Акції
@@ -145,18 +147,47 @@
                         </menu>
                     </div>
                     <div class="main-header__right-col">
-                        <button class="btn btn-blue-rounded">
+                        <button class="btn btn-blue-rounded desktop tablet">
                             Підключитися
                         </button>
                         <div class="phone-block">
-                            <div class="link-wrapper">
+                            <div class="link-wrapper desktop tablet">
                                 <a href="tel:0445851111" class="link">
                                     <img src="../images/svg/header/phone-call-icon.svg" alt="call-icon">
                                     (044) 585-11-11
                                 </a>
                                 <img src="../images/svg/common/arrow-down.svg" class="arrow" alt="arrow">
                             </div>
-                            <ul class="phone-list">
+                            <button class="btn phone-btn mobile">
+                                <img src="../images/svg/header/phone-call-icon.svg" alt="call-icon">
+                            </button>
+                            <ul class="phone-list desktop tablet">
+                                <li class="list-el">
+                                    <a href="tel:0505851111" class="link">
+                                        <img src="../images/svg/header/vodafone-icon.svg" alt="vodafone-icon">
+                                        (050) 585-11-11
+                                    </a>
+                                </li>
+                                <li class="list-el">
+                                    <a href="tel:0965851111" class="link">
+                                        <img src="../images/svg/header/ks-icon.svg" alt="ks-icon">
+                                        (096) 585-11-11
+                                    </a>
+                                </li>
+                                <li class="list-el">
+                                    <a href="tel:0935851111" class="link">
+                                        <img src="../images/svg/header/lifecell-icon.svg" alt="lifecell-icon">
+                                        (093) 585-11-11
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul class="phone-list mobile">
+                                <li class="list-el">
+                                    <a href="tel:0445851111" class="link">
+                                        <img src="../images/svg/header/phone-call-icon.svg" alt="call-icon">
+                                        (044) 585-11-11
+                                    </a>
+                                </li>
                                 <li class="list-el">
                                     <a href="tel:0505851111" class="link">
                                         <img src="../images/svg/header/vodafone-icon.svg" alt="vodafone-icon">
@@ -177,11 +208,125 @@
                                 </li>
                             </ul>
                         </div>
+                        <button class="btn hamburger-menu-btn tablet mobile">
+                            <img src="../images/svg/common/hamburger-menu.svg" alt="hamburger-menu-icon">
+                        </button>
+                        <div class="hamburger-menu-block tablet mobile">
+                            <div class="top-part">
+                                <picture class="logo">
+                                    <img src="../images/svg/common/big-logo.svg" alt="logo">
+                                </picture>
+                                <button class="close-btn">
+                                    <img src="../images/svg/common/close-icon.svg" alt="close-icon">
+                                </button>
+                            </div>
+                            <menu class="main-menu">
+                                <li>
+                                    <a class="link" href="#">Акції</a>
+                                </li>
+                                <li>
+                                    <a class="link" href="#">Тарифи</a>
+                                </li>
+                                <li>
+                                    <a class="link" href="#">Абоненту</a>
+                                </li>
+                                <li>
+                                    <a class="link" href="#">Покриття</a>
+                                </li>
+                                <li>
+                                    <a class="link" href="#">Контакти</a>
+                                </li>
+                                <li>
+                                    <a class="link" href="#">Про компанію</a>
+                                </li>
+                            </menu>
+                            <ul class="sub-menu">
+                                <li class="list-el">
+                                    <a href="#" class="link">
+                                        <img src="../images/svg/header/credit-card.svg" alt="pay">
+                                        Оплата
+                                    </a>
+                                </li>
+                                <li class="list-el">
+                                    <a href="#" class="link">
+                                        <img src="../images/svg/header/support.svg" alt="support">
+                                        Тех. допомога
+                                    </a>
+                                </li>
+                                <li class="list-el">
+                                    <a href="#" class="link">
+                                        <img src="../images/svg/header/user.svg" alt="cabinet">
+                                        Особистий кабінет
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul class="sub-menu">
+                                <li class="list-el">
+                                    <a href="#" class="link">
+                                        <img src="../images/svg/header/tv.svg" alt="icon">
+                                        Телебачення (IPTV)
+                                    </a>
+                                </li>
+                                <li class="list-el">
+                                    <a href="#" class="link">
+                                        <img src="../images/svg/header/briefcase.svg" alt="icon">
+                                        Для бізнесу
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="phone-block-hamburger mobile">
+                                <div class="link-wrapper mobile">
+                                    <a href="tel:0445851111" class="link">
+                                        <img src="../images/svg/header/phone-call-icon.svg" alt="call-icon">
+                                        (044) 585-11-11
+                                    </a>
+                                    <img src="../images/svg/common/arrow-down.svg" class="arrow transition" alt="arrow">
+                                </div>
+                                <ul class="phone-list transition">
+                                    <li class="list-el">
+                                        <a href="tel:0505851111" class="link">
+                                            <img src="../images/svg/header/vodafone-icon.svg" alt="vodafone-icon">
+                                            (050) 585-11-11
+                                        </a>
+                                    </li>
+                                    <li class="list-el">
+                                        <a href="tel:0965851111" class="link">
+                                            <img src="../images/svg/header/ks-icon.svg" alt="ks-icon">
+                                            (096) 585-11-11
+                                        </a>
+                                    </li>
+                                    <li class="list-el">
+                                        <a href="tel:0935851111" class="link">
+                                            <img src="../images/svg/header/lifecell-icon.svg" alt="lifecell-icon">
+                                            (093) 585-11-11
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="bottom-part">
+                                <ul class="socials">
+                                    <li>
+                                        <a href=#">
+                                            <img src="../images/svg/header/facebook-icon.svg" alt="facebook-icon">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img src="../images/svg/header/instagram-icon.svg" alt="instagram-icon">
+                                        </a>
+                                    </li>
+                                </ul>
+                                <div class="lang">
+                                    <span class="active">ua</span>
+                                    <span>ru</span>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </header>
-        <main class="faq-page">
+        <main class="documents-page">
             <div class="container breadcrumbs">
                 <a href="#">
                     Головна /
@@ -190,256 +335,61 @@
                     Абоненту /
                 </a>
                 <span>
-                    Питання та відповіді
+                    Документи
                 </span>
             </div>
             <h1 class="page-title container">
-                Питання та відповіді
+                Документи
             </h1>
-            <div class="faq-list container">
-                <div class="accordion-el plus-trigger active">
-                    <h2 class="accordion-title">
-                        Що таке "Особистий кабінет" користувача?
-                        <div class="accordion-trigger">
-                            <span></span>
-                            <span></span>
-                        </div>
-                    </h2>
-                    <div class="accordion-content">
-                        <p>
-                            "Особистий кабінет" - це персональна сторінка абонента, на якій зібрано інформацію про
-                            фінансовий стан депозиту, здійснюється можливість замовлення / скасування додаткових послуг,
-                            зміна тарифного пакету, тимчасове призупинення послуг, поповнення депозиту, активація
-                            можливостей програми лояльності.
-                        </p>
-                        <p>
-                            Адреса "Особистого кабінету" користувача - <a href="https://my.nashnet.ua">https://my.nashnet.ua</a>
-                        </p>
-                    </div>
+            <div class="documents-list container">
+                <div class="list-block">
+                    <ul class="doc-list">
+                        <li class="list-el">
+                            <a href="#" target="_blank" class="document-el">
+                                Публічний договір про надання телекомунікаційних послуг (ТОВ "НАШНЕТ")
+                            </a>
+                        </li>
+                        <li class="list-el">
+                            <a href="#" target="_blank" class="document-el">
+                                Публічний договір про надання послуг цифрового телебачення (ТОВ "НАШНЕТ")
+                            </a>
+                        </li>
+                        <li class="list-el">
+                            <a href="#" target="_blank" class="document-el">
+                                Заява на приєднання до договорів про надання телекомунікаційних послуг та послуг
+                                цифрового телебачення (ТОВ "НАШНЕТ")
+                            </a>
+                        </li>
+                        <li class="list-el">
+                            <a href="#" target="_blank" class="document-el">
+                                Звіт про якість телекомунікаційних послуг за 2018 рік
+                            </a>
+                        </li>
+                    </ul>
                 </div>
-                <div class="accordion-el plus-trigger">
-                    <h2 class="accordion-title">
-                        Як потрапити в особистий кабінет?
-                        <div class="accordion-trigger">
-                            <span></span>
-                            <span></span>
-                        </div>
-                    </h2>
-                    <div class="accordion-content">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci alias debitis dolore
-                            eos excepturi in, ipsum laudantium numquam, praesentium quae reiciendis rerum similique
-                            soluta tempora tenetur vel voluptate voluptates!
-                        </p>
-                    </div>
-                </div>
-                <div class="accordion-el plus-trigger">
-                    <h2 class="accordion-title">
-                        Що таке логін і пароль?
-                        <div class="accordion-trigger">
-                            <span></span>
-                            <span></span>
-                        </div>
-                    </h2>
-                    <div class="accordion-content">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, perspiciatis?</p>
-                    </div>
-                </div>
-                <div class="accordion-el plus-trigger">
-                    <h2 class="accordion-title">
-                        Що робити якщо забув логін/пароль від особистого кабінету?
-                        <div class="accordion-trigger">
-                            <span></span>
-                            <span></span>
-                        </div>
-                    </h2>
-                    <div class="accordion-content">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam consequuntur dolores eaque
-                            exercitationem fuga nemo non quod repellat sit!
-                        </p>
-                    </div>
-                </div>
-                <div class="accordion-el plus-trigger">
-                    <h2 class="accordion-title">
-                        Як змінити тарифний пакет?
-                        <div class="accordion-trigger">
-                            <span></span>
-                            <span></span>
-                        </div>
-                    </h2>
-                    <div class="accordion-content">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias culpa delectus eius impedit,
-                            ipsa laudantium nesciunt pariatur quae quaerat quisquam ratione repudiandae similique
-                            tenetur, totam voluptate! Ad distinctio dolorum illo recusandae.
-                        </p>
-                    </div>
-                </div>
-                <div class="accordion-el plus-trigger">
-                    <h2 class="accordion-title">
-                        Що робити, якщо інтернет не працює / впала швидкість?
-                        <div class="accordion-trigger">
-                            <span></span>
-                            <span></span>
-                        </div>
-                    </h2>
-                    <div class="accordion-content">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci alias debitis dolore
-                            eos excepturi in, ipsum laudantium numquam, praesentium quae reiciendis rerum similique
-                            soluta tempora tenetur vel voluptate voluptates!
-                        </p>
-                    </div>
-                </div>
-                <div class="accordion-el plus-trigger">
-                    <h2 class="accordion-title">
-                        Як контролювати стан депозиту?
-                        <div class="accordion-trigger">
-                            <span></span>
-                            <span></span>
-                        </div>
-                    </h2>
-                    <div class="accordion-content">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, perspiciatis?</p>
-                    </div>
-                </div>
-                <div class="accordion-el plus-trigger">
-                    <h2 class="accordion-title">
-                        Що робити, якщо я тимчасово планую не користуватися послугою?
-                        <div class="accordion-trigger">
-                            <span></span>
-                            <span></span>
-                        </div>
-                    </h2>
-                    <div class="accordion-content">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam consequuntur dolores eaque
-                            exercitationem fuga nemo non quod repellat sit!
-                        </p>
-                    </div>
-                </div>
-                <div class="accordion-el plus-trigger">
-                    <h2 class="accordion-title">
-                        Де я можу ознайомиться з договором?
-                        <div class="accordion-trigger">
-                            <span></span>
-                            <span></span>
-                        </div>
-                    </h2>
-                    <div class="accordion-content">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias culpa delectus eius impedit,
-                            ipsa laudantium nesciunt pariatur quae quaerat quisquam ratione repudiandae similique
-                            tenetur, totam voluptate! Ad distinctio dolorum illo recusandae.
-                        </p>
-                    </div>
-                </div>
-                <div class="accordion-el plus-trigger">
-                    <h2 class="accordion-title">
-                        Що робити, якщо закінчилися гроші на рахунку і терміново потрібен інтернет?
-                        <div class="accordion-trigger">
-                            <span></span>
-                            <span></span>
-                        </div>
-                    </h2>
-                    <div class="accordion-content">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci alias debitis dolore
-                            eos excepturi in, ipsum laudantium numquam, praesentium quae reiciendis rerum similique
-                            soluta tempora tenetur vel voluptate voluptates!
-                        </p>
-                    </div>
-                </div>
-                <div class="accordion-el plus-trigger">
-                    <h2 class="accordion-title">
-                        Як отримати бонус по акції «Підключай друзів»?
-                        <div class="accordion-trigger">
-                            <span></span>
-                            <span></span>
-                        </div>
-                    </h2>
-                    <div class="accordion-content">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, perspiciatis?</p>
-                    </div>
-                </div>
-                <div class="accordion-el plus-trigger">
-                    <h2 class="accordion-title">
-                        Де я можу написати скаргу або пропозиції?
-                        <div class="accordion-trigger">
-                            <span></span>
-                            <span></span>
-                        </div>
-                    </h2>
-                    <div class="accordion-content">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam consequuntur dolores eaque
-                            exercitationem fuga nemo non quod repellat sit!
-                        </p>
-                    </div>
-                </div>
-                <div class="accordion-el plus-trigger">
-                    <h2 class="accordion-title">
-                        Як поповнити свій депозит?
-                        <div class="accordion-trigger">
-                            <span></span>
-                            <span></span>
-                        </div>
-                    </h2>
-                    <div class="accordion-content">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci alias debitis dolore
-                            eos excepturi in, ipsum laudantium numquam, praesentium quae reiciendis rerum similique
-                            soluta tempora tenetur vel voluptate voluptates!
-                        </p>
-                    </div>
-                </div>
-                <div class="accordion-el plus-trigger">
-                    <h2 class="accordion-title">
-                        Що таке біллінгова система?
-                        <div class="accordion-trigger">
-                            <span></span>
-                            <span></span>
-                        </div>
-                    </h2>
-                    <div class="accordion-content">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, perspiciatis?</p>
-                    </div>
-                </div>
-                <div class="accordion-el plus-trigger">
-                    <h2 class="accordion-title">
-                        Як підключити до інтернету більше одного пристрою *?
-                        <div class="accordion-trigger">
-                            <span></span>
-                            <span></span>
-                        </div>
-                    </h2>
-                    <div class="accordion-content">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam consequuntur dolores eaque
-                            exercitationem fuga nemo non quod repellat sit!
-                        </p>
-                    </div>
-                </div>
-                <div class="accordion-el plus-trigger">
-                    <h2 class="accordion-title">
-                        Що входить у вартість підключення?
-                        <div class="accordion-trigger">
-                            <span></span>
-                            <span></span>
-                        </div>
-                    </h2>
-                    <div class="accordion-content">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias culpa delectus eius impedit,
-                            ipsa laudantium nesciunt pariatur quae quaerat quisquam ratione repudiandae similique
-                            tenetur, totam voluptate! Ad distinctio dolorum illo recusandae.
-                        </p>
-                    </div>
-                </div>
-                <div class="accordion-el plus-trigger">
-                    <h2 class="accordion-title">
-                        Що з себе являє підключення?
-                        <div class="accordion-trigger">
-                            <span></span>
-                            <span></span>
-                        </div>
-                    </h2>
-                    <div class="accordion-content">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias culpa delectus eius impedit,
-                            ipsa laudantium nesciunt pariatur quae quaerat quisquam ratione repudiandae similique
-                            tenetur, totam voluptate! Ad distinctio dolorum illo recusandae.
-                        </p>
-                    </div>
+                <div class="list-block">
+                    <h3 class="block-title">
+                        Нормативні документи
+                    </h3>
+                    <ul class="doc-list">
+                        <li class="list-el">
+                            <a href="#" target="_blank" class="document-el">
+                                Закон України «Про телекомунікації»
+                            </a>
+                        </li>
+                        <li class="list-el">
+                            <a href="#" target="_blank" class="document-el">
+                                Постанова Кабінету Міністрів України № 295 від 11.04.2012 р. «Про затвердження Правил
+                                надання та отримання телекомунікаційних послуг»
+                            </a>
+                        </li>
+                        <li class="list-el">
+                            <a href="#" target="_blank" class="document-el">
+                                Рішення Національної комісії з питань регулювання зв’язку України № 624 від 29.11.2012 р.
+                                «Про затвердження Основних вимог до договору про надання телекомунікаційних послуг»
+                            </a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </main>
@@ -516,7 +466,7 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="rate-block">
+                            <div class="rate-block desktop">
                                 <div class="column">
                                     <img class="block-logo" src="../images/svg/footer/google-logo.svg" alt="brand-label">
                                     <div class="info">
@@ -532,8 +482,8 @@
                                                 <img class="star" src="../images/svg/common/half-star.svg" alt="half-star">
                                             </div>
                                             <span class="reviews">
-                                                        Отзывов: 274
-                                                    </span>
+                                                Отзывов: 274
+                                            </span>
                                         </div>
                                     </div>
                                 </div>
@@ -552,8 +502,8 @@
                                                 <img class="star" src="../images/svg/common/empty-star.svg" alt="empty-star">
                                             </div>
                                             <span class="reviews">
-                                                        Отзывов: 226
-                                                    </span>
+                                                Отзывов: 226
+                                            </span>
                                         </div>
                                     </div>
                                 </div>
@@ -574,7 +524,7 @@
                                         <a href="#" class="link">
                                             Абоненту
                                         </a>
-                                        <ul class="sub-menu-list">
+                                        <ul class="sub-menu-list desktop">
                                             <li class="list-el">
                                                 <a href="#" class="link">Відео сервер</a>
                                             </li>
@@ -610,14 +560,33 @@
                                         <a href="#" class="link">
                                             Про компанію
                                         </a>
+                                    </li>
+                                    <li class="list-el">
                                         <a href="#" class="link">
                                             Вакансії
                                         </a>
                                     </li>
                                 </ul>
+                                <ul class="menu-list tablet mobile">
+                                    <li class="list-el">
+                                        <a href="#" class="link">
+                                            Телебачення (IPTV)
+                                        </a>
+                                    </li>
+                                    <li class="list-el">
+                                        <a href="#" class="link">
+                                            Для бізнесу
+                                        </a>
+                                    </li>
+                                    <li class="list-el">
+                                        <a href="#" class="link">
+                                            Для забудовників
+                                        </a>
+                                    </li>
+                                </ul>
                             </div>
                             <div class="column">
-                                <ul class="menu-list">
+                                <ul class="menu-list desktop">
                                     <li class="list-el">
                                         <a href="#" class="link">
                                             Телебачення (IPTV)
@@ -662,6 +631,56 @@
                                     </li>
                                 </ul>
                             </div>
+                        </div>
+                    </div>
+                    <div class="rate-part tablet mobile">
+                        <div class="column">
+                            <img class="block-logo" src="../images/svg/footer/google-logo.svg" alt="brand-label">
+                            <div class="info">
+                                <div class="left-col">
+                                    <span>4,6</span>
+                                </div>
+                                <div class="right-col">
+                                    <div class="stars-block">
+                                        <img class="star" src="../images/svg/common/full-star.svg" alt="full-star">
+                                        <img class="star" src="../images/svg/common/full-star.svg" alt="full-star">
+                                        <img class="star" src="../images/svg/common/full-star.svg" alt="full-star">
+                                        <img class="star" src="../images/svg/common/full-star.svg" alt="full-star">
+                                        <img class="star" src="../images/svg/common/half-star.svg" alt="half-star">
+                                    </div>
+                                    <span class="reviews">
+                                                Отзывов: 274
+                                            </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <img class="block-logo" src="../images/svg/footer/2ip.svg" alt="brand-label">
+                            <div class="info">
+                                <div class="left-col">
+                                    <span>4,0</span>
+                                </div>
+                                <div class="right-col">
+                                    <div class="stars-block">
+                                        <img class="star" src="../images/svg/common/full-star.svg" alt="full-star">
+                                        <img class="star" src="../images/svg/common/full-star.svg" alt="full-star">
+                                        <img class="star" src="../images/svg/common/full-star.svg" alt="full-star">
+                                        <img class="star" src="../images/svg/common/full-star.svg" alt="full-star">
+                                        <img class="star" src="../images/svg/common/empty-star.svg" alt="empty-star">
+                                    </div>
+                                    <span class="reviews">
+                                                Отзывов: 226
+                                            </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column reviews">
+                            <a href="#" class="link">
+                                Відгуки на Google
+                            </a>
+                            <a href="#" class="link">
+                                Відгуки на Facebook
+                            </a>
                         </div>
                     </div>
                 </div>

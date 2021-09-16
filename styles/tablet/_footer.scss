@@ -1,0 +1,156 @@
+footer{
+  .footer-wrapper{
+    .footer{
+      padding: 20px 0 30px;
+      .logo-block{
+        margin: 0 0 15px;
+        .link{
+          .image{}
+        }
+      }
+      .main-part{
+        column-gap: 90px;
+        >.left-col{
+          width: calc(100% - 333px - 30px);
+          .address{
+            margin: 0 0 20px;
+          }
+          .phone-block{
+            column-gap: 30px;
+            .column{
+              width: 150px;
+              .department{}
+              .phone-list{
+                .list-el{
+                  a{}
+                  &:before{}
+                  &.vodafone{
+                    &:before{}
+                  }
+                  &.lifecell{
+                    &:before{}
+                  }
+                  &.ks{
+                    &:before{}
+                  }
+                }
+              }
+            }
+          }
+          .social-media-messengers-block{
+            display: flex;
+            column-gap: 30px;
+            margin: 0;
+            .left-col{
+              width: 150px;
+              .link{
+                display: flex;
+                column-gap: 8px;
+                align-items: center;
+                font-size: 16px;
+                line-height: 20px;
+                color: var(--color-white);
+                img{
+                  width: 24px;
+                  height: 24px;
+                }
+              }
+            }
+            .right-col{
+              width: 150px;
+              .link{
+                img{}
+              }
+            }
+          }
+          .rate-block{}
+        }
+        >.right-col{
+          display: grid;
+          width: 300px;
+          grid-template-columns: 150px 90px;
+          .column{
+            .menu-list{
+              &:last-child{
+                margin: 0;
+              }
+              >.list-el{
+                >.link{
+                  margin: 0 0 15px;
+                }
+              }
+              .sub-menu-list{}
+            }
+          }
+        }
+      }
+      .rate-part{
+        display: flex;
+        margin: 30px 0 0;
+        column-gap: 30px;
+        .column{
+          width: max-content;
+          padding: 10px 14px 10px 10px;
+          background: rgba(255, 255, 255, 0.15);
+          border: 1px solid var(--color-white);
+          border-radius: 6px;
+          .block-logo{
+            width: 36px;
+            height: 14px;
+          }
+          .info{
+            display: flex;
+            column-gap: 10px;
+            .left-col{
+              span{
+                font-weight: bold;
+                font-size: 20px;
+                line-height: 19px;
+                color: var(--color-white);
+              }
+            }
+            .right-col{
+              .stars-block{
+                display: flex;
+                padding: 2px 0 0;
+                .star{
+                  width: 14px;
+                  height: 14px;
+                }
+              }
+              .reviews{
+                font-size: 12px;
+                line-height: 11px;
+                color: var(--color-white);
+              }
+            }
+          }
+          &.reviews{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            padding: 0;
+            border: none;
+            background: none;
+            .link{
+              font-weight: bold;
+              font-size: 16px;
+              line-height: 20px;
+              color: var(--color-white);
+            }
+          }
+        }
+      }
+    }
+  }
+  .copyrights-wrapper{
+    background: var(--color-light-blue);
+    .copyrights{
+      padding: 16px 0;
+      font-size: 14px;
+      line-height: 130%;
+      color: var(--color-white);
+    }
+  }
+}
+

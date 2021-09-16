@@ -8,6 +8,8 @@
         <title>Promotions page</title>
         <link rel="stylesheet" href="../styles/fonts.min.css">
         <link rel="stylesheet" href="../styles/style.min.css">
+        <link rel="stylesheet" href="../styles/tablet-styles.css">
+        <link rel="stylesheet" href="../styles/mobile-styles.css">
     </head>
     <body>
         <header>
@@ -83,7 +85,7 @@
                                 <img src="../images/svg/common/big-logo.svg" alt="logo">
                             </picture>
                         </a>
-                        <menu class="main-menu">
+                        <menu class="main-menu desktop">
                             <li class="list-el">
                                 <a href="#" class="link">
                                     Акції
@@ -145,18 +147,21 @@
                         </menu>
                     </div>
                     <div class="main-header__right-col">
-                        <button class="btn btn-blue-rounded">
+                        <button class="btn btn-blue-rounded desktop tablet">
                             Підключитися
                         </button>
                         <div class="phone-block">
-                            <div class="link-wrapper">
+                            <div class="link-wrapper desktop tablet">
                                 <a href="tel:0445851111" class="link">
                                     <img src="../images/svg/header/phone-call-icon.svg" alt="call-icon">
                                     (044) 585-11-11
                                 </a>
                                 <img src="../images/svg/common/arrow-down.svg" class="arrow" alt="arrow">
                             </div>
-                            <ul class="phone-list">
+                            <button class="btn phone-btn mobile">
+                                <img src="../images/svg/header/phone-call-icon.svg" alt="call-icon">
+                            </button>
+                            <ul class="phone-list desktop tablet">
                                 <li class="list-el">
                                     <a href="tel:0505851111" class="link">
                                         <img src="../images/svg/header/vodafone-icon.svg" alt="vodafone-icon">
@@ -176,6 +181,146 @@
                                     </a>
                                 </li>
                             </ul>
+                            <ul class="phone-list mobile">
+                                <li class="list-el">
+                                    <a href="tel:0445851111" class="link">
+                                        <img src="../images/svg/header/phone-call-icon.svg" alt="call-icon">
+                                        (044) 585-11-11
+                                    </a>
+                                </li>
+                                <li class="list-el">
+                                    <a href="tel:0505851111" class="link">
+                                        <img src="../images/svg/header/vodafone-icon.svg" alt="vodafone-icon">
+                                        (050) 585-11-11
+                                    </a>
+                                </li>
+                                <li class="list-el">
+                                    <a href="tel:0965851111" class="link">
+                                        <img src="../images/svg/header/ks-icon.svg" alt="ks-icon">
+                                        (096) 585-11-11
+                                    </a>
+                                </li>
+                                <li class="list-el">
+                                    <a href="tel:0935851111" class="link">
+                                        <img src="../images/svg/header/lifecell-icon.svg" alt="lifecell-icon">
+                                        (093) 585-11-11
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <button class="btn hamburger-menu-btn tablet mobile">
+                            <img src="../images/svg/common/hamburger-menu.svg" alt="hamburger-menu-icon">
+                        </button>
+                        <div class="hamburger-menu-block tablet mobile">
+                            <div class="top-part">
+                                <picture class="logo">
+                                    <img src="../images/svg/common/big-logo.svg" alt="logo">
+                                </picture>
+                                <button class="close-btn">
+                                    <img src="../images/svg/common/close-icon.svg" alt="close-icon">
+                                </button>
+                            </div>
+                            <menu class="main-menu">
+                                <li>
+                                    <a class="link" href="#">Акції</a>
+                                </li>
+                                <li>
+                                    <a class="link" href="#">Тарифи</a>
+                                </li>
+                                <li>
+                                    <a class="link" href="#">Абоненту</a>
+                                </li>
+                                <li>
+                                    <a class="link" href="#">Покриття</a>
+                                </li>
+                                <li>
+                                    <a class="link" href="#">Контакти</a>
+                                </li>
+                                <li>
+                                    <a class="link" href="#">Про компанію</a>
+                                </li>
+                            </menu>
+                            <ul class="sub-menu">
+                                <li class="list-el">
+                                    <a href="#" class="link">
+                                        <img src="../images/svg/header/credit-card.svg" alt="pay">
+                                        Оплата
+                                    </a>
+                                </li>
+                                <li class="list-el">
+                                    <a href="#" class="link">
+                                        <img src="../images/svg/header/support.svg" alt="support">
+                                        Тех. допомога
+                                    </a>
+                                </li>
+                                <li class="list-el">
+                                    <a href="#" class="link">
+                                        <img src="../images/svg/header/user.svg" alt="cabinet">
+                                        Особистий кабінет
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul class="sub-menu">
+                                <li class="list-el">
+                                    <a href="#" class="link">
+                                        <img src="../images/svg/header/tv.svg" alt="icon">
+                                        Телебачення (IPTV)
+                                    </a>
+                                </li>
+                                <li class="list-el">
+                                    <a href="#" class="link">
+                                        <img src="../images/svg/header/briefcase.svg" alt="icon">
+                                        Для бізнесу
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="phone-block-hamburger mobile">
+                                <div class="link-wrapper mobile">
+                                    <a href="tel:0445851111" class="link">
+                                        <img src="../images/svg/header/phone-call-icon.svg" alt="call-icon">
+                                        (044) 585-11-11
+                                    </a>
+                                    <img src="../images/svg/common/arrow-down.svg" class="arrow transition" alt="arrow">
+                                </div>
+                                <ul class="phone-list transition">
+                                    <li class="list-el">
+                                        <a href="tel:0505851111" class="link">
+                                            <img src="../images/svg/header/vodafone-icon.svg" alt="vodafone-icon">
+                                            (050) 585-11-11
+                                        </a>
+                                    </li>
+                                    <li class="list-el">
+                                        <a href="tel:0965851111" class="link">
+                                            <img src="../images/svg/header/ks-icon.svg" alt="ks-icon">
+                                            (096) 585-11-11
+                                        </a>
+                                    </li>
+                                    <li class="list-el">
+                                        <a href="tel:0935851111" class="link">
+                                            <img src="../images/svg/header/lifecell-icon.svg" alt="lifecell-icon">
+                                            (093) 585-11-11
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="bottom-part">
+                                <ul class="socials">
+                                    <li>
+                                        <a href=#">
+                                            <img src="../images/svg/header/facebook-icon.svg" alt="facebook-icon">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img src="../images/svg/header/instagram-icon.svg" alt="instagram-icon">
+                                        </a>
+                                    </li>
+                                </ul>
+                                <div class="lang">
+                                    <span class="active">ua</span>
+                                    <span>ru</span>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -198,7 +343,7 @@
                     <div class="hot-propositions-el">
                         <div class="top-part">
                             <picture class="block-main-image">
-                                <img loading="lazy" src="../images/png/promotions/promo1.png" alt="el-image">
+                                <img loading="lazy" src="../images/png/home/hot-proposition1.png" alt="el-image">
                             </picture>
                             <div class="timer">
                                 <img class="icon"  src="../images/svg/home/clock.svg" alt="clock-icon">
@@ -278,7 +423,7 @@
                     <div class="hot-propositions-el present">
                         <div class="top-part">
                             <picture class="block-main-image">
-                                <img loading="lazy" src="../images/png/promotions/promo2.png" alt="el-image">
+                                <img loading="lazy" src="../images/png/home/hot-proposition2.png" alt="el-image">
                             </picture>
                             <div class="timer">
                                 <img class="icon"  src="../images/svg/home/clock.svg" alt="clock-icon">
@@ -353,9 +498,13 @@
                                     <span class="new-price">150 грн/міс</span>
                                     <span class="economy">Ваша економія: 450 грн</span>
                                     <button class="btn btn-blue-rounded">Підключитися</button>
+                                    <button class="present-btn btn tablet mobile">
+                                        <img src="../images/svg/common/gift-orange-icon.svg" alt="present-icon">
+                                        Отримай подарунок!
+                                    </button>
                                 </div>
                             </div>
-                            <div class="right-col">
+                            <div class="right-col desktop">
                                 <picture class="block-main-image">
                                     <img src="../images/png/home/gift-image.png" alt="gift-image">
                                 </picture>
@@ -373,6 +522,35 @@
                                     </li>
                                 </ul>
                             </div>
+<!--                            <div class="pop-up-wrapper gift-pop-up tablet mobile">-->
+<!--                                <div class="pop-up">-->
+<!--                                    <h4 class="pop-up-title">-->
+<!--                                        Отримай подарунок при підключенні-->
+<!--                                    </h4>-->
+<!--                                    <div class="pop-up-content">-->
+<!--                                        <picture class="block-main-image">-->
+<!--                                            <img src="../images/png/home/gift-image.png" alt="gift-image">-->
+<!--                                        </picture>-->
+<!--                                        <div class="label">-->
+<!--                                            <img src="../images/svg/home/gift-icon.svg" alt="icon">-->
+<!--                                            <span>Подарунок</span>-->
+<!--                                        </div>-->
+<!--                                        <h4 class="gift-name">Маршрутизатор Netis N2</h4>-->
+<!--                                        <ul class="gift-attr-list">-->
+<!--                                            <li class="list-el">-->
+<!--                                                Частота роботи Wi-Fi: 2.4 ГГц, 5 ГГц-->
+<!--                                            </li>-->
+<!--                                            <li class="list-el">-->
+<!--                                                Швидкість WAN: 1000 Мбіт/сек-->
+<!--                                            </li>-->
+<!--                                        </ul>-->
+<!--                                    </div>-->
+<!--                                    <button class="btn btn-blue-rounded">Підключитися</button>-->
+<!--                                    <button class="close-btn">-->
+<!--                                        <img src="../images/svg/common/close-icon.svg" alt="close-icon">-->
+<!--                                    </button>-->
+<!--                                </div>-->
+<!--                            </div>-->
                         </div>
                     </div>
                 </div>
@@ -382,15 +560,15 @@
                     <h2 class="block-title">
                         Для нових абонентів
                     </h2>
-                    <a href="#" class="link">
+                    <a href="#" class="link desktop tablet">
                         Дивитись всі акції
                     </a>
                 </div>
                 <div class="slider-block">
-                    <button class="btn slider-btn left">
+                    <button class="btn slider-btn left desktop">
                         <img src="../images/svg/common/slider-arrow-blue.svg" alt="slider-arrow">
                     </button>
-                    <button class="btn slider-btn right">
+                    <button class="btn slider-btn right desktop">
                         <img src="../images/svg/common/slider-arrow-blue.svg" alt="slider-arrow">
                     </button>
                     <div class="slider-content">
@@ -467,96 +645,37 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="promotions-el">
-                            <picture class="block-main-image">
-                                <img loading="lazy" src="../images/png/promotions/promo3.png" alt="el-image">
-                            </picture>
-                            <div class="label calendar-label pos-top-left">
-                                <img class="icon"  src="../images/svg/home/calendar-icon.svg" alt="calendar-icon">
-                                <p class="info-part">
-                                    з
-                                    <span class="date">
-                                    01.01
-                                </span>
-                                    по
-                                    <span class="date">
-                                    14.01
-                                </span>
-                                </p>
-                            </div>
-                            <div class="description">
-                                <h3 class="el-title">
-                                    Ідеальне побачення — Інтернет і Телебачення
-                                </h3>
-                                <p class="el-text">
-                                    Даруємо медіаплеєри, рік «Інтернет+ТБ» та супер-приз — телевізор! Друже, ще трошки і
-                                    2020-й залишиться у минулому, тож відсвяткуємо це разом!
-                                </p>
-                                <div class="buttons-block">
-                                    <button class="btn btn-transparent-rounded">
-                                        Замовити акцію
-                                    </button>
-                                    <a href="#" class="link">
-                                        Більше інформації
-                                        <img class="icon" src="../images/svg/common/arrow-right-white.svg" alt="arrow-left">
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="promotions-el">
-                            <picture class="block-main-image">
-                                <img loading="lazy" src="../images/png/promotions/promo4.png" alt="el-image">
-                            </picture>
-                            <div class="label calendar-label pos-top-left">
-                                <img class="icon"  src="../images/svg/home/calendar-icon.svg" alt="calendar-icon">
-                                <p class="info-part">
-                                    з
-                                    <span class="date">
-                                    01.01
-                                </span>
-                                    по
-                                    <span class="date">
-                                    14.01
-                                </span>
-                                </p>
-                            </div>
-                            <div class="description">
-                                <h3 class="el-title">
-                                    50 відсотків кешбеку
-                                </h3>
-                                <p class="el-text">
-                                    Купи ультрасовременный медиаплеер inext и возвращай себе половину его стоимости,
-                                    экономя на абонплате. Размер кешбэка составит от 500 грн за inext TV4 и до 1000 грн
-                                    за inext 4К2, а свободный от абонплаты период зависит от твоего тарифа.
-                                </p>
-                                <div class="buttons-block">
-                                    <button class="btn btn-transparent-rounded">
-                                        Замовити акцію
-                                    </button>
-                                    <a href="#" class="link">
-                                        Більше інформації
-                                        <img class="icon" src="../images/svg/common/arrow-right-white.svg" alt="arrow-left">
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
                     </div>
+                    <ul class="dots-navigation tablet mobile">
+                        <li class="dots active">
+                            <span></span>
+                        </li>
+                        <li class="dots">
+                            <span></span>
+                        </li>
+                        <li class="dots">
+                            <span></span>
+                        </li>
+                    </ul>
                 </div>
+                <a href="#" class="show-more-link mobile">
+                    Дивитись всі акції
+                </a>
             </div>
             <div class="regular-clients-promotions-block container">
                 <div class="title-block">
                     <h2 class="block-title">
                         Для існуючих абонентів
                     </h2>
-                    <a href="#" class="link">
+                    <a href="#" class="link desktop tablet">
                         Дивитись всі акції
                     </a>
                 </div>
                 <div class="slider-block">
-                    <button class="btn slider-btn left">
+                    <button class="btn slider-btn left desktop">
                         <img src="../images/svg/common/slider-arrow-blue.svg" alt="slider-arrow">
                     </button>
-                    <button class="btn slider-btn right">
+                    <button class="btn slider-btn right desktop">
                         <img src="../images/svg/common/slider-arrow-blue.svg" alt="slider-arrow">
                     </button>
                     <div class="slider-content">
@@ -621,79 +740,6 @@
                                 <p class="el-text">
                                     Даруємо медіаплеєри, рік «Інтернет+ТБ» та супер-приз — телевізор! Друже, ще трошки і
                                     2020-й залишиться у минулому, тож відсвяткуємо це разом!
-                                </p>
-                                <div class="buttons-block">
-                                    <button class="btn btn-transparent-rounded">
-                                        Замовити акцію
-                                    </button>
-                                    <a href="#" class="link">
-                                        Більше інформації
-                                        <img class="icon" src="../images/svg/common/arrow-right-white.svg" alt="arrow-left">
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="promotions-el">
-                            <picture class="block-main-image">
-                                <img loading="lazy" src="../images/png/promotions/promo3.png" alt="el-image">
-                            </picture>
-                            <div class="label calendar-label pos-top-left">
-                                <img class="icon"  src="../images/svg/home/calendar-icon.svg" alt="calendar-icon">
-                                <p class="info-part">
-                                    з
-                                    <span class="date">
-                                    01.01
-                                </span>
-                                    по
-                                    <span class="date">
-                                    14.01
-                                </span>
-                                </p>
-                            </div>
-                            <div class="description">
-                                <h3 class="el-title">
-                                    Ідеальне побачення — Інтернет і Телебачення
-                                </h3>
-                                <p class="el-text">
-                                    Даруємо медіаплеєри, рік «Інтернет+ТБ» та супер-приз — телевізор! Друже, ще трошки і
-                                    2020-й залишиться у минулому, тож відсвяткуємо це разом!
-                                </p>
-                                <div class="buttons-block">
-                                    <button class="btn btn-transparent-rounded">
-                                        Замовити акцію
-                                    </button>
-                                    <a href="#" class="link">
-                                        Більше інформації
-                                        <img class="icon" src="../images/svg/common/arrow-right-white.svg" alt="arrow-left">
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="promotions-el">
-                            <picture class="block-main-image">
-                                <img loading="lazy" src="../images/png/promotions/promo4.png" alt="el-image">
-                            </picture>
-                            <div class="label calendar-label pos-top-left">
-                                <img class="icon"  src="../images/svg/home/calendar-icon.svg" alt="calendar-icon">
-                                <p class="info-part">
-                                    з
-                                    <span class="date">
-                                    01.01
-                                </span>
-                                    по
-                                    <span class="date">
-                                    14.01
-                                </span>
-                                </p>
-                            </div>
-                            <div class="description">
-                                <h3 class="el-title">
-                                    50 відсотків кешбеку
-                                </h3>
-                                <p class="el-text">
-                                    Купи ультрасовременный медиаплеер inext и возвращай себе половину его стоимости,
-                                    экономя на абонплате. Размер кешбэка составит от 500 грн за inext TV4 и до 1000 грн
-                                    за inext 4К2, а свободный от абонплаты период зависит от твоего тарифа.
                                 </p>
                                 <div class="buttons-block">
                                     <button class="btn btn-transparent-rounded">
@@ -707,26 +753,38 @@
                             </div>
                         </div>
                     </div>
+                    <ul class="dots-navigation tablet mobile">
+                        <li class="dots active">
+                            <span></span>
+                        </li>
+                        <li class="dots">
+                            <span></span>
+                        </li>
+                        <li class="dots">
+                            <span></span>
+                        </li>
+                    </ul>
                 </div>
+                <a href="#" class="show-more-link mobile">
+                    Дивитись всі акції
+                </a>
             </div>
-            <div class="equipment-discounts-block container">
-                <div class="title-block">
-                    <h2 class="block-title">
-                        Знижки на обладнання
-                    </h2>
-                </div>
+            <div class="equipment-slider-block container">
+                <h2 class="block-title">
+                    Знижки на обладнання
+                </h2>
                 <div class="slider-block">
-                    <button class="btn slider-btn left">
+                    <button class="btn slider-btn left desktop">
                         <img src="../images/svg/common/slider-arrow-blue.svg" alt="slider-arrow">
                     </button>
-                    <button class="btn slider-btn right">
+                    <button class="btn slider-btn right desktop">
                         <img src="../images/svg/common/slider-arrow-blue.svg" alt="slider-arrow">
                     </button>
                     <div class="slider-content">
                         <div class="equipment-card">
                            <div class="equipment-image-part">
                                <picture class="image">
-                                   <img src="../images/png/promotions/equipment.png" alt="equipment icon">
+                                   <img src="../images/png/shop/equipment.png" alt="equipment icon">
                                </picture>
                                <div class="label pos-top-left promo-label">
                                    Акція <span> з </span> 01.01 <span> по </span> 14.01
@@ -770,7 +828,7 @@
                         <div class="equipment-card">
                             <div class="equipment-image-part">
                                 <picture class="image">
-                                    <img src="../images/png/promotions/equipment.png" alt="equipment icon">
+                                    <img src="../images/png/shop/equipment.png" alt="equipment icon">
                                 </picture>
                                 <div class="label pos-top-left promo-label">
                                     Акція <span> з </span> 01.01 <span> по </span> 14.01
@@ -814,95 +872,7 @@
                         <div class="equipment-card">
                             <div class="equipment-image-part">
                                 <picture class="image">
-                                    <img src="../images/png/promotions/equipment.png" alt="equipment icon">
-                                </picture>
-                                <div class="label pos-top-left promo-label">
-                                    Акція <span> з </span> 01.01 <span> по </span> 14.01
-                                </div>
-                                <div class="label pos-top-right speed-label">
-                                    <img src="../images/svg/common/speedometer-icon.svg" alt="speed icon">
-                                    <span>100 Mb</span>
-                                </div>
-                            </div>
-                            <div class="equipment-description-part">
-                                <h4 class="equipment-name">D-Link EXO Mesh DIR-X1560 Wi-fi 6 router</h4>
-                                <div class="price-row">
-                                    <div class="price-col">
-                                        <small class="old-price">
-                                            Стара ціна: 1 400 грн
-                                        </small>
-                                        <span class="actual-price">
-                                            Ціна: 1 200 грн
-                                        </span>
-                                    </div>
-                                    <div class="price-col">
-                                        <span class="actual-price">
-                                            Оренда: 200 грн/міс
-                                        </span>
-                                    </div>
-                                </div>
-                                <div class="button-row">
-                                    <button class="btn btn-blue-rounded">
-                                        Замовити
-                                    </button>
-                                    <button class="btn btn-transparent-blue-rounded">
-                                        Орендувати
-                                    </button>
-                                </div>
-                                <div class="cash-back-row">
-                                    <img src="../images/svg/common/cash-back-icon.svg" alt="cash-back icon">
-                                    <span>Кешбэк: 100 грн</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="equipment-card">
-                            <div class="equipment-image-part">
-                                <picture class="image">
-                                    <img src="../images/png/promotions/equipment.png" alt="equipment icon">
-                                </picture>
-                                <div class="label pos-top-left promo-label">
-                                    Акція <span> з </span> 01.01 <span> по </span> 14.01
-                                </div>
-                                <div class="label pos-top-right speed-label">
-                                    <img src="../images/svg/common/speedometer-icon.svg" alt="speed icon">
-                                    <span>100 Mb</span>
-                                </div>
-                            </div>
-                            <div class="equipment-description-part">
-                                <h4 class="equipment-name">D-Link EXO Mesh DIR-X1560 Wi-fi 6 router</h4>
-                                <div class="price-row">
-                                    <div class="price-col">
-                                        <small class="old-price">
-                                            Стара ціна: 1 400 грн
-                                        </small>
-                                        <span class="actual-price">
-                                            Ціна: 1 200 грн
-                                        </span>
-                                    </div>
-                                    <div class="price-col">
-                                        <span class="actual-price">
-                                            Оренда: 200 грн/міс
-                                        </span>
-                                    </div>
-                                </div>
-                                <div class="button-row">
-                                    <button class="btn btn-blue-rounded">
-                                        Замовити
-                                    </button>
-                                    <button class="btn btn-transparent-blue-rounded">
-                                        Орендувати
-                                    </button>
-                                </div>
-                                <div class="cash-back-row">
-                                    <img src="../images/svg/common/cash-back-icon.svg" alt="cash-back icon">
-                                    <span>Кешбэк: 100 грн</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="equipment-card">
-                            <div class="equipment-image-part">
-                                <picture class="image">
-                                    <img src="../images/png/promotions/equipment.png" alt="equipment icon">
+                                    <img src="../images/png/shop/equipment.png" alt="equipment icon">
                                 </picture>
                                 <div class="label pos-top-left promo-label">
                                     Акція <span> з </span> 01.01 <span> по </span> 14.01
@@ -944,6 +914,17 @@
                             </div>
                         </div>
                     </div>
+                    <ul class="dots-navigation tablet mobile">
+                        <li class="dots active">
+                            <span></span>
+                        </li>
+                        <li class="dots">
+                            <span></span>
+                        </li>
+                        <li class="dots">
+                            <span></span>
+                        </li>
+                    </ul>
                 </div>
             </div>
             <div class="show-more-block container">
@@ -1080,7 +1061,7 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="rate-block">
+                            <div class="rate-block desktop">
                                 <div class="column">
                                     <img class="block-logo" src="../images/svg/footer/google-logo.svg" alt="brand-label">
                                     <div class="info">
@@ -1096,8 +1077,8 @@
                                                 <img class="star" src="../images/svg/common/half-star.svg" alt="half-star">
                                             </div>
                                             <span class="reviews">
-                                                        Отзывов: 274
-                                                    </span>
+                                                Отзывов: 274
+                                            </span>
                                         </div>
                                     </div>
                                 </div>
@@ -1116,8 +1097,8 @@
                                                 <img class="star" src="../images/svg/common/empty-star.svg" alt="empty-star">
                                             </div>
                                             <span class="reviews">
-                                                        Отзывов: 226
-                                                    </span>
+                                                Отзывов: 226
+                                            </span>
                                         </div>
                                     </div>
                                 </div>
@@ -1138,7 +1119,7 @@
                                         <a href="#" class="link">
                                             Абоненту
                                         </a>
-                                        <ul class="sub-menu-list">
+                                        <ul class="sub-menu-list desktop">
                                             <li class="list-el">
                                                 <a href="#" class="link">Відео сервер</a>
                                             </li>
@@ -1174,14 +1155,33 @@
                                         <a href="#" class="link">
                                             Про компанію
                                         </a>
+                                    </li>
+                                    <li class="list-el">
                                         <a href="#" class="link">
                                             Вакансії
                                         </a>
                                     </li>
                                 </ul>
+                                <ul class="menu-list tablet mobile">
+                                    <li class="list-el">
+                                        <a href="#" class="link">
+                                            Телебачення (IPTV)
+                                        </a>
+                                    </li>
+                                    <li class="list-el">
+                                        <a href="#" class="link">
+                                            Для бізнесу
+                                        </a>
+                                    </li>
+                                    <li class="list-el">
+                                        <a href="#" class="link">
+                                            Для забудовників
+                                        </a>
+                                    </li>
+                                </ul>
                             </div>
                             <div class="column">
-                                <ul class="menu-list">
+                                <ul class="menu-list desktop">
                                     <li class="list-el">
                                         <a href="#" class="link">
                                             Телебачення (IPTV)
@@ -1226,6 +1226,56 @@
                                     </li>
                                 </ul>
                             </div>
+                        </div>
+                    </div>
+                    <div class="rate-part tablet mobile">
+                        <div class="column">
+                            <img class="block-logo" src="../images/svg/footer/google-logo.svg" alt="brand-label">
+                            <div class="info">
+                                <div class="left-col">
+                                    <span>4,6</span>
+                                </div>
+                                <div class="right-col">
+                                    <div class="stars-block">
+                                        <img class="star" src="../images/svg/common/full-star.svg" alt="full-star">
+                                        <img class="star" src="../images/svg/common/full-star.svg" alt="full-star">
+                                        <img class="star" src="../images/svg/common/full-star.svg" alt="full-star">
+                                        <img class="star" src="../images/svg/common/full-star.svg" alt="full-star">
+                                        <img class="star" src="../images/svg/common/half-star.svg" alt="half-star">
+                                    </div>
+                                    <span class="reviews">
+                                                Отзывов: 274
+                                            </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <img class="block-logo" src="../images/svg/footer/2ip.svg" alt="brand-label">
+                            <div class="info">
+                                <div class="left-col">
+                                    <span>4,0</span>
+                                </div>
+                                <div class="right-col">
+                                    <div class="stars-block">
+                                        <img class="star" src="../images/svg/common/full-star.svg" alt="full-star">
+                                        <img class="star" src="../images/svg/common/full-star.svg" alt="full-star">
+                                        <img class="star" src="../images/svg/common/full-star.svg" alt="full-star">
+                                        <img class="star" src="../images/svg/common/full-star.svg" alt="full-star">
+                                        <img class="star" src="../images/svg/common/empty-star.svg" alt="empty-star">
+                                    </div>
+                                    <span class="reviews">
+                                                Отзывов: 226
+                                            </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column reviews">
+                            <a href="#" class="link">
+                                Відгуки на Google
+                            </a>
+                            <a href="#" class="link">
+                                Відгуки на Facebook
+                            </a>
                         </div>
                     </div>
                 </div>

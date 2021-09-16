@@ -8,6 +8,8 @@
         <title>Payments page</title>
         <link rel="stylesheet" href="../styles/fonts.min.css">
         <link rel="stylesheet" href="../styles/style.min.css">
+        <link rel="stylesheet" href="../styles/tablet-styles.css">
+        <link rel="stylesheet" href="../styles/mobile-styles.css">
     </head>
     <body>
         <header>
@@ -83,7 +85,7 @@
                                 <img src="../images/svg/common/big-logo.svg" alt="logo">
                             </picture>
                         </a>
-                        <menu class="main-menu">
+                        <menu class="main-menu desktop">
                             <li class="list-el">
                                 <a href="#" class="link">
                                     Акції
@@ -145,18 +147,47 @@
                         </menu>
                     </div>
                     <div class="main-header__right-col">
-                        <button class="btn btn-blue-rounded">
+                        <button class="btn btn-blue-rounded desktop tablet">
                             Підключитися
                         </button>
                         <div class="phone-block">
-                            <div class="link-wrapper">
+                            <div class="link-wrapper desktop tablet">
                                 <a href="tel:0445851111" class="link">
                                     <img src="../images/svg/header/phone-call-icon.svg" alt="call-icon">
                                     (044) 585-11-11
                                 </a>
                                 <img src="../images/svg/common/arrow-down.svg" class="arrow" alt="arrow">
                             </div>
-                            <ul class="phone-list">
+                            <button class="btn phone-btn mobile">
+                                <img src="../images/svg/header/phone-call-icon.svg" alt="call-icon">
+                            </button>
+                            <ul class="phone-list desktop tablet">
+                                <li class="list-el">
+                                    <a href="tel:0505851111" class="link">
+                                        <img src="../images/svg/header/vodafone-icon.svg" alt="vodafone-icon">
+                                        (050) 585-11-11
+                                    </a>
+                                </li>
+                                <li class="list-el">
+                                    <a href="tel:0965851111" class="link">
+                                        <img src="../images/svg/header/ks-icon.svg" alt="ks-icon">
+                                        (096) 585-11-11
+                                    </a>
+                                </li>
+                                <li class="list-el">
+                                    <a href="tel:0935851111" class="link">
+                                        <img src="../images/svg/header/lifecell-icon.svg" alt="lifecell-icon">
+                                        (093) 585-11-11
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul class="phone-list mobile">
+                                <li class="list-el">
+                                    <a href="tel:0445851111" class="link">
+                                        <img src="../images/svg/header/phone-call-icon.svg" alt="call-icon">
+                                        (044) 585-11-11
+                                    </a>
+                                </li>
                                 <li class="list-el">
                                     <a href="tel:0505851111" class="link">
                                         <img src="../images/svg/header/vodafone-icon.svg" alt="vodafone-icon">
@@ -177,6 +208,120 @@
                                 </li>
                             </ul>
                         </div>
+                        <button class="btn hamburger-menu-btn tablet mobile">
+                            <img src="../images/svg/common/hamburger-menu.svg" alt="hamburger-menu-icon">
+                        </button>
+                        <div class="hamburger-menu-block tablet mobile">
+                            <div class="top-part">
+                                <picture class="logo">
+                                    <img src="../images/svg/common/big-logo.svg" alt="logo">
+                                </picture>
+                                <button class="close-btn">
+                                    <img src="../images/svg/common/close-icon.svg" alt="close-icon">
+                                </button>
+                            </div>
+                            <menu class="main-menu">
+                                <li>
+                                    <a class="link" href="#">Акції</a>
+                                </li>
+                                <li>
+                                    <a class="link" href="#">Тарифи</a>
+                                </li>
+                                <li>
+                                    <a class="link" href="#">Абоненту</a>
+                                </li>
+                                <li>
+                                    <a class="link" href="#">Покриття</a>
+                                </li>
+                                <li>
+                                    <a class="link" href="#">Контакти</a>
+                                </li>
+                                <li>
+                                    <a class="link" href="#">Про компанію</a>
+                                </li>
+                            </menu>
+                            <ul class="sub-menu">
+                                <li class="list-el">
+                                    <a href="#" class="link">
+                                        <img src="../images/svg/header/credit-card.svg" alt="pay">
+                                        Оплата
+                                    </a>
+                                </li>
+                                <li class="list-el">
+                                    <a href="#" class="link">
+                                        <img src="../images/svg/header/support.svg" alt="support">
+                                        Тех. допомога
+                                    </a>
+                                </li>
+                                <li class="list-el">
+                                    <a href="#" class="link">
+                                        <img src="../images/svg/header/user.svg" alt="cabinet">
+                                        Особистий кабінет
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul class="sub-menu">
+                                <li class="list-el">
+                                    <a href="#" class="link">
+                                        <img src="../images/svg/header/tv.svg" alt="icon">
+                                        Телебачення (IPTV)
+                                    </a>
+                                </li>
+                                <li class="list-el">
+                                    <a href="#" class="link">
+                                        <img src="../images/svg/header/briefcase.svg" alt="icon">
+                                        Для бізнесу
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="phone-block-hamburger mobile">
+                                <div class="link-wrapper mobile">
+                                    <a href="tel:0445851111" class="link">
+                                        <img src="../images/svg/header/phone-call-icon.svg" alt="call-icon">
+                                        (044) 585-11-11
+                                    </a>
+                                    <img src="../images/svg/common/arrow-down.svg" class="arrow transition" alt="arrow">
+                                </div>
+                                <ul class="phone-list transition">
+                                    <li class="list-el">
+                                        <a href="tel:0505851111" class="link">
+                                            <img src="../images/svg/header/vodafone-icon.svg" alt="vodafone-icon">
+                                            (050) 585-11-11
+                                        </a>
+                                    </li>
+                                    <li class="list-el">
+                                        <a href="tel:0965851111" class="link">
+                                            <img src="../images/svg/header/ks-icon.svg" alt="ks-icon">
+                                            (096) 585-11-11
+                                        </a>
+                                    </li>
+                                    <li class="list-el">
+                                        <a href="tel:0935851111" class="link">
+                                            <img src="../images/svg/header/lifecell-icon.svg" alt="lifecell-icon">
+                                            (093) 585-11-11
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="bottom-part">
+                                <ul class="socials">
+                                    <li>
+                                        <a href=#">
+                                            <img src="../images/svg/header/facebook-icon.svg" alt="facebook-icon">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img src="../images/svg/header/instagram-icon.svg" alt="instagram-icon">
+                                        </a>
+                                    </li>
+                                </ul>
+                                <div class="lang">
+                                    <span class="active">ua</span>
+                                    <span>ru</span>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -192,11 +337,13 @@
             </div>
             <h1 class="page-title container">Оплата</h1>
             <div class="tab-selector-block container">
-                <ul class="tab-selector-list">
-                    <li class="tab-selector active">Онлайн</li>
-                    <li class="tab-selector">Готівка</li>
-                    <li class="tab-selector">Банк</li>
-                </ul>
+                <div class="tab-selector-list-wrapper">
+                    <ul class="tab-selector-list">
+                        <li class="tab-selector active">Онлайн</li>
+                        <li class="tab-selector">Готівка</li>
+                        <li class="tab-selector">Банк</li>
+                    </ul>
+                </div>
             </div>
             <div class="tab-content-block container">
                 <div class="tab-content active">
@@ -299,27 +446,33 @@
                             <picture class="system-logo">
                                 <img src="../images/svg/payment-page/easy-pay-logo.svg" alt="payment system logo">
                             </picture>
-                            <p class="text">
-                                Термінальна мережа EasyPay
-                            </p>
-                            <a href="#" class="btn btn-transparent-blue-rounded">Мапа терміналів</a>
+                            <div class="bottom-wrapper">
+                                <p class="text">
+                                    Термінальна мережа EasyPay
+                                </p>
+                                <a href="#" class="btn btn-transparent-blue-rounded">Мапа терміналів</a>
+                            </div>
                         </div>
                         <div class="card">
                             <picture class="system-logo">
                                 <img src="../images/svg/payment-page/ibox-logo.svg" alt="payment system logo">
                             </picture>
-                            <p class="text">
-                                Термінальна мережа iBox
-                            </p>
-                            <a href="#" class="btn btn-transparent-blue-rounded">Мапа терміналів</a>
+                            <div class="bottom-wrapper">
+                                <p class="text">
+                                    Термінальна мережа iBox
+                                </p>
+                                <a href="#" class="btn btn-transparent-blue-rounded">Мапа терміналів</a>
+                            </div>
                         </div>
                         <div class="card">
                             <picture class="system-logo">
                                 <img src="../images/svg/payment-page/2click-logo.svg" alt="payment system logo">
                             </picture>
-                            <p class="text">
-                                Термінальна мережа 2click
-                            </p>
+                            <div class="bottom-wrapper">
+                                <p class="text">
+                                    Термінальна мережа 2click
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -426,7 +579,7 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="rate-block">
+                            <div class="rate-block desktop">
                                 <div class="column">
                                     <img class="block-logo" src="../images/svg/footer/google-logo.svg" alt="brand-label">
                                     <div class="info">
@@ -442,8 +595,8 @@
                                                 <img class="star" src="../images/svg/common/half-star.svg" alt="half-star">
                                             </div>
                                             <span class="reviews">
-                                                        Отзывов: 274
-                                                    </span>
+                                                Отзывов: 274
+                                            </span>
                                         </div>
                                     </div>
                                 </div>
@@ -462,8 +615,8 @@
                                                 <img class="star" src="../images/svg/common/empty-star.svg" alt="empty-star">
                                             </div>
                                             <span class="reviews">
-                                                        Отзывов: 226
-                                                    </span>
+                                                Отзывов: 226
+                                            </span>
                                         </div>
                                     </div>
                                 </div>
@@ -484,7 +637,7 @@
                                         <a href="#" class="link">
                                             Абоненту
                                         </a>
-                                        <ul class="sub-menu-list">
+                                        <ul class="sub-menu-list desktop">
                                             <li class="list-el">
                                                 <a href="#" class="link">Відео сервер</a>
                                             </li>
@@ -520,14 +673,33 @@
                                         <a href="#" class="link">
                                             Про компанію
                                         </a>
+                                    </li>
+                                    <li class="list-el">
                                         <a href="#" class="link">
                                             Вакансії
                                         </a>
                                     </li>
                                 </ul>
+                                <ul class="menu-list tablet mobile">
+                                    <li class="list-el">
+                                        <a href="#" class="link">
+                                            Телебачення (IPTV)
+                                        </a>
+                                    </li>
+                                    <li class="list-el">
+                                        <a href="#" class="link">
+                                            Для бізнесу
+                                        </a>
+                                    </li>
+                                    <li class="list-el">
+                                        <a href="#" class="link">
+                                            Для забудовників
+                                        </a>
+                                    </li>
+                                </ul>
                             </div>
                             <div class="column">
-                                <ul class="menu-list">
+                                <ul class="menu-list desktop">
                                     <li class="list-el">
                                         <a href="#" class="link">
                                             Телебачення (IPTV)
@@ -572,6 +744,56 @@
                                     </li>
                                 </ul>
                             </div>
+                        </div>
+                    </div>
+                    <div class="rate-part tablet mobile">
+                        <div class="column">
+                            <img class="block-logo" src="../images/svg/footer/google-logo.svg" alt="brand-label">
+                            <div class="info">
+                                <div class="left-col">
+                                    <span>4,6</span>
+                                </div>
+                                <div class="right-col">
+                                    <div class="stars-block">
+                                        <img class="star" src="../images/svg/common/full-star.svg" alt="full-star">
+                                        <img class="star" src="../images/svg/common/full-star.svg" alt="full-star">
+                                        <img class="star" src="../images/svg/common/full-star.svg" alt="full-star">
+                                        <img class="star" src="../images/svg/common/full-star.svg" alt="full-star">
+                                        <img class="star" src="../images/svg/common/half-star.svg" alt="half-star">
+                                    </div>
+                                    <span class="reviews">
+                                                Отзывов: 274
+                                            </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <img class="block-logo" src="../images/svg/footer/2ip.svg" alt="brand-label">
+                            <div class="info">
+                                <div class="left-col">
+                                    <span>4,0</span>
+                                </div>
+                                <div class="right-col">
+                                    <div class="stars-block">
+                                        <img class="star" src="../images/svg/common/full-star.svg" alt="full-star">
+                                        <img class="star" src="../images/svg/common/full-star.svg" alt="full-star">
+                                        <img class="star" src="../images/svg/common/full-star.svg" alt="full-star">
+                                        <img class="star" src="../images/svg/common/full-star.svg" alt="full-star">
+                                        <img class="star" src="../images/svg/common/empty-star.svg" alt="empty-star">
+                                    </div>
+                                    <span class="reviews">
+                                                Отзывов: 226
+                                            </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column reviews">
+                            <a href="#" class="link">
+                                Відгуки на Google
+                            </a>
+                            <a href="#" class="link">
+                                Відгуки на Facebook
+                            </a>
                         </div>
                     </div>
                 </div>

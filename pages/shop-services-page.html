@@ -8,6 +8,8 @@
         <title>Shop page</title>
         <link rel="stylesheet" href="../styles/fonts.min.css">
         <link rel="stylesheet" href="../styles/style.min.css">
+        <link rel="stylesheet" href="../styles/tablet-styles.css">
+        <link rel="stylesheet" href="../styles/mobile-styles.css">
     </head>
     <body>
         <header>
@@ -83,7 +85,7 @@
                                 <img src="../images/svg/common/big-logo.svg" alt="logo">
                             </picture>
                         </a>
-                        <menu class="main-menu">
+                        <menu class="main-menu desktop">
                             <li class="list-el">
                                 <a href="#" class="link">
                                     Акції
@@ -145,18 +147,47 @@
                         </menu>
                     </div>
                     <div class="main-header__right-col">
-                        <button class="btn btn-blue-rounded">
+                        <button class="btn btn-blue-rounded desktop tablet">
                             Підключитися
                         </button>
                         <div class="phone-block">
-                            <div class="link-wrapper">
+                            <div class="link-wrapper desktop tablet">
                                 <a href="tel:0445851111" class="link">
                                     <img src="../images/svg/header/phone-call-icon.svg" alt="call-icon">
                                     (044) 585-11-11
                                 </a>
                                 <img src="../images/svg/common/arrow-down.svg" class="arrow" alt="arrow">
                             </div>
-                            <ul class="phone-list">
+                            <button class="btn phone-btn mobile">
+                                <img src="../images/svg/header/phone-call-icon.svg" alt="call-icon">
+                            </button>
+                            <ul class="phone-list desktop tablet">
+                                <li class="list-el">
+                                    <a href="tel:0505851111" class="link">
+                                        <img src="../images/svg/header/vodafone-icon.svg" alt="vodafone-icon">
+                                        (050) 585-11-11
+                                    </a>
+                                </li>
+                                <li class="list-el">
+                                    <a href="tel:0965851111" class="link">
+                                        <img src="../images/svg/header/ks-icon.svg" alt="ks-icon">
+                                        (096) 585-11-11
+                                    </a>
+                                </li>
+                                <li class="list-el">
+                                    <a href="tel:0935851111" class="link">
+                                        <img src="../images/svg/header/lifecell-icon.svg" alt="lifecell-icon">
+                                        (093) 585-11-11
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul class="phone-list mobile">
+                                <li class="list-el">
+                                    <a href="tel:0445851111" class="link">
+                                        <img src="../images/svg/header/phone-call-icon.svg" alt="call-icon">
+                                        (044) 585-11-11
+                                    </a>
+                                </li>
                                 <li class="list-el">
                                     <a href="tel:0505851111" class="link">
                                         <img src="../images/svg/header/vodafone-icon.svg" alt="vodafone-icon">
@@ -177,6 +208,120 @@
                                 </li>
                             </ul>
                         </div>
+                        <button class="btn hamburger-menu-btn tablet mobile">
+                            <img src="../images/svg/common/hamburger-menu.svg" alt="hamburger-menu-icon">
+                        </button>
+                        <div class="hamburger-menu-block tablet mobile">
+                            <div class="top-part">
+                                <picture class="logo">
+                                    <img src="../images/svg/common/big-logo.svg" alt="logo">
+                                </picture>
+                                <button class="close-btn">
+                                    <img src="../images/svg/common/close-icon.svg" alt="close-icon">
+                                </button>
+                            </div>
+                            <menu class="main-menu">
+                                <li>
+                                    <a class="link" href="#">Акції</a>
+                                </li>
+                                <li>
+                                    <a class="link" href="#">Тарифи</a>
+                                </li>
+                                <li>
+                                    <a class="link" href="#">Абоненту</a>
+                                </li>
+                                <li>
+                                    <a class="link" href="#">Покриття</a>
+                                </li>
+                                <li>
+                                    <a class="link" href="#">Контакти</a>
+                                </li>
+                                <li>
+                                    <a class="link" href="#">Про компанію</a>
+                                </li>
+                            </menu>
+                            <ul class="sub-menu">
+                                <li class="list-el">
+                                    <a href="#" class="link">
+                                        <img src="../images/svg/header/credit-card.svg" alt="pay">
+                                        Оплата
+                                    </a>
+                                </li>
+                                <li class="list-el">
+                                    <a href="#" class="link">
+                                        <img src="../images/svg/header/support.svg" alt="support">
+                                        Тех. допомога
+                                    </a>
+                                </li>
+                                <li class="list-el">
+                                    <a href="#" class="link">
+                                        <img src="../images/svg/header/user.svg" alt="cabinet">
+                                        Особистий кабінет
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul class="sub-menu">
+                                <li class="list-el">
+                                    <a href="#" class="link">
+                                        <img src="../images/svg/header/tv.svg" alt="icon">
+                                        Телебачення (IPTV)
+                                    </a>
+                                </li>
+                                <li class="list-el">
+                                    <a href="#" class="link">
+                                        <img src="../images/svg/header/briefcase.svg" alt="icon">
+                                        Для бізнесу
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="phone-block-hamburger mobile">
+                                <div class="link-wrapper mobile">
+                                    <a href="tel:0445851111" class="link">
+                                        <img src="../images/svg/header/phone-call-icon.svg" alt="call-icon">
+                                        (044) 585-11-11
+                                    </a>
+                                    <img src="../images/svg/common/arrow-down.svg" class="arrow transition" alt="arrow">
+                                </div>
+                                <ul class="phone-list transition">
+                                    <li class="list-el">
+                                        <a href="tel:0505851111" class="link">
+                                            <img src="../images/svg/header/vodafone-icon.svg" alt="vodafone-icon">
+                                            (050) 585-11-11
+                                        </a>
+                                    </li>
+                                    <li class="list-el">
+                                        <a href="tel:0965851111" class="link">
+                                            <img src="../images/svg/header/ks-icon.svg" alt="ks-icon">
+                                            (096) 585-11-11
+                                        </a>
+                                    </li>
+                                    <li class="list-el">
+                                        <a href="tel:0935851111" class="link">
+                                            <img src="../images/svg/header/lifecell-icon.svg" alt="lifecell-icon">
+                                            (093) 585-11-11
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="bottom-part">
+                                <ul class="socials">
+                                    <li>
+                                        <a href=#">
+                                            <img src="../images/svg/header/facebook-icon.svg" alt="facebook-icon">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img src="../images/svg/header/instagram-icon.svg" alt="instagram-icon">
+                                        </a>
+                                    </li>
+                                </ul>
+                                <div class="lang">
+                                    <span class="active">ua</span>
+                                    <span>ru</span>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -195,13 +340,15 @@
             </div>
             <h1 class="page-title container">Магазин</h1>
             <div class="tab-selector-block container">
-                <ul class="tab-selector-list">
-                    <li class="tab-selector">Роутери</li>
-                    <li class="tab-selector">Медіа</li>
-                    <li class="tab-selector">ІР-камери</li>
-                    <li class="tab-selector">Аксесуари</li>
-                    <li class="tab-selector active">Послуги</li>
-                </ul>
+                <div class="tab-selector-list-wrapper">
+                    <ul class="tab-selector-list">
+                        <li class="tab-selector">Роутери</li>
+                        <li class="tab-selector">Медіа</li>
+                        <li class="tab-selector">ІР-камери</li>
+                        <li class="tab-selector">Аксесуари</li>
+                        <li class="tab-selector active">Послуги</li>
+                    </ul>
+                </div>
             </div>
             <div class="tab-content-block container">
                 <div class="content tab-content">
@@ -209,7 +356,7 @@
                         <div class="equipment-card">
                             <div class="equipment-image-part">
                                 <picture class="image">
-                                    <img src="../images/png/promotions/equipment.png" alt="equipment icon">
+                                    <img src="../images/png/shop/equipment.png" alt="equipment icon">
                                 </picture>
                                 <div class="label pos-top-left novelty-label">
                                     Новинка
@@ -253,7 +400,7 @@
                         <div class="equipment-card">
                             <div class="equipment-image-part">
                                 <picture class="image">
-                                    <img src="../images/png/promotions/equipment.png" alt="equipment icon">
+                                    <img src="../images/png/shop/equipment.png" alt="equipment icon">
                                 </picture>
                             </div>
                             <div class="equipment-description-part">
@@ -290,51 +437,7 @@
                         <div class="equipment-card">
                             <div class="equipment-image-part">
                                 <picture class="image">
-                                    <img src="../images/png/promotions/equipment.png" alt="equipment icon">
-                                </picture>
-                                <div class="label pos-top-left promo-label">
-                                    Акція <span> з </span> 01.01 <span> по </span> 14.01
-                                </div>
-                                <div class="label pos-top-right speed-label">
-                                    <img src="../images/svg/common/speedometer-icon.svg" alt="speed icon">
-                                    <span>100 Mb</span>
-                                </div>
-                            </div>
-                            <div class="equipment-description-part">
-                                <h4 class="equipment-name">D-Link EXO Mesh DIR-X1560 Wi-fi 6 router</h4>
-                                <div class="price-row">
-                                    <div class="price-col">
-                                        <small class="old-price">
-                                            Стара ціна: 1 400 грн
-                                        </small>
-                                        <span class="actual-price">
-                                                Ціна: 1 200 грн
-                                            </span>
-                                    </div>
-                                    <div class="price-col">
-                                            <span class="actual-price">
-                                                Оренда: 200 грн/міс
-                                            </span>
-                                    </div>
-                                </div>
-                                <div class="button-row">
-                                    <button class="btn btn-blue-rounded">
-                                        Замовити
-                                    </button>
-                                    <button class="btn btn-transparent-blue-rounded">
-                                        Орендувати
-                                    </button>
-                                </div>
-                                <div class="cash-back-row">
-                                    <img src="../images/svg/common/cash-back-icon.svg" alt="cash-back icon">
-                                    <span>Кешбэк: 100 грн</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="equipment-card">
-                            <div class="equipment-image-part">
-                                <picture class="image">
-                                    <img src="../images/png/promotions/equipment.png" alt="equipment icon">
+                                    <img src="../images/png/shop/equipment.png" alt="equipment icon">
                                 </picture>
                                 <div class="label pos-top-left promo-label">
                                     Акція <span> з </span> 01.01 <span> по </span> 14.01
@@ -378,7 +481,51 @@
                         <div class="equipment-card">
                             <div class="equipment-image-part">
                                 <picture class="image">
-                                    <img src="../images/png/promotions/equipment.png" alt="equipment icon">
+                                    <img src="../images/png/shop/equipment.png" alt="equipment icon">
+                                </picture>
+                                <div class="label pos-top-left promo-label">
+                                    Акція <span> з </span> 01.01 <span> по </span> 14.01
+                                </div>
+                                <div class="label pos-top-right speed-label">
+                                    <img src="../images/svg/common/speedometer-icon.svg" alt="speed icon">
+                                    <span>100 Mb</span>
+                                </div>
+                            </div>
+                            <div class="equipment-description-part">
+                                <h4 class="equipment-name">D-Link EXO Mesh DIR-X1560 Wi-fi 6 router</h4>
+                                <div class="price-row">
+                                    <div class="price-col">
+                                        <small class="old-price">
+                                            Стара ціна: 1 400 грн
+                                        </small>
+                                        <span class="actual-price">
+                                                Ціна: 1 200 грн
+                                            </span>
+                                    </div>
+                                    <div class="price-col">
+                                            <span class="actual-price">
+                                                Оренда: 200 грн/міс
+                                            </span>
+                                    </div>
+                                </div>
+                                <div class="button-row">
+                                    <button class="btn btn-blue-rounded">
+                                        Замовити
+                                    </button>
+                                    <button class="btn btn-transparent-blue-rounded">
+                                        Орендувати
+                                    </button>
+                                </div>
+                                <div class="cash-back-row">
+                                    <img src="../images/svg/common/cash-back-icon.svg" alt="cash-back icon">
+                                    <span>Кешбэк: 100 грн</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="equipment-card">
+                            <div class="equipment-image-part">
+                                <picture class="image">
+                                    <img src="../images/png/shop/equipment.png" alt="equipment icon">
                                 </picture>
                                 <div class="label pos-top-left novelty-label">
                                     Новинка
@@ -422,7 +569,7 @@
                         <div class="equipment-card">
                             <div class="equipment-image-part">
                                 <picture class="image">
-                                    <img src="../images/png/promotions/equipment.png" alt="equipment icon">
+                                    <img src="../images/png/shop/equipment.png" alt="equipment icon">
                                 </picture>
                                 <div class="label pos-top-left promo-label">
                                     Акція <span> з </span> 01.01 <span> по </span> 14.01
@@ -466,7 +613,7 @@
                         <div class="equipment-card">
                             <div class="equipment-image-part">
                                 <picture class="image">
-                                    <img src="../images/png/promotions/equipment.png" alt="equipment icon">
+                                    <img src="../images/png/shop/equipment.png" alt="equipment icon">
                                 </picture>
                                 <div class="label pos-top-left promo-label">
                                     Акція <span> з </span> 01.01 <span> по </span> 14.01
@@ -510,7 +657,7 @@
                         <div class="equipment-card">
                             <div class="equipment-image-part">
                                 <picture class="image">
-                                    <img src="../images/png/promotions/equipment.png" alt="equipment icon">
+                                    <img src="../images/png/shop/equipment.png" alt="equipment icon">
                                 </picture>
                                 <div class="label pos-top-left novelty-label">
                                     Новинка
@@ -554,7 +701,7 @@
                         <div class="equipment-card">
                             <div class="equipment-image-part">
                                 <picture class="image">
-                                    <img src="../images/png/promotions/equipment.png" alt="equipment icon">
+                                    <img src="../images/png/shop/equipment.png" alt="equipment icon">
                                 </picture>
                             </div>
                             <div class="equipment-description-part">
@@ -591,7 +738,7 @@
                         <div class="equipment-card">
                             <div class="equipment-image-part">
                                 <picture class="image">
-                                    <img src="../images/png/promotions/equipment.png" alt="equipment icon">
+                                    <img src="../images/png/shop/equipment.png" alt="equipment icon">
                                 </picture>
                                 <div class="label pos-top-left promo-label">
                                     Акція <span> з </span> 01.01 <span> по </span> 14.01
@@ -635,7 +782,7 @@
                         <div class="equipment-card">
                             <div class="equipment-image-part">
                                 <picture class="image">
-                                    <img src="../images/png/promotions/equipment.png" alt="equipment icon">
+                                    <img src="../images/png/shop/equipment.png" alt="equipment icon">
                                 </picture>
                                 <div class="label pos-top-left novelty-label">
                                     Новинка
@@ -679,7 +826,7 @@
                         <div class="equipment-card">
                             <div class="equipment-image-part">
                                 <picture class="image">
-                                    <img src="../images/png/promotions/equipment.png" alt="equipment icon">
+                                    <img src="../images/png/shop/equipment.png" alt="equipment icon">
                                 </picture>
                                 <div class="label pos-top-left promo-label">
                                     Акція <span> з </span> 01.01 <span> по </span> 14.01
@@ -749,7 +896,7 @@
                         <div class="equipment-card">
                             <div class="equipment-image-part">
                                 <picture class="image">
-                                    <img src="../images/png/promotions/equipment.png" alt="equipment icon">
+                                    <img src="../images/png/shop/equipment.png" alt="equipment icon">
                                 </picture>
                                 <div class="label pos-top-left novelty-label">
                                     Новинка
@@ -793,7 +940,7 @@
                         <div class="equipment-card">
                             <div class="equipment-image-part">
                                 <picture class="image">
-                                    <img src="../images/png/promotions/equipment.png" alt="equipment icon">
+                                    <img src="../images/png/shop/equipment.png" alt="equipment icon">
                                 </picture>
                             </div>
                             <div class="equipment-description-part">
@@ -830,51 +977,7 @@
                         <div class="equipment-card">
                             <div class="equipment-image-part">
                                 <picture class="image">
-                                    <img src="../images/png/promotions/equipment.png" alt="equipment icon">
-                                </picture>
-                                <div class="label pos-top-left promo-label">
-                                    Акція <span> з </span> 01.01 <span> по </span> 14.01
-                                </div>
-                                <div class="label pos-top-right speed-label">
-                                    <img src="../images/svg/common/speedometer-icon.svg" alt="speed icon">
-                                    <span>100 Mb</span>
-                                </div>
-                            </div>
-                            <div class="equipment-description-part">
-                                <h4 class="equipment-name">D-Link EXO Mesh DIR-X1560 Wi-fi 6 router</h4>
-                                <div class="price-row">
-                                    <div class="price-col">
-                                        <small class="old-price">
-                                            Стара ціна: 1 400 грн
-                                        </small>
-                                        <span class="actual-price">
-                                                Ціна: 1 200 грн
-                                            </span>
-                                    </div>
-                                    <div class="price-col">
-                                            <span class="actual-price">
-                                                Оренда: 200 грн/міс
-                                            </span>
-                                    </div>
-                                </div>
-                                <div class="button-row">
-                                    <button class="btn btn-blue-rounded">
-                                        Замовити
-                                    </button>
-                                    <button class="btn btn-transparent-blue-rounded">
-                                        Орендувати
-                                    </button>
-                                </div>
-                                <div class="cash-back-row">
-                                    <img src="../images/svg/common/cash-back-icon.svg" alt="cash-back icon">
-                                    <span>Кешбэк: 100 грн</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="equipment-card">
-                            <div class="equipment-image-part">
-                                <picture class="image">
-                                    <img src="../images/png/promotions/equipment.png" alt="equipment icon">
+                                    <img src="../images/png/shop/equipment.png" alt="equipment icon">
                                 </picture>
                                 <div class="label pos-top-left promo-label">
                                     Акція <span> з </span> 01.01 <span> по </span> 14.01
@@ -918,7 +1021,51 @@
                         <div class="equipment-card">
                             <div class="equipment-image-part">
                                 <picture class="image">
-                                    <img src="../images/png/promotions/equipment.png" alt="equipment icon">
+                                    <img src="../images/png/shop/equipment.png" alt="equipment icon">
+                                </picture>
+                                <div class="label pos-top-left promo-label">
+                                    Акція <span> з </span> 01.01 <span> по </span> 14.01
+                                </div>
+                                <div class="label pos-top-right speed-label">
+                                    <img src="../images/svg/common/speedometer-icon.svg" alt="speed icon">
+                                    <span>100 Mb</span>
+                                </div>
+                            </div>
+                            <div class="equipment-description-part">
+                                <h4 class="equipment-name">D-Link EXO Mesh DIR-X1560 Wi-fi 6 router</h4>
+                                <div class="price-row">
+                                    <div class="price-col">
+                                        <small class="old-price">
+                                            Стара ціна: 1 400 грн
+                                        </small>
+                                        <span class="actual-price">
+                                                Ціна: 1 200 грн
+                                            </span>
+                                    </div>
+                                    <div class="price-col">
+                                            <span class="actual-price">
+                                                Оренда: 200 грн/міс
+                                            </span>
+                                    </div>
+                                </div>
+                                <div class="button-row">
+                                    <button class="btn btn-blue-rounded">
+                                        Замовити
+                                    </button>
+                                    <button class="btn btn-transparent-blue-rounded">
+                                        Орендувати
+                                    </button>
+                                </div>
+                                <div class="cash-back-row">
+                                    <img src="../images/svg/common/cash-back-icon.svg" alt="cash-back icon">
+                                    <span>Кешбэк: 100 грн</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="equipment-card">
+                            <div class="equipment-image-part">
+                                <picture class="image">
+                                    <img src="../images/png/shop/equipment.png" alt="equipment icon">
                                 </picture>
                                 <div class="label pos-top-left novelty-label">
                                     Новинка
@@ -962,7 +1109,7 @@
                         <div class="equipment-card">
                             <div class="equipment-image-part">
                                 <picture class="image">
-                                    <img src="../images/png/promotions/equipment.png" alt="equipment icon">
+                                    <img src="../images/png/shop/equipment.png" alt="equipment icon">
                                 </picture>
                                 <div class="label pos-top-left promo-label">
                                     Акція <span> з </span> 01.01 <span> по </span> 14.01
@@ -1006,7 +1153,7 @@
                         <div class="equipment-card">
                             <div class="equipment-image-part">
                                 <picture class="image">
-                                    <img src="../images/png/promotions/equipment.png" alt="equipment icon">
+                                    <img src="../images/png/shop/equipment.png" alt="equipment icon">
                                 </picture>
                                 <div class="label pos-top-left promo-label">
                                     Акція <span> з </span> 01.01 <span> по </span> 14.01
@@ -1050,7 +1197,7 @@
                         <div class="equipment-card">
                             <div class="equipment-image-part">
                                 <picture class="image">
-                                    <img src="../images/png/promotions/equipment.png" alt="equipment icon">
+                                    <img src="../images/png/shop/equipment.png" alt="equipment icon">
                                 </picture>
                                 <div class="label pos-top-left novelty-label">
                                     Новинка
@@ -1094,7 +1241,7 @@
                         <div class="equipment-card">
                             <div class="equipment-image-part">
                                 <picture class="image">
-                                    <img src="../images/png/promotions/equipment.png" alt="equipment icon">
+                                    <img src="../images/png/shop/equipment.png" alt="equipment icon">
                                 </picture>
                             </div>
                             <div class="equipment-description-part">
@@ -1131,7 +1278,7 @@
                         <div class="equipment-card">
                             <div class="equipment-image-part">
                                 <picture class="image">
-                                    <img src="../images/png/promotions/equipment.png" alt="equipment icon">
+                                    <img src="../images/png/shop/equipment.png" alt="equipment icon">
                                 </picture>
                                 <div class="label pos-top-left promo-label">
                                     Акція <span> з </span> 01.01 <span> по </span> 14.01
@@ -1175,7 +1322,7 @@
                         <div class="equipment-card">
                             <div class="equipment-image-part">
                                 <picture class="image">
-                                    <img src="../images/png/promotions/equipment.png" alt="equipment icon">
+                                    <img src="../images/png/shop/equipment.png" alt="equipment icon">
                                 </picture>
                                 <div class="label pos-top-left novelty-label">
                                     Новинка
@@ -1219,7 +1366,7 @@
                         <div class="equipment-card">
                             <div class="equipment-image-part">
                                 <picture class="image">
-                                    <img src="../images/png/promotions/equipment.png" alt="equipment icon">
+                                    <img src="../images/png/shop/equipment.png" alt="equipment icon">
                                 </picture>
                                 <div class="label pos-top-left promo-label">
                                     Акція <span> з </span> 01.01 <span> по </span> 14.01
@@ -1289,7 +1436,7 @@
                         <div class="equipment-card">
                             <div class="equipment-image-part">
                                 <picture class="image">
-                                    <img src="../images/png/promotions/equipment.png" alt="equipment icon">
+                                    <img src="../images/png/shop/equipment.png" alt="equipment icon">
                                 </picture>
                                 <div class="label pos-top-left novelty-label">
                                     Новинка
@@ -1333,7 +1480,7 @@
                         <div class="equipment-card">
                             <div class="equipment-image-part">
                                 <picture class="image">
-                                    <img src="../images/png/promotions/equipment.png" alt="equipment icon">
+                                    <img src="../images/png/shop/equipment.png" alt="equipment icon">
                                 </picture>
                             </div>
                             <div class="equipment-description-part">
@@ -1370,51 +1517,7 @@
                         <div class="equipment-card">
                             <div class="equipment-image-part">
                                 <picture class="image">
-                                    <img src="../images/png/promotions/equipment.png" alt="equipment icon">
-                                </picture>
-                                <div class="label pos-top-left promo-label">
-                                    Акція <span> з </span> 01.01 <span> по </span> 14.01
-                                </div>
-                                <div class="label pos-top-right speed-label">
-                                    <img src="../images/svg/common/speedometer-icon.svg" alt="speed icon">
-                                    <span>100 Mb</span>
-                                </div>
-                            </div>
-                            <div class="equipment-description-part">
-                                <h4 class="equipment-name">D-Link EXO Mesh DIR-X1560 Wi-fi 6 router</h4>
-                                <div class="price-row">
-                                    <div class="price-col">
-                                        <small class="old-price">
-                                            Стара ціна: 1 400 грн
-                                        </small>
-                                        <span class="actual-price">
-                                                Ціна: 1 200 грн
-                                            </span>
-                                    </div>
-                                    <div class="price-col">
-                                            <span class="actual-price">
-                                                Оренда: 200 грн/міс
-                                            </span>
-                                    </div>
-                                </div>
-                                <div class="button-row">
-                                    <button class="btn btn-blue-rounded">
-                                        Замовити
-                                    </button>
-                                    <button class="btn btn-transparent-blue-rounded">
-                                        Орендувати
-                                    </button>
-                                </div>
-                                <div class="cash-back-row">
-                                    <img src="../images/svg/common/cash-back-icon.svg" alt="cash-back icon">
-                                    <span>Кешбэк: 100 грн</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="equipment-card">
-                            <div class="equipment-image-part">
-                                <picture class="image">
-                                    <img src="../images/png/promotions/equipment.png" alt="equipment icon">
+                                    <img src="../images/png/shop/equipment.png" alt="equipment icon">
                                 </picture>
                                 <div class="label pos-top-left promo-label">
                                     Акція <span> з </span> 01.01 <span> по </span> 14.01
@@ -1458,7 +1561,51 @@
                         <div class="equipment-card">
                             <div class="equipment-image-part">
                                 <picture class="image">
-                                    <img src="../images/png/promotions/equipment.png" alt="equipment icon">
+                                    <img src="../images/png/shop/equipment.png" alt="equipment icon">
+                                </picture>
+                                <div class="label pos-top-left promo-label">
+                                    Акція <span> з </span> 01.01 <span> по </span> 14.01
+                                </div>
+                                <div class="label pos-top-right speed-label">
+                                    <img src="../images/svg/common/speedometer-icon.svg" alt="speed icon">
+                                    <span>100 Mb</span>
+                                </div>
+                            </div>
+                            <div class="equipment-description-part">
+                                <h4 class="equipment-name">D-Link EXO Mesh DIR-X1560 Wi-fi 6 router</h4>
+                                <div class="price-row">
+                                    <div class="price-col">
+                                        <small class="old-price">
+                                            Стара ціна: 1 400 грн
+                                        </small>
+                                        <span class="actual-price">
+                                                Ціна: 1 200 грн
+                                            </span>
+                                    </div>
+                                    <div class="price-col">
+                                            <span class="actual-price">
+                                                Оренда: 200 грн/міс
+                                            </span>
+                                    </div>
+                                </div>
+                                <div class="button-row">
+                                    <button class="btn btn-blue-rounded">
+                                        Замовити
+                                    </button>
+                                    <button class="btn btn-transparent-blue-rounded">
+                                        Орендувати
+                                    </button>
+                                </div>
+                                <div class="cash-back-row">
+                                    <img src="../images/svg/common/cash-back-icon.svg" alt="cash-back icon">
+                                    <span>Кешбэк: 100 грн</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="equipment-card">
+                            <div class="equipment-image-part">
+                                <picture class="image">
+                                    <img src="../images/png/shop/equipment.png" alt="equipment icon">
                                 </picture>
                                 <div class="label pos-top-left novelty-label">
                                     Новинка
@@ -1502,7 +1649,7 @@
                         <div class="equipment-card">
                             <div class="equipment-image-part">
                                 <picture class="image">
-                                    <img src="../images/png/promotions/equipment.png" alt="equipment icon">
+                                    <img src="../images/png/shop/equipment.png" alt="equipment icon">
                                 </picture>
                                 <div class="label pos-top-left promo-label">
                                     Акція <span> з </span> 01.01 <span> по </span> 14.01
@@ -1546,7 +1693,7 @@
                         <div class="equipment-card">
                             <div class="equipment-image-part">
                                 <picture class="image">
-                                    <img src="../images/png/promotions/equipment.png" alt="equipment icon">
+                                    <img src="../images/png/shop/equipment.png" alt="equipment icon">
                                 </picture>
                                 <div class="label pos-top-left promo-label">
                                     Акція <span> з </span> 01.01 <span> по </span> 14.01
@@ -1590,7 +1737,7 @@
                         <div class="equipment-card">
                             <div class="equipment-image-part">
                                 <picture class="image">
-                                    <img src="../images/png/promotions/equipment.png" alt="equipment icon">
+                                    <img src="../images/png/shop/equipment.png" alt="equipment icon">
                                 </picture>
                                 <div class="label pos-top-left novelty-label">
                                     Новинка
@@ -1634,7 +1781,7 @@
                         <div class="equipment-card">
                             <div class="equipment-image-part">
                                 <picture class="image">
-                                    <img src="../images/png/promotions/equipment.png" alt="equipment icon">
+                                    <img src="../images/png/shop/equipment.png" alt="equipment icon">
                                 </picture>
                             </div>
                             <div class="equipment-description-part">
@@ -1671,7 +1818,7 @@
                         <div class="equipment-card">
                             <div class="equipment-image-part">
                                 <picture class="image">
-                                    <img src="../images/png/promotions/equipment.png" alt="equipment icon">
+                                    <img src="../images/png/shop/equipment.png" alt="equipment icon">
                                 </picture>
                                 <div class="label pos-top-left promo-label">
                                     Акція <span> з </span> 01.01 <span> по </span> 14.01
@@ -1715,7 +1862,7 @@
                         <div class="equipment-card">
                             <div class="equipment-image-part">
                                 <picture class="image">
-                                    <img src="../images/png/promotions/equipment.png" alt="equipment icon">
+                                    <img src="../images/png/shop/equipment.png" alt="equipment icon">
                                 </picture>
                                 <div class="label pos-top-left novelty-label">
                                     Новинка
@@ -1759,7 +1906,7 @@
                         <div class="equipment-card">
                             <div class="equipment-image-part">
                                 <picture class="image">
-                                    <img src="../images/png/promotions/equipment.png" alt="equipment icon">
+                                    <img src="../images/png/shop/equipment.png" alt="equipment icon">
                                 </picture>
                                 <div class="label pos-top-left promo-label">
                                     Акція <span> з </span> 01.01 <span> по </span> 14.01
@@ -1829,7 +1976,7 @@
                         <div class="equipment-card">
                             <div class="equipment-image-part">
                                 <picture class="image">
-                                    <img src="../images/png/promotions/equipment.png" alt="equipment icon">
+                                    <img src="../images/png/shop/equipment.png" alt="equipment icon">
                                 </picture>
                                 <div class="label pos-top-left novelty-label">
                                     Новинка
@@ -1873,7 +2020,7 @@
                         <div class="equipment-card">
                             <div class="equipment-image-part">
                                 <picture class="image">
-                                    <img src="../images/png/promotions/equipment.png" alt="equipment icon">
+                                    <img src="../images/png/shop/equipment.png" alt="equipment icon">
                                 </picture>
                             </div>
                             <div class="equipment-description-part">
@@ -1910,51 +2057,7 @@
                         <div class="equipment-card">
                             <div class="equipment-image-part">
                                 <picture class="image">
-                                    <img src="../images/png/promotions/equipment.png" alt="equipment icon">
-                                </picture>
-                                <div class="label pos-top-left promo-label">
-                                    Акція <span> з </span> 01.01 <span> по </span> 14.01
-                                </div>
-                                <div class="label pos-top-right speed-label">
-                                    <img src="../images/svg/common/speedometer-icon.svg" alt="speed icon">
-                                    <span>100 Mb</span>
-                                </div>
-                            </div>
-                            <div class="equipment-description-part">
-                                <h4 class="equipment-name">D-Link EXO Mesh DIR-X1560 Wi-fi 6 router</h4>
-                                <div class="price-row">
-                                    <div class="price-col">
-                                        <small class="old-price">
-                                            Стара ціна: 1 400 грн
-                                        </small>
-                                        <span class="actual-price">
-                                                Ціна: 1 200 грн
-                                            </span>
-                                    </div>
-                                    <div class="price-col">
-                                            <span class="actual-price">
-                                                Оренда: 200 грн/міс
-                                            </span>
-                                    </div>
-                                </div>
-                                <div class="button-row">
-                                    <button class="btn btn-blue-rounded">
-                                        Замовити
-                                    </button>
-                                    <button class="btn btn-transparent-blue-rounded">
-                                        Орендувати
-                                    </button>
-                                </div>
-                                <div class="cash-back-row">
-                                    <img src="../images/svg/common/cash-back-icon.svg" alt="cash-back icon">
-                                    <span>Кешбэк: 100 грн</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="equipment-card">
-                            <div class="equipment-image-part">
-                                <picture class="image">
-                                    <img src="../images/png/promotions/equipment.png" alt="equipment icon">
+                                    <img src="../images/png/shop/equipment.png" alt="equipment icon">
                                 </picture>
                                 <div class="label pos-top-left promo-label">
                                     Акція <span> з </span> 01.01 <span> по </span> 14.01
@@ -1998,7 +2101,51 @@
                         <div class="equipment-card">
                             <div class="equipment-image-part">
                                 <picture class="image">
-                                    <img src="../images/png/promotions/equipment.png" alt="equipment icon">
+                                    <img src="../images/png/shop/equipment.png" alt="equipment icon">
+                                </picture>
+                                <div class="label pos-top-left promo-label">
+                                    Акція <span> з </span> 01.01 <span> по </span> 14.01
+                                </div>
+                                <div class="label pos-top-right speed-label">
+                                    <img src="../images/svg/common/speedometer-icon.svg" alt="speed icon">
+                                    <span>100 Mb</span>
+                                </div>
+                            </div>
+                            <div class="equipment-description-part">
+                                <h4 class="equipment-name">D-Link EXO Mesh DIR-X1560 Wi-fi 6 router</h4>
+                                <div class="price-row">
+                                    <div class="price-col">
+                                        <small class="old-price">
+                                            Стара ціна: 1 400 грн
+                                        </small>
+                                        <span class="actual-price">
+                                                Ціна: 1 200 грн
+                                            </span>
+                                    </div>
+                                    <div class="price-col">
+                                            <span class="actual-price">
+                                                Оренда: 200 грн/міс
+                                            </span>
+                                    </div>
+                                </div>
+                                <div class="button-row">
+                                    <button class="btn btn-blue-rounded">
+                                        Замовити
+                                    </button>
+                                    <button class="btn btn-transparent-blue-rounded">
+                                        Орендувати
+                                    </button>
+                                </div>
+                                <div class="cash-back-row">
+                                    <img src="../images/svg/common/cash-back-icon.svg" alt="cash-back icon">
+                                    <span>Кешбэк: 100 грн</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="equipment-card">
+                            <div class="equipment-image-part">
+                                <picture class="image">
+                                    <img src="../images/png/shop/equipment.png" alt="equipment icon">
                                 </picture>
                                 <div class="label pos-top-left novelty-label">
                                     Новинка
@@ -2042,7 +2189,7 @@
                         <div class="equipment-card">
                             <div class="equipment-image-part">
                                 <picture class="image">
-                                    <img src="../images/png/promotions/equipment.png" alt="equipment icon">
+                                    <img src="../images/png/shop/equipment.png" alt="equipment icon">
                                 </picture>
                                 <div class="label pos-top-left promo-label">
                                     Акція <span> з </span> 01.01 <span> по </span> 14.01
@@ -2086,7 +2233,7 @@
                         <div class="equipment-card">
                             <div class="equipment-image-part">
                                 <picture class="image">
-                                    <img src="../images/png/promotions/equipment.png" alt="equipment icon">
+                                    <img src="../images/png/shop/equipment.png" alt="equipment icon">
                                 </picture>
                                 <div class="label pos-top-left promo-label">
                                     Акція <span> з </span> 01.01 <span> по </span> 14.01
@@ -2130,7 +2277,7 @@
                         <div class="equipment-card">
                             <div class="equipment-image-part">
                                 <picture class="image">
-                                    <img src="../images/png/promotions/equipment.png" alt="equipment icon">
+                                    <img src="../images/png/shop/equipment.png" alt="equipment icon">
                                 </picture>
                                 <div class="label pos-top-left novelty-label">
                                     Новинка
@@ -2174,7 +2321,7 @@
                         <div class="equipment-card">
                             <div class="equipment-image-part">
                                 <picture class="image">
-                                    <img src="../images/png/promotions/equipment.png" alt="equipment icon">
+                                    <img src="../images/png/shop/equipment.png" alt="equipment icon">
                                 </picture>
                             </div>
                             <div class="equipment-description-part">
@@ -2211,7 +2358,7 @@
                         <div class="equipment-card">
                             <div class="equipment-image-part">
                                 <picture class="image">
-                                    <img src="../images/png/promotions/equipment.png" alt="equipment icon">
+                                    <img src="../images/png/shop/equipment.png" alt="equipment icon">
                                 </picture>
                                 <div class="label pos-top-left promo-label">
                                     Акція <span> з </span> 01.01 <span> по </span> 14.01
@@ -2255,7 +2402,7 @@
                         <div class="equipment-card">
                             <div class="equipment-image-part">
                                 <picture class="image">
-                                    <img src="../images/png/promotions/equipment.png" alt="equipment icon">
+                                    <img src="../images/png/shop/equipment.png" alt="equipment icon">
                                 </picture>
                                 <div class="label pos-top-left novelty-label">
                                     Новинка
@@ -2299,7 +2446,7 @@
                         <div class="equipment-card">
                             <div class="equipment-image-part">
                                 <picture class="image">
-                                    <img src="../images/png/promotions/equipment.png" alt="equipment icon">
+                                    <img src="../images/png/shop/equipment.png" alt="equipment icon">
                                 </picture>
                                 <div class="label pos-top-left promo-label">
                                     Акція <span> з </span> 01.01 <span> по </span> 14.01
@@ -2519,6 +2666,94 @@
                     <img src="../images/svg/common/arrow-bottom-blue.svg" alt="arrow-icon">
                 </button>
             </div>
+<!--            <div class="pop-up-wrapper">-->
+<!--                <div class="pop-up">-->
+
+<!--                                 Stages for pop-up-->
+<!--                    <div class="stage1">-->
+<!--                        <h4 class="pop-up-title">-->
+<!--                            Замовити обладнання-->
+<!--                        </h4>-->
+<!--                        <div class="ordering-equipment">-->
+<!--                            <picture class="image-part">-->
+<!--                                <img src="../images/png/shop/equipment.png" alt="equipment-image">-->
+<!--                            </picture>-->
+<!--                            <div class="description-part">-->
+<!--                                <h4 class="equipment-name">-->
+<!--                                    D-Link EXO Mesh DIR-X1560 Wi-fi 6 router-->
+<!--                                </h4>-->
+<!--                                <div class="equipment-price">-->
+<!--                                    <small class="old-price">-->
+<!--                                        Стара ціна: 1 400 грн-->
+<!--                                    </small>-->
+<!--                                    <span class="actual-price">-->
+<!--                                        Ціна: 1 200 грн-->
+<!--                                    </span>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        <form action="" class="pop-up-form">-->
+<!--                            <label class="input-field-label" name="name">-->
+<!--                                <input class="input-field" type="text" name="name">-->
+<!--                                <span class="label-placeholder">Ім’я</span>-->
+<!--                            </label>-->
+<!--                            <label class="input-field-label" name="tel">-->
+<!--                                <input class="input-field" type="tel" name="tel">-->
+<!--                                <span class="label-placeholder">Телефон</span>-->
+<!--                            </label>-->
+<!--                            <label class="input-field-label" name="street">-->
+<!--                                <input class="input-field" type="text" name="street">-->
+<!--                                <span class="label-placeholder">Вулиця</span>-->
+<!--                            </label>-->
+<!--                            <label class="input-field-label" name="house">-->
+<!--                                <input class="input-field" type="text" name="house">-->
+<!--                                <span class="label-placeholder">№ буд.</span>-->
+<!--                            </label>-->
+<!--                            <label class="input-field-label" name="flat">-->
+<!--                                <input class="input-field" type="text" name="flat">-->
+<!--                                <span class="label-placeholder">№ кв.</span>-->
+<!--                            </label>-->
+<!--                             <button class="btn btn-blue-rounded" disabled>-->
+<!--                                Залишити заявку-->
+<!--                            </button>-->
+<!--                        </form>-->
+<!--                    </div>-->
+<!--                    <div class="stage2 positive">-->
+<!--                        <img class="pop-up-icon" src="../images/svg/common/positive-icon.svg" alt="positive-icon">-->
+<!--                        <h4 class="pop-up-title">-->
+<!--                            Дякуємо! Ваша заявка прийнята.-->
+<!--                        </h4>-->
+<!--                        <p class="pop-up-text">-->
+<!--                            Зараз обираємо серед Nash’их менеджерів найкращого аби доручити йому це відповідальне-->
+<!--                            завдання. Передзвонимо найближчим часом. Дочекайся 😉-->
+<!--                        </p>-->
+<!--                        <ul class="order-info-list">-->
+<!--                            <li>-->
+<!--                                <span class="name">Номер заявки:</span>-->
+<!--                                <span class="value">2505</span>-->
+<!--                            </li>-->
+<!--                            <li>-->
+<!--                                <span class="name">Ваші дані:</span>-->
+<!--                                <span class="value">Олег, 063 340 00 00</span>-->
+<!--                            </li>-->
+<!--                            <li>-->
+<!--                                <span class="name">Адреса:</span>-->
+<!--                                <span class="value">вул. Маяковського, 25</span>-->
+<!--                            </li>-->
+<!--                        </ul>-->
+<!--                    </div>-->
+<!--                    <div class="stage2 negative">-->
+<!--                        <img class="pop-up-icon" src="../images/svg/common/negative-icon.svg" alt="negative-icon">-->
+<!--                        <h4 class="pop-up-title">-->
+<!--                            Упс... Щось пішло не за планом-->
+<!--                        </h4>-->
+<!--                        <p class="pop-up-text">Замовлення не відпрвлено. Спробуйте пізніше.</p>-->
+<!--                    </div>-->
+<!--                    <button class="close-btn">-->
+<!--                        <img src="../images/svg/common/close-icon.svg" alt="close-icon">-->
+<!--                    </button>-->
+<!--                </div>-->
+<!--            </div>-->
         </main>
         <footer>
             <div class="footer-wrapper">
@@ -2593,7 +2828,7 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="rate-block">
+                            <div class="rate-block desktop">
                                 <div class="column">
                                     <img class="block-logo" src="../images/svg/footer/google-logo.svg" alt="brand-label">
                                     <div class="info">
@@ -2609,8 +2844,8 @@
                                                 <img class="star" src="../images/svg/common/half-star.svg" alt="half-star">
                                             </div>
                                             <span class="reviews">
-                                                        Отзывов: 274
-                                                    </span>
+                                                Отзывов: 274
+                                            </span>
                                         </div>
                                     </div>
                                 </div>
@@ -2629,8 +2864,8 @@
                                                 <img class="star" src="../images/svg/common/empty-star.svg" alt="empty-star">
                                             </div>
                                             <span class="reviews">
-                                                        Отзывов: 226
-                                                    </span>
+                                                Отзывов: 226
+                                            </span>
                                         </div>
                                     </div>
                                 </div>
@@ -2651,7 +2886,7 @@
                                         <a href="#" class="link">
                                             Абоненту
                                         </a>
-                                        <ul class="sub-menu-list">
+                                        <ul class="sub-menu-list desktop">
                                             <li class="list-el">
                                                 <a href="#" class="link">Відео сервер</a>
                                             </li>
@@ -2687,14 +2922,33 @@
                                         <a href="#" class="link">
                                             Про компанію
                                         </a>
+                                    </li>
+                                    <li class="list-el">
                                         <a href="#" class="link">
                                             Вакансії
                                         </a>
                                     </li>
                                 </ul>
+                                <ul class="menu-list tablet mobile">
+                                    <li class="list-el">
+                                        <a href="#" class="link">
+                                            Телебачення (IPTV)
+                                        </a>
+                                    </li>
+                                    <li class="list-el">
+                                        <a href="#" class="link">
+                                            Для бізнесу
+                                        </a>
+                                    </li>
+                                    <li class="list-el">
+                                        <a href="#" class="link">
+                                            Для забудовників
+                                        </a>
+                                    </li>
+                                </ul>
                             </div>
                             <div class="column">
-                                <ul class="menu-list">
+                                <ul class="menu-list desktop">
                                     <li class="list-el">
                                         <a href="#" class="link">
                                             Телебачення (IPTV)
@@ -2739,6 +2993,56 @@
                                     </li>
                                 </ul>
                             </div>
+                        </div>
+                    </div>
+                    <div class="rate-part tablet mobile">
+                        <div class="column">
+                            <img class="block-logo" src="../images/svg/footer/google-logo.svg" alt="brand-label">
+                            <div class="info">
+                                <div class="left-col">
+                                    <span>4,6</span>
+                                </div>
+                                <div class="right-col">
+                                    <div class="stars-block">
+                                        <img class="star" src="../images/svg/common/full-star.svg" alt="full-star">
+                                        <img class="star" src="../images/svg/common/full-star.svg" alt="full-star">
+                                        <img class="star" src="../images/svg/common/full-star.svg" alt="full-star">
+                                        <img class="star" src="../images/svg/common/full-star.svg" alt="full-star">
+                                        <img class="star" src="../images/svg/common/half-star.svg" alt="half-star">
+                                    </div>
+                                    <span class="reviews">
+                                                Отзывов: 274
+                                            </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <img class="block-logo" src="../images/svg/footer/2ip.svg" alt="brand-label">
+                            <div class="info">
+                                <div class="left-col">
+                                    <span>4,0</span>
+                                </div>
+                                <div class="right-col">
+                                    <div class="stars-block">
+                                        <img class="star" src="../images/svg/common/full-star.svg" alt="full-star">
+                                        <img class="star" src="../images/svg/common/full-star.svg" alt="full-star">
+                                        <img class="star" src="../images/svg/common/full-star.svg" alt="full-star">
+                                        <img class="star" src="../images/svg/common/full-star.svg" alt="full-star">
+                                        <img class="star" src="../images/svg/common/empty-star.svg" alt="empty-star">
+                                    </div>
+                                    <span class="reviews">
+                                                Отзывов: 226
+                                            </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column reviews">
+                            <a href="#" class="link">
+                                Відгуки на Google
+                            </a>
+                            <a href="#" class="link">
+                                Відгуки на Facebook
+                            </a>
                         </div>
                     </div>
                 </div>

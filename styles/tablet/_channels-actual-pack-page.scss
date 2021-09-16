@@ -1,0 +1,37 @@
+.channels-actual-page{
+  .page-title{}
+  .channels-pack-block{
+    .channels-pack-selectors{
+      .selector{
+        &.active{}
+        .title{}
+        .block-text{}
+      }
+    }
+    .channels-pack-tabs{
+      padding: 0;
+      .channel-pack{
+        .tab-filters-list{
+          padding: 30px 0 0 30px;
+          overflow-x: scroll;
+          &::-webkit-scrollbar {
+            display: none;
+          }
+          .filter-el{
+            white-space: nowrap;
+            &.active{}
+          }
+        }
+        .channel-list{
+          padding: 0 30px 30px;
+        }
+      }
+    }
+  }
+  .brief-info-block{
+    .block-text{
+      &:not(:last-child){}
+      .link{}
+    }
+  }
+}

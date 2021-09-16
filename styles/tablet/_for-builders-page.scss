@@ -1,0 +1,137 @@
+.for-builders-page{
+  .top-banner-block{
+    .block-main-image{
+      height: 220px;
+      &:after{}
+    }
+    .block-content{
+      row-gap: 20px;
+      .page-title{
+        font-size: 30px;
+      }
+      .btn{}
+    }
+  }
+  .slogan{
+    .block-title{
+      span{}
+    }
+    .block-text{}
+  }
+  .advantages-block{
+    .block-title{
+      margin: 0 0 55px;
+    }
+    .advantages-list{
+      .advantage{
+        width: calc((100% - 30px*2) / 3);
+        .image-part{
+          .image{}
+        }
+        .block-text{}
+      }
+    }
+  }
+  .net-construction-block{
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 50px 0 55px ;
+    row-gap: 60px;
+    .left-col{
+      width: 100%;
+      .block-main-image{
+        width: 640px;
+        height: 390px;
+      }
+      &:after {
+        width: 385px;
+        height: 365px;
+        bottom: -57px;
+        left: unset;
+        right: 0;
+      }
+    }
+    .right-col{
+      width:100%;
+      .block-title{
+        text-align: center;
+      }
+      .block-text{
+        text-align: center;
+      }
+    }
+    &:after{
+      display: none;
+    }
+  }
+  .our-services-block{
+    padding: 55px 0 30px;
+    .block-title{}
+    .services-list{
+      flex-direction: column;
+      .services-el{
+        width: 100%;
+        min-height: 190px;
+        height: auto;
+        .picture-part{
+          picture{}
+        }
+        .block-text{}
+      }
+    }
+  }
+  .our-partners-block{
+    .block-title{}
+    .block-text{}
+    .partners-list{
+      gap: 30px;
+      .partners-el{
+        padding: 18px 15px 10px;
+        width: calc((100% - 30px*3) / 4);
+        .image{}
+        .text-block{}
+      }
+    }
+  }
+
+  .pop-up-wrapper{
+    .pop-up{
+      .stage1{
+        .pop-up-title{}
+        .pop-up-form{
+          .input-field-label{
+            &[name='tel'],&[name='name']{}
+          }
+        }
+        .btn{}
+      }
+      .stage2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: inherit;
+        padding: 45px;
+        background: var(--color-white);
+        border-radius: 14px;
+        .pop-up-icon{
+          margin: 0 0 20px;
+          width: 64px;
+          height: 64px;
+        }
+        .pop-up-title{
+          margin: 0 0 10px;
+          font-weight: bold;
+          font-size: 24px;
+          line-height: 120%;
+          text-align: center;
+        }
+        .pop-up-text{
+          font-size: 16px;
+          line-height: 120%;
+          text-align: center;
+        }
+      }
+    }
+  }
+}

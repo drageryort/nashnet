@@ -1,0 +1,42 @@
+.news-single-page{
+  padding: 0 0 100px;
+  .news-block-wrapper{
+    flex-direction: column;
+    row-gap: 30px;
+    .news-block{
+      width: 100%;
+      .banner-block{
+        height: 280px;
+      }
+      .page-title{}
+      .date{}
+      .news-content{}
+    }
+    .last-news{
+      max-width: 100%;
+      .block-title{}
+      .news-list{
+        width: 100%;
+        .news-list-el{
+          &:not(:last-of-type){
+            margin: 0 0 18px;
+          }
+          .left-col{
+            width: 505px;
+            .title{
+              margin: 0 0 10px;
+            }
+            .link{}
+          }
+          .right-col{
+            .day{}
+            .month{}
+          }
+        }
+      }
+      .all-news{
+        margin: 18px 0 0;
+      }
+    }
+  }
+}

@@ -1,0 +1,46 @@
+.video-security-page{
+  padding:  0 0 60px;
+  .top-banner-block{
+    .block-main-image{
+      height: auto;
+      width: 100%;
+    }
+    .block-content{
+      .page-title{
+        line-height: 24px;
+        font-size: 24px;
+      }
+      .btn{}
+    }
+  }
+  .content-block{
+    .left-col{
+      width: 100%;
+      .col-title{
+        font-size: 20px;
+      }
+      .text-block{
+        &:not(:last-child){
+          margin: 0 0 15px;
+        }
+        p{}
+        ul{
+          li{}
+        }
+      }
+    }
+    .right-col{
+      width: 100%;
+      padding: 30px 20px 20px;
+      .col-title{}
+      .tech-list{
+        .tech-el{}
+      }
+      .description{}
+      .btn{
+        max-width: 100%;
+        text-align: center;
+      }
+    }
+  }
+}

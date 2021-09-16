@@ -13,6 +13,7 @@
     .news-list-el{
       width: 625px;
       border-radius: 14px;
+      background: var(--color-white);
       overflow: hidden;
       box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.05);
       .banner-block{
@@ -44,15 +45,12 @@
           -webkit-box-orient: vertical;
           overflow: hidden;
         }
-        .btn{
-          width: max-content;
-          padding: 14px 24px;
-        }
+        .btn{}
       }
     }
   }
 
-  .show-more-block{
+  .show-more-btn-block{
     padding: 30px 0 15px;
     .btn{
       margin: 0 auto;

@@ -1,0 +1,39 @@
+.settings-instructions-page{
+  .page-title{}
+  .tab-selector-block{}
+  .tab-content-block{
+    .tab-content{
+      .tab-content-title{}
+      .description{
+        &:last-of-type{}
+      }
+      .btn{}
+      .accordion-pack{
+        &:not(:last-of-type){}
+        .pack-title{}
+        .accordion-el{
+          &:not(:last-of-type){}
+          .accordion-title{}
+          .accordion-content{
+            p{
+              &:not(:last-of-type){}
+            }
+          }
+        }
+      }
+      .instructions-pack-wrapper{
+        .pack-title{}
+        .instructions-pack{
+          flex-wrap: wrap;
+          gap: 20px;
+          .pack-list{
+            width: calc((100% - 20px) / 2);
+            .link{
+              &:not(:last-of-type){}
+            }
+          }
+        }
+      }
+    }
+  }
+}

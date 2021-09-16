@@ -1,0 +1,17 @@
+.documents-page{
+  .page-title{}
+  .documents-list{
+    .list-block{
+      &:not(:last-child){}
+      .block-title{}
+      .doc-list{
+        .list-el{
+          &:not(:last-child){}
+          .document-el{
+            &:before{}
+          }
+        }
+      }
+    }
+  }
+}

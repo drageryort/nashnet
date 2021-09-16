@@ -1,0 +1,52 @@
+.settings-instructions-page{
+  padding: 0 0 60px;
+  .page-title{
+    font-size: 20px;
+  }
+  .tab-selector-block{
+    max-width: 100%;
+    margin: 0 0 0 auto;
+    overflow-x: scroll;
+    .tab-selector-list-wrapper{
+      padding: 0 15px;
+      width: max-content;
+    }
+  }
+  .tab-content-block{
+    .tab-content{
+      .tab-content-title{
+        font-size: 20px;
+      }
+      .description{
+        &:last-of-type{}
+      }
+      .btn{
+        width: 100%;
+      }
+      .accordion-pack{
+        &:not(:last-of-type){}
+        .pack-title{}
+        .accordion-el{
+          &:not(:last-of-type){}
+          .accordion-title{}
+          .accordion-content{
+            p{
+              &:not(:last-of-type){}
+            }
+          }
+        }
+      }
+      .instructions-pack-wrapper{
+        .pack-title{}
+        .instructions-pack{
+          .pack-list{
+            width: 100%;
+            .link{
+              &:not(:last-of-type){}
+            }
+          }
+        }
+      }
+    }
+  }
+}

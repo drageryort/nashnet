@@ -1,0 +1,56 @@
+.network-coverage-page{
+  padding: 0 0 60px;
+  .page-title{}
+  .check-coverage-map{}
+  .ordering-form-block{
+    justify-content: center;
+    padding: 30px 20px 20px;
+    margin: 0 auto 30px;
+    .connection-ordering-form{
+      width: 100%;
+      .form-title{
+        margin: 0 0 10px;
+        font-size: 20px;
+        line-height: 120%;
+      }
+      .field-group{
+        flex-direction: column;
+        .input-field-label{
+          &[name='street'],
+          &[name='house'],
+          &[name='name'],
+          &[name='tel']{
+            width: 100%;
+          }
+        }
+      }
+      .btn{
+        margin: 30px auto 0;
+      }
+    }
+    .connection-ordering-result{
+      width: 420px;
+      margin: 0;
+      .result-icon{}
+      .result-title{
+        font-size: 20px;
+      }
+      p{}
+      .result-text{}
+    }
+    .block-image{
+      .image{}
+    }
+  }
+  .rules-block{
+    .block-title{}
+    .block-text{}
+    .rules-list{
+      flex-direction: column;
+      .list-el{
+        .list-icon{}
+        .list-text{}
+      }
+    }
+  }
+}

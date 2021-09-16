@@ -1,0 +1,27 @@
+.documents-page{
+  padding: 0 0 60px;
+  .page-title{
+    padding: 0 0 10px;
+    font-size: 20px;
+  }
+  .documents-list{
+    padding: 10px 0 0;
+    .list-block{
+      &:not(:last-child){}
+      .block-title{
+        font-size: 18px;
+      }
+      .doc-list{
+        .list-el{
+          &:not(:last-child){}
+          .document-el{
+            padding: 25px 20px 20px 65px;
+            &:before{
+              left: 20px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

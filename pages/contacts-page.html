@@ -5,9 +5,11 @@
         <meta name="viewport"
               content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Video security page</title>
+        <title>Contact page</title>
         <link rel="stylesheet" href="../styles/fonts.min.css">
         <link rel="stylesheet" href="../styles/style.min.css">
+        <link rel="stylesheet" href="../styles/tablet-styles.css">
+        <link rel="stylesheet" href="../styles/mobile-styles.css">
     </head>
     <body>
         <header>
@@ -83,7 +85,7 @@
                                 <img src="../images/svg/common/big-logo.svg" alt="logo">
                             </picture>
                         </a>
-                        <menu class="main-menu">
+                        <menu class="main-menu desktop">
                             <li class="list-el">
                                 <a href="#" class="link">
                                     Акції
@@ -145,18 +147,47 @@
                         </menu>
                     </div>
                     <div class="main-header__right-col">
-                        <button class="btn btn-blue-rounded">
+                        <button class="btn btn-blue-rounded desktop tablet">
                             Підключитися
                         </button>
                         <div class="phone-block">
-                            <div class="link-wrapper">
+                            <div class="link-wrapper desktop tablet">
                                 <a href="tel:0445851111" class="link">
                                     <img src="../images/svg/header/phone-call-icon.svg" alt="call-icon">
                                     (044) 585-11-11
                                 </a>
                                 <img src="../images/svg/common/arrow-down.svg" class="arrow" alt="arrow">
                             </div>
-                            <ul class="phone-list">
+                            <button class="btn phone-btn mobile">
+                                <img src="../images/svg/header/phone-call-icon.svg" alt="call-icon">
+                            </button>
+                            <ul class="phone-list desktop tablet">
+                                <li class="list-el">
+                                    <a href="tel:0505851111" class="link">
+                                        <img src="../images/svg/header/vodafone-icon.svg" alt="vodafone-icon">
+                                        (050) 585-11-11
+                                    </a>
+                                </li>
+                                <li class="list-el">
+                                    <a href="tel:0965851111" class="link">
+                                        <img src="../images/svg/header/ks-icon.svg" alt="ks-icon">
+                                        (096) 585-11-11
+                                    </a>
+                                </li>
+                                <li class="list-el">
+                                    <a href="tel:0935851111" class="link">
+                                        <img src="../images/svg/header/lifecell-icon.svg" alt="lifecell-icon">
+                                        (093) 585-11-11
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul class="phone-list mobile">
+                                <li class="list-el">
+                                    <a href="tel:0445851111" class="link">
+                                        <img src="../images/svg/header/phone-call-icon.svg" alt="call-icon">
+                                        (044) 585-11-11
+                                    </a>
+                                </li>
                                 <li class="list-el">
                                     <a href="tel:0505851111" class="link">
                                         <img src="../images/svg/header/vodafone-icon.svg" alt="vodafone-icon">
@@ -177,107 +208,246 @@
                                 </li>
                             </ul>
                         </div>
+                        <button class="btn hamburger-menu-btn tablet mobile">
+                            <img src="../images/svg/common/hamburger-menu.svg" alt="hamburger-menu-icon">
+                        </button>
+                        <div class="hamburger-menu-block tablet mobile">
+                            <div class="top-part">
+                                <picture class="logo">
+                                    <img src="../images/svg/common/big-logo.svg" alt="logo">
+                                </picture>
+                                <button class="close-btn">
+                                    <img src="../images/svg/common/close-icon.svg" alt="close-icon">
+                                </button>
+                            </div>
+                            <menu class="main-menu">
+                                <li>
+                                    <a class="link" href="#">Акції</a>
+                                </li>
+                                <li>
+                                    <a class="link" href="#">Тарифи</a>
+                                </li>
+                                <li>
+                                    <a class="link" href="#">Абоненту</a>
+                                </li>
+                                <li>
+                                    <a class="link" href="#">Покриття</a>
+                                </li>
+                                <li>
+                                    <a class="link" href="#">Контакти</a>
+                                </li>
+                                <li>
+                                    <a class="link" href="#">Про компанію</a>
+                                </li>
+                            </menu>
+                            <ul class="sub-menu">
+                                <li class="list-el">
+                                    <a href="#" class="link">
+                                        <img src="../images/svg/header/credit-card.svg" alt="pay">
+                                        Оплата
+                                    </a>
+                                </li>
+                                <li class="list-el">
+                                    <a href="#" class="link">
+                                        <img src="../images/svg/header/support.svg" alt="support">
+                                        Тех. допомога
+                                    </a>
+                                </li>
+                                <li class="list-el">
+                                    <a href="#" class="link">
+                                        <img src="../images/svg/header/user.svg" alt="cabinet">
+                                        Особистий кабінет
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul class="sub-menu">
+                                <li class="list-el">
+                                    <a href="#" class="link">
+                                        <img src="../images/svg/header/tv.svg" alt="icon">
+                                        Телебачення (IPTV)
+                                    </a>
+                                </li>
+                                <li class="list-el">
+                                    <a href="#" class="link">
+                                        <img src="../images/svg/header/briefcase.svg" alt="icon">
+                                        Для бізнесу
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="phone-block-hamburger mobile">
+                                <div class="link-wrapper mobile">
+                                    <a href="tel:0445851111" class="link">
+                                        <img src="../images/svg/header/phone-call-icon.svg" alt="call-icon">
+                                        (044) 585-11-11
+                                    </a>
+                                    <img src="../images/svg/common/arrow-down.svg" class="arrow transition" alt="arrow">
+                                </div>
+                                <ul class="phone-list transition">
+                                    <li class="list-el">
+                                        <a href="tel:0505851111" class="link">
+                                            <img src="../images/svg/header/vodafone-icon.svg" alt="vodafone-icon">
+                                            (050) 585-11-11
+                                        </a>
+                                    </li>
+                                    <li class="list-el">
+                                        <a href="tel:0965851111" class="link">
+                                            <img src="../images/svg/header/ks-icon.svg" alt="ks-icon">
+                                            (096) 585-11-11
+                                        </a>
+                                    </li>
+                                    <li class="list-el">
+                                        <a href="tel:0935851111" class="link">
+                                            <img src="../images/svg/header/lifecell-icon.svg" alt="lifecell-icon">
+                                            (093) 585-11-11
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="bottom-part">
+                                <ul class="socials">
+                                    <li>
+                                        <a href=#">
+                                            <img src="../images/svg/header/facebook-icon.svg" alt="facebook-icon">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img src="../images/svg/header/instagram-icon.svg" alt="instagram-icon">
+                                        </a>
+                                    </li>
+                                </ul>
+                                <div class="lang">
+                                    <span class="active">ua</span>
+                                    <span>ru</span>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </header>
-        <main class="video-security-page">
+        <main class="contact-page">
             <div class="container breadcrumbs">
                 <a href="#">
                     Головна /
                 </a>
-                <a href="#">
-                    Абоненту /
-                </a>
                 <span>
-                    Відеонагляд
+                    Контакти
                 </span>
             </div>
-            <div class="top-banner-block container">
-                <picture class="block-main-image">
-                    <img src="../images/png/videosecurity/top-banner.png" alt="block-image">
-                </picture>
-                <div class="block-content">
-                    <h1 class="page-title">
-                        Відеонагляд
-                    </h1>
-                </div>
-            </div>
+            <h1 class="page-title container">
+                Контакти
+            </h1>
             <div class="content-block container">
                 <div class="left-col">
-                    <h2 class="col-title">
-                        Безпека та контроль
-                    </h2>
-                    <div class="text-block">
-                        <p>
-                            Нашнет пропонує технологію цілодобового відеонагляду місць спільного користування на території
-                            Вашого житлового комплексу.
-                        </p>
+                    <div id="contact-map" class="contact-map">
+                        <picture class="map-mock">
+                            <img src="../images/svg/contacts/mock-map.svg" alt="mock-map">
+                        </picture>
                     </div>
-                    <div class="text-block">
-                        <p>
-                            За допомогою додатку на Android або звичайного веб-браузера з будь якої точки світу, по
-                            захищеному каналу Ви зможете в режимі реального часу:
-                        </p>
-                        <ul>
-                            <li>
-                                Побачити ваше паркомісце;
-                            </li>
-                            <li>
-                                Перевірити хол вашого під’їзду;
-                            </li>
-                            <li>
-                                Спостерігати за дитячим майданчиком, де грають ваші діти;
-                            </li>
-                            <li>
-                                Контролювати інші локації, які вам потрібні;
-                            </li>
-                            <li>
-                                Більш того, ви будете мати постійний доступ до архіву записів за попередні 30 днів.
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="text-block">
-                        <p>
-                            Вартість:
-                        </p>
-                        <ul>
-                            <li>Вартість вуличної відеокамери — від 1 500 грн;</li>
-                            <li>Вартість робіт з підключення — від 300грн;</li>
-                        </ul>
-                    </div>
-                    <div class="text-block">
-                        <p>
-                            Щомісячний платіж за доступ до спостереження (за 1 камеру):
-                        </p>
-                        <ul>
-                            <li>для абонентів ТОВ «НАШНЕТ» — 99 грн/міс;</li>
-                            <li>для інших — 149 грн/міс.</li>
-                        </ul>
-                    </div>
+                    <a href="#" class="btn btn-blue-rounded">Прокласти маршрут</a>
                 </div>
                 <div class="right-col">
-                    <h2 class="col-title">
-                        Перегляд можливий на:
-                    </h2>
-                    <div class="tech-list">
-                        <picture class="tech-el">
-                            <img src="../images/svg/videosecurity/tech1.svg" alt="tech-icon">
-                        </picture>
-                        <picture class="tech-el">
-                            <img src="../images/svg/videosecurity/tech2.svg" alt="tech-icon">
-                        </picture>
-                        <picture class="tech-el">
-                            <img src="../images/svg/videosecurity/tech3.svg" alt="tech-icon">
-                        </picture>
-                        <picture class="tech-el">
-                            <img src="../images/svg/videosecurity/tech4.svg" alt="tech-icon">
-                        </picture>
+                    <div class="info-block block-with-contacts">
+                        <h2 class="block-title">
+                            Відділ продаж
+                        </h2>
+                        <div class="lists-wrapper">
+                            <ul class="tel-list">
+                                <li>
+                                    <a href="tel:(044) 585-11-11">(044) 585-11-11</a>
+                                </li>
+                                <li>
+                                    <a href="tel:(050) 585-11-11">(050) 585-11-11</a>
+                                </li>
+                                <li>
+                                    <a href="tel:(093) 585-11-11">(093) 585-11-11</a>
+                                </li>
+                                <li>
+                                    <a href="tel:(096) 585-11-11">(096) 585-11-11</a>
+                                </li>
+                            </ul>
+                            <ul class="schedule-list">
+                                <li>
+                                    <span>ПН-ПТ: 9:00 - 20:00</span>
+                                </li>
+                                <li>
+                                    <span>СБ: 10:00 - 18:00</span>
+                                </li>
+                                <li>
+                                    <span>НД: вихідний</span>
+                                </li>
+                            </ul>
+                            <ul class="email-list">
+                                <li>
+                                    <a href="mailto:sales@nashnet.ua">sales@nashnet.ua</a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
-                    <p class="description">
-                        Замовити послугу ви можете за телефоном: (093) 170-23-57
-                    </p>
-                    <a href="" class="btn btn-blue-rounded">Перейти до каталогу обладнання</a>
+                    <div class="info-block block-with-contacts">
+                        <h2 class="block-title">
+                            Піддтримка клієнтів
+                        </h2>
+                        <div class="lists-wrapper">
+                            <ul class="tel-list">
+                                <li>
+                                    <a href="tel:(044) 585-11-10">(044) 585-11-10</a>
+                                </li>
+                                <li>
+                                    <a href="tel:(050) 585-11-10">(050) 585-11-10</a>
+                                </li>
+                                <li>
+                                    <a href="tel:(073) 585-11-10">(073) 585-11-10</a>
+                                </li>
+                                <li>
+                                    <a href="tel:(096) 585-11-10">(096) 585-11-10</a>
+                                </li>
+                            </ul>
+                            <ul class="schedule-list">
+                                <li>
+                                    <span>Цілодобово</span>
+                                </li>
+                            </ul>
+                            <ul class="email-list">
+                                <li>
+                                    <a href="mailto:support@nashnet.ua">support@nashnet.ua</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="info-block bank-details">
+                        <h2 class="block-title">
+                            Реквізити
+                        </h2>
+                        <ul class="bank-details">
+                            <li>ТОВ «НАШНЕТ»</li>
+                            <li>Адреса: 02232, м. Київ, пр-т. Маяковського 73-А</li>
+                            <li>ЄДРПОУ: 36100735</li>
+                            <li>IBAN: UA833052990000026002026219779</li>
+                            <li>Індивідуальний податковий номер: 361007326528</li>
+                            <li>e-mail: info@nashnet.ua</li>
+                        </ul>
+
+                        <!--Alternative-->
+<!--                        <p class="bank-details">-->
+<!--                            ТОВ «НАШНЕТ»<br>-->
+<!--                            Адреса: 02232, м. Київ, пр-т. Маяковського 73-А<br>-->
+<!--                            ЄДРПОУ: 36100735<br>-->
+<!--                            IBAN: UA833052990000026002026219779<br>-->
+<!--                            Індивідуальний податковий номер: 361007326528<br>-->
+<!--                            e-mail: info@nashnet.ua<br>-->
+<!--                        </p>-->
+
+                        <div class="socials">
+                            <a href="#" class="link">
+                                <img src="../images/svg/contacts/fb-icon.svg" alt="fb-icon">
+                            </a>
+                            <a href="#" class="link">
+                                <img src="../images/svg/contacts/instagram-icon.svg" alt="instagram-icon">
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </main>
@@ -354,7 +524,7 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="rate-block">
+                            <div class="rate-block desktop">
                                 <div class="column">
                                     <img class="block-logo" src="../images/svg/footer/google-logo.svg" alt="brand-label">
                                     <div class="info">
@@ -370,8 +540,8 @@
                                                 <img class="star" src="../images/svg/common/half-star.svg" alt="half-star">
                                             </div>
                                             <span class="reviews">
-                                                        Отзывов: 274
-                                                    </span>
+                                                Отзывов: 274
+                                            </span>
                                         </div>
                                     </div>
                                 </div>
@@ -390,8 +560,8 @@
                                                 <img class="star" src="../images/svg/common/empty-star.svg" alt="empty-star">
                                             </div>
                                             <span class="reviews">
-                                                        Отзывов: 226
-                                                    </span>
+                                                Отзывов: 226
+                                            </span>
                                         </div>
                                     </div>
                                 </div>
@@ -412,7 +582,7 @@
                                         <a href="#" class="link">
                                             Абоненту
                                         </a>
-                                        <ul class="sub-menu-list">
+                                        <ul class="sub-menu-list desktop">
                                             <li class="list-el">
                                                 <a href="#" class="link">Відео сервер</a>
                                             </li>
@@ -448,14 +618,33 @@
                                         <a href="#" class="link">
                                             Про компанію
                                         </a>
+                                    </li>
+                                    <li class="list-el">
                                         <a href="#" class="link">
                                             Вакансії
                                         </a>
                                     </li>
                                 </ul>
+                                <ul class="menu-list tablet mobile">
+                                    <li class="list-el">
+                                        <a href="#" class="link">
+                                            Телебачення (IPTV)
+                                        </a>
+                                    </li>
+                                    <li class="list-el">
+                                        <a href="#" class="link">
+                                            Для бізнесу
+                                        </a>
+                                    </li>
+                                    <li class="list-el">
+                                        <a href="#" class="link">
+                                            Для забудовників
+                                        </a>
+                                    </li>
+                                </ul>
                             </div>
                             <div class="column">
-                                <ul class="menu-list">
+                                <ul class="menu-list desktop">
                                     <li class="list-el">
                                         <a href="#" class="link">
                                             Телебачення (IPTV)
@@ -500,6 +689,56 @@
                                     </li>
                                 </ul>
                             </div>
+                        </div>
+                    </div>
+                    <div class="rate-part tablet mobile">
+                        <div class="column">
+                            <img class="block-logo" src="../images/svg/footer/google-logo.svg" alt="brand-label">
+                            <div class="info">
+                                <div class="left-col">
+                                    <span>4,6</span>
+                                </div>
+                                <div class="right-col">
+                                    <div class="stars-block">
+                                        <img class="star" src="../images/svg/common/full-star.svg" alt="full-star">
+                                        <img class="star" src="../images/svg/common/full-star.svg" alt="full-star">
+                                        <img class="star" src="../images/svg/common/full-star.svg" alt="full-star">
+                                        <img class="star" src="../images/svg/common/full-star.svg" alt="full-star">
+                                        <img class="star" src="../images/svg/common/half-star.svg" alt="half-star">
+                                    </div>
+                                    <span class="reviews">
+                                                Отзывов: 274
+                                            </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <img class="block-logo" src="../images/svg/footer/2ip.svg" alt="brand-label">
+                            <div class="info">
+                                <div class="left-col">
+                                    <span>4,0</span>
+                                </div>
+                                <div class="right-col">
+                                    <div class="stars-block">
+                                        <img class="star" src="../images/svg/common/full-star.svg" alt="full-star">
+                                        <img class="star" src="../images/svg/common/full-star.svg" alt="full-star">
+                                        <img class="star" src="../images/svg/common/full-star.svg" alt="full-star">
+                                        <img class="star" src="../images/svg/common/full-star.svg" alt="full-star">
+                                        <img class="star" src="../images/svg/common/empty-star.svg" alt="empty-star">
+                                    </div>
+                                    <span class="reviews">
+                                                Отзывов: 226
+                                            </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column reviews">
+                            <a href="#" class="link">
+                                Відгуки на Google
+                            </a>
+                            <a href="#" class="link">
+                                Відгуки на Facebook
+                            </a>
                         </div>
                     </div>
                 </div>

@@ -1,0 +1,17 @@
+.faq-page{
+  .page-title{}
+  .faq-list{
+    .accordion-el{
+      .accordion-title{}
+      .accordion-content{}
+      &.active{
+        .accordion-content{
+          p{
+            &:not(:last-child) {}
+            a{}
+          }
+        }
+      }
+    }
+  }
+}

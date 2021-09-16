@@ -1,5 +1,5 @@
 .payment-page{
-  padding: 0 0 85px;
+  padding: 0 0 100px;
   .page-title{
     padding: 0 0 15px;
     font-weight: bold;
@@ -9,42 +9,16 @@
   .tab-selector-block{
     padding: 15px 0;
     .tab-selector-list{
-      display: flex;
-      align-items: center;
-      width: max-content;
-      height: 48px;
-      border: 2px solid var(--color-light-gray);
-      box-sizing: border-box;
-      border-radius: 50px;
       .tab-selector{
-        padding: 14px 24px;
-        font-weight: bold;
-        font-size: 16px;
-        line-height: 20px;
-        text-align: center;
-        color: var(--color-blue);
-        border-radius: 50px;
-        cursor: pointer;
-        &:first-child{
-          left: -2px;
-        }
-        &:last-child{
-          right: -2px;
-        }
-        &.active{
-          background: var(--color-blue);
-          color: var(--color-white);
-        }
+        &:first-child{}
+        &:last-child{}
+        &.active{}
       }
     }
   }
   .tab-content-block{
-    padding: 15px 0;
+    padding: 15px 0 0;
     .tab-content{
-      display: none;
-      &.active{
-        display: block;
-      }
       .table-content-title{
         margin: 0 0 30px;
         font-weight: normal;
@@ -54,7 +28,8 @@
       .content{
         display: flex;
         &.online{
-          column-gap: 30px;
+          padding: 0 0 20px;
+          gap: 30px;
           .left-col{
             display: flex;
             width: calc((100% - 30px) / 2);
@@ -118,7 +93,9 @@
               }
               &.wide{
                 width: 100%;
-                .system-logo{}
+                .system-logo{
+                  height: 24px;
+                }
                 .content{
                   .text{}
                   .button-block{}
@@ -128,12 +105,13 @@
           }
         }
         &.cash{
+          flex-wrap: wrap;
           justify-content: center;
           gap: 30px;
           .card{
             display: flex;
             flex-direction: column;
-            width: 100%;
+            width: calc((100% - 30px*2) / 3);
             height: 245px;
             padding: 30px;
             background: var(--color-white);
@@ -143,12 +121,14 @@
               height: 45px;
               width: max-content;
             }
-            .text{
-              font-size: 16px;
-              line-height: 120%;
-            }
-            .btn{
-              margin: auto 0 0 0;
+            .bottom-wrapper{
+              .text{
+                font-size: 16px;
+                line-height: 120%;
+              }
+              .btn{
+                margin: 40px 0 0 0;
+              }
             }
           }
         }
@@ -164,7 +144,7 @@
             }
           }
           .block-title{
-            padding: 15px 0;
+            padding: 22px 0 15px;
             font-weight: bold;
             font-size: 30px;
             line-height: 140%;

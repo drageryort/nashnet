@@ -1,0 +1,48 @@
+.contact-page{
+  .page-title{}
+  .content-block{
+    flex-direction: column;
+    row-gap: 30px;
+    .left-col{
+      width: 100%;
+      #contact-map{
+        .map-mock{}
+      }
+      .btn{}
+    }
+    .right-col{
+      width: 100%;
+      .info-block{
+        &:not(:last-child){}
+        .block-title{}
+        .lists-wrapper{
+          ul{
+            width: 290px;
+            &:before{}
+            &.tel-list{
+              li{
+                &:nth-child(odd){
+                  &:after{}
+                }
+              }
+              &:before{}
+            }
+            &.schedule-list{
+              &:before {}
+            }
+            &.email-list{
+              &:before{}
+            }
+            li{
+              a, span{}
+            }
+          }
+        }
+        .bank-details{}
+        .socials{
+          .link{}
+        }
+      }
+    }
+  }
+}

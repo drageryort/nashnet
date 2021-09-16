@@ -1,0 +1,126 @@
+.product-page{
+  .card-info{
+    display: flex;
+    row-gap: 30px;
+    padding: 0 0 20px;
+    flex-direction: column;
+    .block-title{
+      font-weight: bold;
+      font-size: 30px;
+      line-height: 120%;
+    }
+    .left-col{
+      width: 100%;
+      .equipment-image-part{
+        margin: 0 0 30px;
+        height: 430px;
+        .image{
+          img{}
+        }
+        .label{
+          &.pos-top-left{}
+          &.pos-top-right{}
+          &.pos-bottom-left{}
+          &.pos-bottom-right{}
+        }
+      }
+      .purchase-block{
+        padding: 20px 24px 26px;
+        .price-row{
+          .price-col{
+            &:first-child{}
+            .old-price{}
+            .actual-price{}
+          }
+        }
+        .button-row{
+          .col{
+            &:first-child{}
+            .btn{}
+          }
+
+        }
+        .cash-back-row{
+          img{}
+          span{}
+        }
+        .add-services-row{
+          .row-title{}
+          .add-services-list{
+            li{
+              &:not(:last-child){}
+              .label{
+                .add-service-name{}
+                .add-service-price{}
+              }
+            }
+          }
+        }
+      }
+    }
+    .right-col{
+      width: 100%;
+      .description-block{
+        .block-title{}
+        .block-text{}
+      }
+      .characteristics-block{
+        .block-title{
+          margin: 0 0 20px;
+          text-align: center;
+        }
+        .characteristics-list{
+          li{
+            &:not(:last-child){}
+            .name{}
+            .value{}
+          }
+        }
+      }
+    }
+  }
+  .equipment-slider-block{
+    .block-title{
+      justify-content: center;
+    }
+  }
+  .pop-up-wrapper{
+    .pop-up{
+      .stage1{
+        .pop-up-title{}
+        .ordering-equipment{
+          .image-part{}
+          .description-part{
+            .equipment-name{}
+            .equipment-price{
+              .old-price{}
+              .actual-price{}
+            }
+          }
+        }
+        .pop-up-form{
+          .input-field-label{
+            &[name="name"]{}
+            &[name="tel"]{}
+            &[name="street"]{}
+            &[name="house"]{}
+            &[name="flat"]{}
+          }
+        }
+        .btn{}
+      }
+      .stage2{
+        .pop-up-icon{}
+        .pop-up-title{}
+        .pop-up-text{}
+        .order-info-list{
+          li{
+            &:not(:last-child){}
+            .name{}
+            .value{}
+          }
+        }
+      }
+    }
+  }
+}

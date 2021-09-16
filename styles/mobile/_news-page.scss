@@ -1,0 +1,34 @@
+.news-page{
+  padding: 0 0 45px;
+  .page-title{
+    font-size: 20px;
+    line-height: 120%;
+  }
+  .news-list{
+    padding: 20px 0 15px;
+    gap: 20px;
+    .news-list-el{
+      .banner-block{
+        height: 135px;
+      }
+      .content-block{
+        padding: 10px 12px 30px;
+        .date{}
+        .news-title{
+          font-size: 20px;
+          line-height: 120%;
+        }
+        .news-extract{}
+        .btn{}
+      }
+    }
+  }
+
+  .show-more-btn-block{
+    padding: 15px 0;
+    .btn{}
+  }
+  .pagination-block{
+    padding: 15px 0;
+  }
+}

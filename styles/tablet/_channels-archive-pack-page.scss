@@ -1,0 +1,27 @@
+.channels-archive-page{
+  .page-title{}
+  .channels-pack-block{
+    >.accordion-el{
+      &:not(:last-child){}
+      .accordion-title{}
+      .accordion-content{
+        .accordion-el{
+          .accordion-title{}
+          .accordion-content{}
+        }
+        .active{
+          .accordion-content{}
+        }
+      }
+      &.active{
+        .accordion-content{}
+      }
+    }
+  }
+  .brief-info-block{
+    .block-text{
+      &:not(:last-child){}
+      .link{}
+    }
+  }
+}

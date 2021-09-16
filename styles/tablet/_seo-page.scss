@@ -1,0 +1,49 @@
+.seo-page{
+  padding: 0 0 100px;
+  .page-title{
+    padding: 0 0 15px;
+    font-size: 30px;
+    line-height: 120%;
+  }
+  .check-coverage-map{}
+  .promotions-info-block{
+    padding: 30px 0 20px;
+  }
+  .promotions-block{
+    padding: 20px 0 0;
+    .block-title{
+      margin: 0 0 20px;
+    }
+    .promotions-list{}
+  }
+  .pop-up-wrapper{
+    .pop-up{
+      .stage1{
+        .pop-up-title{}
+        .address{
+          .name{}
+          .value{}
+        }
+        .pop-up-form{
+          .input-field-label{
+            &[name='street']{}
+            &[name='house']{}
+            &[name='name'], &[name='tel']{}
+          }
+          .btn{}
+        }
+      }
+      .stage2{
+        .result-icon{}
+        .result-title{}
+        .result-subtitle{}
+        .data-list{
+          .data-list-el{
+            .name{}
+            .value{}
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,57 @@
+.contact-page{
+  .page-title{
+    font-size: 20px;
+    line-height: 120%;
+  }
+  .content-block{
+    row-gap: 20px;
+    .left-col{
+      height: 410px;
+      #contact-map{
+        .map-mock{}
+      }
+      .btn{
+        bottom: 10px;
+      }
+    }
+    .right-col{
+      .info-block{
+        &:not(:last-child){
+          margin: 0 0 20px;
+        }
+        .block-title{}
+        .lists-wrapper{
+          flex-direction: column;
+          ul{
+            width: 100%;
+            &:before{}
+            &.tel-list{
+              width: 100%;
+              li{
+                &:nth-child(odd){
+                  &:after{}
+                }
+              }
+              &:before{}
+            }
+            &.schedule-list{
+              &:before {}
+            }
+            &.email-list{
+              &:before{}
+            }
+            li{
+              a, span{}
+            }
+          }
+        }
+        .bank-details{
+          word-break: break-word;
+        }
+        .socials{
+          .link{}
+        }
+      }
+    }
+  }
+}

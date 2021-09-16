@@ -8,6 +8,8 @@
         <title>Vacancies page</title>
         <link rel="stylesheet" href="../styles/fonts.min.css">
         <link rel="stylesheet" href="../styles/style.min.css">
+        <link rel="stylesheet" href="../styles/tablet-styles.css">
+        <link rel="stylesheet" href="../styles/mobile-styles.css">
     </head>
     <body>
         <header>
@@ -63,7 +65,7 @@
                         <ul class="lang-selector-list">
                             <li class="list-el">
                                 <a href="#" class="link active">
-                                  ua
+                                    ua
                                 </a>
                             </li>
                             <li class="list-el">
@@ -83,7 +85,7 @@
                                 <img src="../images/svg/common/big-logo.svg" alt="logo">
                             </picture>
                         </a>
-                        <menu class="main-menu">
+                        <menu class="main-menu desktop">
                             <li class="list-el">
                                 <a href="#" class="link">
                                     Акції
@@ -145,18 +147,21 @@
                         </menu>
                     </div>
                     <div class="main-header__right-col">
-                        <button class="btn btn-blue-rounded">
+                        <button class="btn btn-blue-rounded desktop tablet">
                             Підключитися
                         </button>
                         <div class="phone-block">
-                            <div class="link-wrapper">
+                            <div class="link-wrapper desktop tablet">
                                 <a href="tel:0445851111" class="link">
                                     <img src="../images/svg/header/phone-call-icon.svg" alt="call-icon">
                                     (044) 585-11-11
                                 </a>
                                 <img src="../images/svg/common/arrow-down.svg" class="arrow" alt="arrow">
                             </div>
-                            <ul class="phone-list">
+                            <button class="btn phone-btn mobile">
+                                <img src="../images/svg/header/phone-call-icon.svg" alt="call-icon">
+                            </button>
+                            <ul class="phone-list desktop tablet">
                                 <li class="list-el">
                                     <a href="tel:0505851111" class="link">
                                         <img src="../images/svg/header/vodafone-icon.svg" alt="vodafone-icon">
@@ -176,6 +181,146 @@
                                     </a>
                                 </li>
                             </ul>
+                            <ul class="phone-list mobile">
+                                <li class="list-el">
+                                    <a href="tel:0445851111" class="link">
+                                        <img src="../images/svg/header/phone-call-icon.svg" alt="call-icon">
+                                        (044) 585-11-11
+                                    </a>
+                                </li>
+                                <li class="list-el">
+                                    <a href="tel:0505851111" class="link">
+                                        <img src="../images/svg/header/vodafone-icon.svg" alt="vodafone-icon">
+                                        (050) 585-11-11
+                                    </a>
+                                </li>
+                                <li class="list-el">
+                                    <a href="tel:0965851111" class="link">
+                                        <img src="../images/svg/header/ks-icon.svg" alt="ks-icon">
+                                        (096) 585-11-11
+                                    </a>
+                                </li>
+                                <li class="list-el">
+                                    <a href="tel:0935851111" class="link">
+                                        <img src="../images/svg/header/lifecell-icon.svg" alt="lifecell-icon">
+                                        (093) 585-11-11
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <button class="btn hamburger-menu-btn tablet mobile">
+                            <img src="../images/svg/common/hamburger-menu.svg" alt="hamburger-menu-icon">
+                        </button>
+                        <div class="hamburger-menu-block tablet mobile">
+                            <div class="top-part">
+                                <picture class="logo">
+                                    <img src="../images/svg/common/big-logo.svg" alt="logo">
+                                </picture>
+                                <button class="close-btn">
+                                    <img src="../images/svg/common/close-icon.svg" alt="close-icon">
+                                </button>
+                            </div>
+                            <menu class="main-menu">
+                                <li>
+                                    <a class="link" href="#">Акції</a>
+                                </li>
+                                <li>
+                                    <a class="link" href="#">Тарифи</a>
+                                </li>
+                                <li>
+                                    <a class="link" href="#">Абоненту</a>
+                                </li>
+                                <li>
+                                    <a class="link" href="#">Покриття</a>
+                                </li>
+                                <li>
+                                    <a class="link" href="#">Контакти</a>
+                                </li>
+                                <li>
+                                    <a class="link" href="#">Про компанію</a>
+                                </li>
+                            </menu>
+                            <ul class="sub-menu">
+                                <li class="list-el">
+                                    <a href="#" class="link">
+                                        <img src="../images/svg/header/credit-card.svg" alt="pay">
+                                        Оплата
+                                    </a>
+                                </li>
+                                <li class="list-el">
+                                    <a href="#" class="link">
+                                        <img src="../images/svg/header/support.svg" alt="support">
+                                        Тех. допомога
+                                    </a>
+                                </li>
+                                <li class="list-el">
+                                    <a href="#" class="link">
+                                        <img src="../images/svg/header/user.svg" alt="cabinet">
+                                        Особистий кабінет
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul class="sub-menu">
+                                <li class="list-el">
+                                    <a href="#" class="link">
+                                        <img src="../images/svg/header/tv.svg" alt="icon">
+                                        Телебачення (IPTV)
+                                    </a>
+                                </li>
+                                <li class="list-el">
+                                    <a href="#" class="link">
+                                        <img src="../images/svg/header/briefcase.svg" alt="icon">
+                                        Для бізнесу
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="phone-block-hamburger mobile">
+                                <div class="link-wrapper mobile">
+                                    <a href="tel:0445851111" class="link">
+                                        <img src="../images/svg/header/phone-call-icon.svg" alt="call-icon">
+                                        (044) 585-11-11
+                                    </a>
+                                    <img src="../images/svg/common/arrow-down.svg" class="arrow transition" alt="arrow">
+                                </div>
+                                <ul class="phone-list transition">
+                                    <li class="list-el">
+                                        <a href="tel:0505851111" class="link">
+                                            <img src="../images/svg/header/vodafone-icon.svg" alt="vodafone-icon">
+                                            (050) 585-11-11
+                                        </a>
+                                    </li>
+                                    <li class="list-el">
+                                        <a href="tel:0965851111" class="link">
+                                            <img src="../images/svg/header/ks-icon.svg" alt="ks-icon">
+                                            (096) 585-11-11
+                                        </a>
+                                    </li>
+                                    <li class="list-el">
+                                        <a href="tel:0935851111" class="link">
+                                            <img src="../images/svg/header/lifecell-icon.svg" alt="lifecell-icon">
+                                            (093) 585-11-11
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="bottom-part">
+                                <ul class="socials">
+                                    <li>
+                                        <a href=#">
+                                            <img src="../images/svg/header/facebook-icon.svg" alt="facebook-icon">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img src="../images/svg/header/instagram-icon.svg" alt="instagram-icon">
+                                        </a>
+                                    </li>
+                                </ul>
+                                <div class="lang">
+                                    <span class="active">ua</span>
+                                    <span>ru</span>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -722,21 +867,32 @@
                 </div>
             </div>
 
-
 <!--            <div class="pop-up-wrapper">-->
 <!--                <div class="pop-up">-->
 
-                    <!-- Stages for pop-up -->
+<!--                     Stages for pop-up -->
 
 <!--                    <div class="stage1">-->
 <!--                        <h4 class="pop-up-title">-->
-<!--                            Залиш свої контакти і ми зв’яжімось з вами-->
+<!--                            Відправлення резюме на вакансію-->
 <!--                        </h4>-->
 <!--                        <form action="" class="pop-up-form">-->
-<!--                            <input name="street" class="input-field" type="text" placeholder="Вулиця">-->
-<!--                            <input name="name" class="input-field" type="tel" placeholder="Ім’я">-->
-<!--                            <input name="tel" class="input-field" type="tel" placeholder="+38 (0__) ___ - __ - __">-->
-<!--                            <textarea class="input-field" name="message" placeholder="Ваше повідомлення" rows="1"></textarea>-->
+<!--                            <label class="input-field-label" name="street">-->
+<!--                                <input name="street" class="input-field" type="text">-->
+<!--                                <span class="label-placeholder">Вулиця</span>-->
+<!--                            </label>-->
+<!--                            <label class="input-field-label" name="name">-->
+<!--                                <input name="name" class="input-field" type="text">-->
+<!--                                <span class="label-placeholder">Ім’я</span>-->
+<!--                            </label>-->
+<!--                            <label class="input-field-label" name="tel">-->
+<!--                                <input name="tel" class="input-field" type="tel">-->
+<!--                                <span class="label-placeholder">Телефон</span>-->
+<!--                            </label>-->
+<!--                            <label class="input-field-label" name="message">-->
+<!--                                <textarea class="input-field" name="message" rows="1"></textarea>-->
+<!--                                <span class="label-placeholder">Ваше повідомлення</span>-->
+<!--                            </label>-->
 <!--                            <label class="input-file">-->
 <!--                                <input name="file" type="file" hidden accept=".doc, .docx, .txt,.rtf, .odt, .pdf" max-size=2048>-->
 <!--                                <span class="input-file-button">Додати файл резюме</span>-->
@@ -756,245 +912,317 @@
 <!--                    <div class="stage2 negative">-->
 <!--                        <img class="pop-up-icon" src="../images/svg/common/negative-icon.svg" alt="negative-icon">-->
 <!--                        <h4 class="pop-up-title">-->
-<!--                            Упс... Что-то пошло не так-->
+<!--                            Упс... Щось пішло не за планом-->
 <!--                        </h4>-->
-<!--                        <p class="pop-up-text">Попробуйте позже</p>-->
+<!--                        <p class="pop-up-text">Спробуйте пізніше</p>-->
 <!--                    </div>-->
+
 <!--                    <button class="close-btn">-->
 <!--                        <img src="../images/svg/common/close-icon.svg" alt="close-icon">-->
 <!--                    </button>-->
 <!--                </div>-->
 <!--            </div>-->
+
+
         </main>
         <footer>
-            <div class="footer-wrapper">
-                <div class="footer container">
-                    <div class="logo-block">
-                        <a href="#" class="link">
-                            <img class="image" src="../images/svg/common/big-logo-white.svg" alt="logo">
-                        </a>
-                    </div>
-                    <div class="main-part">
-                        <div class="left-col">
-                            <p class="address">
-                                02232, м. Київ, пр-т. Маяковського 73-А, ТОВ «НАШНЕТ»
-                            </p>
-                            <div class="phone-block">
-                                <div class="column">
-                                    <h5 class="department">
-                                        Відділ продажів:
-                                    </h5>
-                                    <ul class="phone-list">
-                                        <li class="list-el">
-                                            <a href="tel:0445851111">(044) 585-11-11</a>
-                                        </li>
-                                        <li class="list-el vodafone">
-                                            <a href="tel:0505851111">(050) 585-11-11</a>
-                                        </li>
-                                        <li class="list-el lifecell">
-                                            <a href="tel:0935851111">(093) 585-11-11</a>
-                                        </li>
-                                        <li class="list-el ks">
-                                            <a href="tel:0965851111">(096) 585-11-11</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="column">
-                                    <h5 class="department">
-                                        Тех. підтримка:
-                                    </h5>
-                                    <ul class="phone-list">
-                                        <li class="list-el">
-                                            <a href="tel:0445851110">(044) 585-11-10</a>
-                                        </li>
-                                        <li class="list-el vodafone">
-                                            <a href="tel:0505851110">(050) 585-11-10</a>
-                                        </li>
-                                        <li class="list-el lifecell">
-                                            <a href="tel:0935851110">(093) 585-11-10</a>
-                                        </li>
-                                        <li class="list-el ks">
-                                            <a href="tel:0965851110">(096) 585-11-10</a>
-                                        </li>
-                                    </ul>
-                                </div>
+        <div class="footer-wrapper">
+            <div class="footer container">
+                <div class="logo-block">
+                    <a href="#" class="link">
+                        <img class="image" src="../images/svg/common/big-logo-white.svg" alt="logo">
+                    </a>
+                </div>
+                <div class="main-part">
+                    <div class="left-col">
+                        <p class="address">
+                            02232, м. Київ, пр-т. Маяковського 73-А, ТОВ «НАШНЕТ»
+                        </p>
+                        <div class="phone-block">
+                            <div class="column">
+                                <h5 class="department">
+                                    Відділ продажів:
+                                </h5>
+                                <ul class="phone-list">
+                                    <li class="list-el">
+                                        <a href="tel:0445851111">(044) 585-11-11</a>
+                                    </li>
+                                    <li class="list-el vodafone">
+                                        <a href="tel:0505851111">(050) 585-11-11</a>
+                                    </li>
+                                    <li class="list-el lifecell">
+                                        <a href="tel:0935851111">(093) 585-11-11</a>
+                                    </li>
+                                    <li class="list-el ks">
+                                        <a href="tel:0965851111">(096) 585-11-11</a>
+                                    </li>
+                                </ul>
                             </div>
-                            <div class="social-media-messengers-block">
-                                <div class="left-col">
-                                    <a href="#" class="link">
-                                        <img src="../images/svg/footer/facebook.svg" alt="facebook-icon">
-                                        Facebook
-                                    </a>
-                                    <a href="#" class="link">
-                                        <img src="../images/svg/footer/instagram.svg" alt="instagram-icon">
-                                        Instagram
-                                    </a>
-                                </div>
-                                <div class="right-col">
-                                    <a href="#" class="link">
-                                        <img src="../images/svg/footer/telegram-icon.svg" alt="telegram-icon">
-                                    </a>
-                                    <a href="#" class="link">
-                                        <img src="../images/svg/footer/viber-icon.svg" alt="viber-icon">
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="rate-block">
-                                <div class="column">
-                                    <img class="block-logo" src="../images/svg/footer/google-logo.svg" alt="brand-label">
-                                    <div class="info">
-                                        <div class="left-col">
-                                            <span>4,6</span>
-                                        </div>
-                                        <div class="right-col">
-                                            <div class="stars-block">
-                                                <img class="star" src="../images/svg/common/full-star.svg" alt="full-star">
-                                                <img class="star" src="../images/svg/common/full-star.svg" alt="full-star">
-                                                <img class="star" src="../images/svg/common/full-star.svg" alt="full-star">
-                                                <img class="star" src="../images/svg/common/full-star.svg" alt="full-star">
-                                                <img class="star" src="../images/svg/common/half-star.svg" alt="half-star">
-                                            </div>
-                                            <span class="reviews">
-                                                Отзывов: 274
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="column">
-                                    <img class="block-logo" src="../images/svg/footer/2ip.svg" alt="brand-label">
-                                    <div class="info">
-                                        <div class="left-col">
-                                            <span>4,0</span>
-                                        </div>
-                                        <div class="right-col">
-                                            <div class="stars-block">
-                                                <img class="star" src="../images/svg/common/full-star.svg" alt="full-star">
-                                                <img class="star" src="../images/svg/common/full-star.svg" alt="full-star">
-                                                <img class="star" src="../images/svg/common/full-star.svg" alt="full-star">
-                                                <img class="star" src="../images/svg/common/full-star.svg" alt="full-star">
-                                                <img class="star" src="../images/svg/common/empty-star.svg" alt="empty-star">
-                                            </div>
-                                            <span class="reviews">
-                                                Отзывов: 226
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="column reviews">
-                                    <a href="#" class="link">
-                                        Відгуки на Google
-                                    </a>
-                                    <a href="#" class="link">
-                                        Відгуки на Facebook
-                                    </a>
-                                </div>
+                            <div class="column">
+                                <h5 class="department">
+                                    Тех. підтримка:
+                                </h5>
+                                <ul class="phone-list">
+                                    <li class="list-el">
+                                        <a href="tel:0445851110">(044) 585-11-10</a>
+                                    </li>
+                                    <li class="list-el vodafone">
+                                        <a href="tel:0505851110">(050) 585-11-10</a>
+                                    </li>
+                                    <li class="list-el lifecell">
+                                        <a href="tel:0935851110">(093) 585-11-10</a>
+                                    </li>
+                                    <li class="list-el ks">
+                                        <a href="tel:0965851110">(096) 585-11-10</a>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
-                        <div class="right-col">
+                        <div class="social-media-messengers-block">
+                            <div class="left-col">
+                                <a href="#" class="link">
+                                    <img src="../images/svg/footer/facebook.svg" alt="facebook-icon">
+                                    Facebook
+                                </a>
+                                <a href="#" class="link">
+                                    <img src="../images/svg/footer/instagram.svg" alt="instagram-icon">
+                                    Instagram
+                                </a>
+                            </div>
+                            <div class="right-col">
+                                <a href="#" class="link">
+                                    <img src="../images/svg/footer/telegram-icon.svg" alt="telegram-icon">
+                                </a>
+                                <a href="#" class="link">
+                                    <img src="../images/svg/footer/viber-icon.svg" alt="viber-icon">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="rate-block desktop">
                             <div class="column">
-                                <ul class="menu-list">
-                                    <li class="list-el">
-                                        <a href="#" class="link">
-                                            Абоненту
-                                        </a>
-                                        <ul class="sub-menu-list">
-                                            <li class="list-el">
-                                                <a href="#" class="link">Відео сервер</a>
-                                            </li>
-                                            <li class="list-el">
-                                                <a href="#" class="link">IPTV</a>
-                                            </li>
-                                            <li class="list-el">
-                                                <a href="#" class="link">Інструкції</a>
-                                            </li>
-                                            <li class="list-el">
-                                                <a href="#" class="link">Документи</a>
-                                            </li>
-                                            <li class="list-el">
-                                                <a href="#" class="link">Питання та відповіді</a>
-                                            </li>
-                                            <li class="list-el">
-                                                <a href="#" class="link">Програма лояльності</a>
-                                            </li>
-                                            <li class="list-el">
-                                                <a href="#" class="link">Магазин</a>
-                                            </li>
-                                            <li class="list-el">
-                                                <a href="#" class="link">Відеонагляд</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li class="list-el">
-                                        <a href="#" class="link">
-                                            Тарифы
-                                        </a>
-                                    </li>
-                                    <li class="list-el">
-                                        <a href="#" class="link">
-                                            Про компанію
-                                        </a>
-                                        <a href="#" class="link">
-                                            Вакансії
-                                        </a>
-                                    </li>
-                                </ul>
+                                <img class="block-logo" src="../images/svg/footer/google-logo.svg" alt="brand-label">
+                                <div class="info">
+                                    <div class="left-col">
+                                        <span>4,6</span>
+                                    </div>
+                                    <div class="right-col">
+                                        <div class="stars-block">
+                                            <img class="star" src="../images/svg/common/full-star.svg" alt="full-star">
+                                            <img class="star" src="../images/svg/common/full-star.svg" alt="full-star">
+                                            <img class="star" src="../images/svg/common/full-star.svg" alt="full-star">
+                                            <img class="star" src="../images/svg/common/full-star.svg" alt="full-star">
+                                            <img class="star" src="../images/svg/common/half-star.svg" alt="half-star">
+                                        </div>
+                                        <span class="reviews">
+                                                Отзывов: 274
+                                            </span>
+                                    </div>
+                                </div>
                             </div>
                             <div class="column">
-                                <ul class="menu-list">
-                                    <li class="list-el">
-                                        <a href="#" class="link">
-                                            Телебачення (IPTV)
-                                        </a>
-                                    </li>
-                                    <li class="list-el">
-                                        <a href="#" class="link">
-                                            Для бізнесу
-                                        </a>
-                                    </li>
-                                    <li class="list-el">
-                                        <a href="#" class="link">
-                                            Для забудовників
-                                        </a>
-                                    </li>
-                                </ul>
-                                <ul class="menu-list">
-                                    <li class="list-el">
-                                        <a href="#" class="link">
-                                            Акції
-                                        </a>
-                                    </li>
-                                    <li class="list-el">
-                                        <a href="#" class="link">
-                                            Покриття
-                                        </a>
-                                    </li>
-                                    <li class="list-el">
-                                        <a href="#" class="link">
-                                            Оплата
-                                        </a>
-                                    </li>
-                                    <li class="list-el">
-                                        <a href="#" class="link">
-                                            Новини
-                                        </a>
-                                    </li>
-                                    <li class="list-el">
-                                        <a href="#" class="link">
-                                            Контакти
-                                        </a>
-                                    </li>
-                                </ul>
+                                <img class="block-logo" src="../images/svg/footer/2ip.svg" alt="brand-label">
+                                <div class="info">
+                                    <div class="left-col">
+                                        <span>4,0</span>
+                                    </div>
+                                    <div class="right-col">
+                                        <div class="stars-block">
+                                            <img class="star" src="../images/svg/common/full-star.svg" alt="full-star">
+                                            <img class="star" src="../images/svg/common/full-star.svg" alt="full-star">
+                                            <img class="star" src="../images/svg/common/full-star.svg" alt="full-star">
+                                            <img class="star" src="../images/svg/common/full-star.svg" alt="full-star">
+                                            <img class="star" src="../images/svg/common/empty-star.svg" alt="empty-star">
+                                        </div>
+                                        <span class="reviews">
+                                                Отзывов: 226
+                                            </span>
+                                    </div>
+                                </div>
                             </div>
+                            <div class="column reviews">
+                                <a href="#" class="link">
+                                    Відгуки на Google
+                                </a>
+                                <a href="#" class="link">
+                                    Відгуки на Facebook
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right-col">
+                        <div class="column">
+                            <ul class="menu-list">
+                                <li class="list-el">
+                                    <a href="#" class="link">
+                                        Абоненту
+                                    </a>
+                                    <ul class="sub-menu-list desktop">
+                                        <li class="list-el">
+                                            <a href="#" class="link">Відео сервер</a>
+                                        </li>
+                                        <li class="list-el">
+                                            <a href="#" class="link">IPTV</a>
+                                        </li>
+                                        <li class="list-el">
+                                            <a href="#" class="link">Інструкції</a>
+                                        </li>
+                                        <li class="list-el">
+                                            <a href="#" class="link">Документи</a>
+                                        </li>
+                                        <li class="list-el">
+                                            <a href="#" class="link">Питання та відповіді</a>
+                                        </li>
+                                        <li class="list-el">
+                                            <a href="#" class="link">Програма лояльності</a>
+                                        </li>
+                                        <li class="list-el">
+                                            <a href="#" class="link">Магазин</a>
+                                        </li>
+                                        <li class="list-el">
+                                            <a href="#" class="link">Відеонагляд</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="list-el">
+                                    <a href="#" class="link">
+                                        Тарифы
+                                    </a>
+                                </li>
+                                <li class="list-el">
+                                    <a href="#" class="link">
+                                        Про компанію
+                                    </a>
+                                </li>
+                                <li class="list-el">
+                                    <a href="#" class="link">
+                                        Вакансії
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul class="menu-list tablet mobile">
+                                <li class="list-el">
+                                    <a href="#" class="link">
+                                        Телебачення (IPTV)
+                                    </a>
+                                </li>
+                                <li class="list-el">
+                                    <a href="#" class="link">
+                                        Для бізнесу
+                                    </a>
+                                </li>
+                                <li class="list-el">
+                                    <a href="#" class="link">
+                                        Для забудовників
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="column">
+                            <ul class="menu-list desktop">
+                                <li class="list-el">
+                                    <a href="#" class="link">
+                                        Телебачення (IPTV)
+                                    </a>
+                                </li>
+                                <li class="list-el">
+                                    <a href="#" class="link">
+                                        Для бізнесу
+                                    </a>
+                                </li>
+                                <li class="list-el">
+                                    <a href="#" class="link">
+                                        Для забудовників
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul class="menu-list">
+                                <li class="list-el">
+                                    <a href="#" class="link">
+                                        Акції
+                                    </a>
+                                </li>
+                                <li class="list-el">
+                                    <a href="#" class="link">
+                                        Покриття
+                                    </a>
+                                </li>
+                                <li class="list-el">
+                                    <a href="#" class="link">
+                                        Оплата
+                                    </a>
+                                </li>
+                                <li class="list-el">
+                                    <a href="#" class="link">
+                                        Новини
+                                    </a>
+                                </li>
+                                <li class="list-el">
+                                    <a href="#" class="link">
+                                        Контакти
+                                    </a>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
+                <div class="rate-part tablet mobile">
+                    <div class="column">
+                        <img class="block-logo" src="../images/svg/footer/google-logo.svg" alt="brand-label">
+                        <div class="info">
+                            <div class="left-col">
+                                <span>4,6</span>
+                            </div>
+                            <div class="right-col">
+                                <div class="stars-block">
+                                    <img class="star" src="../images/svg/common/full-star.svg" alt="full-star">
+                                    <img class="star" src="../images/svg/common/full-star.svg" alt="full-star">
+                                    <img class="star" src="../images/svg/common/full-star.svg" alt="full-star">
+                                    <img class="star" src="../images/svg/common/full-star.svg" alt="full-star">
+                                    <img class="star" src="../images/svg/common/half-star.svg" alt="half-star">
+                                </div>
+                                <span class="reviews">
+                                                Отзывов: 274
+                                            </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <img class="block-logo" src="../images/svg/footer/2ip.svg" alt="brand-label">
+                        <div class="info">
+                            <div class="left-col">
+                                <span>4,0</span>
+                            </div>
+                            <div class="right-col">
+                                <div class="stars-block">
+                                    <img class="star" src="../images/svg/common/full-star.svg" alt="full-star">
+                                    <img class="star" src="../images/svg/common/full-star.svg" alt="full-star">
+                                    <img class="star" src="../images/svg/common/full-star.svg" alt="full-star">
+                                    <img class="star" src="../images/svg/common/full-star.svg" alt="full-star">
+                                    <img class="star" src="../images/svg/common/empty-star.svg" alt="empty-star">
+                                </div>
+                                <span class="reviews">
+                                                Отзывов: 226
+                                            </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column reviews">
+                        <a href="#" class="link">
+                            Відгуки на Google
+                        </a>
+                        <a href="#" class="link">
+                            Відгуки на Facebook
+                        </a>
+                    </div>
+                </div>
             </div>
-            <div class="copyrights-wrapper">
-                <p class="copyrights container">
-                    © «НАШНЕТ», 2002-2021. Інформаційне наповнення та підтримка © «НАШНЕТ», 2004-2020.
-                </p>
-            </div>
+        </div>
+        <div class="copyrights-wrapper">
+            <p class="copyrights container">
+                © «НАШНЕТ», 2002-2021. Інформаційне наповнення та підтримка © «НАШНЕТ», 2004-2020.
+            </p>
+        </div>
 
-        </footer>
+    </footer>
     </body>
 </html>

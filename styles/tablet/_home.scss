@@ -1,0 +1,252 @@
+.home{
+  padding: 0 0 20px;
+  .top-banner-block{
+    flex-direction: column;
+    margin: 10px auto 0;
+    height: auto;
+    row-gap: 20px;
+    &__left-col{
+      width: 100%;
+      picture{
+        height: 330px;
+        &:after{}
+      }
+      .banner-content{
+        .title{}
+        .btn{}
+      }
+    }
+    &__right-col{
+      width: 100%;
+      min-height: 325px;
+      padding: 25px 25px 10px;
+      &:before{}
+      &:after{
+        background: url("../images/svg/home/city-long.svg") repeat center center/100% 100%;
+      }
+      .stage1{
+        justify-content: flex-start;
+        height: 100%;
+        width: 100%;
+        padding: 15px 0 0;
+        .form-title{}
+        .form-text{}
+        .check-availability-form{
+          display: flex;
+          width: 100%;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          margin: 50px 0 0;
+          .input-wrapper{
+            flex-direction: row;
+            column-gap: 25px;
+            justify-content: space-between;
+            .input-field-label{
+              &[name='street']{
+                width: 79.5%;
+              }
+              &[name='house']{
+                width: 16.1%;
+              }
+            }
+          }
+          .btn{}
+        }
+      }
+      .stage2{
+        justify-content: flex-start;
+        .result-icon{
+          display: none;
+        }
+        .form-title{
+          font-size: 20px;
+          line-height: 120%;
+        }
+        .form-subtitle{
+          margin: 0 0 10px;
+        }
+        .form-text{}
+        .personal-data-form{
+          row-gap: 20px;
+          margin: 24px 0 8px;
+          .input-wrapper{
+            column-gap: 25px;
+            margin: 0;
+            .input-field-label{
+              width: 205px;
+            }
+          }
+          .link{}
+          .btn{}
+        }
+        .info{
+          font-size: 10px;
+        }
+      }
+      .stage3{
+        min-height: inherit;
+        .result-icon{}
+        .form-title{}
+        .form-subtitle{}
+        .data-list{
+          .data-list-el{
+            .name{}
+            .value{}
+          }
+        }
+      }
+    }
+  }
+  .hot-propositions-block{
+    padding: 20px 0;
+    .block-title{
+      margin: 0 0 20px;
+    }
+    .hot-propositions-list{}
+  }
+  .promotions-block{
+    .title-block{
+      margin: 0 0 20px;
+      .block-title{}
+      .tabs-selector{
+        .selector{
+          &.active{
+            &:after{}
+          }
+        }
+      }
+    }
+    .tabs-blocks{
+      .promotions-list{}
+    }
+  }
+  .single-promo-block{
+    flex-direction: column;
+    padding: 20px 0 40px;
+    row-gap: 60px;
+    .left-col{
+      width: 100%;
+      text-align: center;
+      .period{}
+      .block-title{}
+      .content{}
+      .btn{
+        margin: 20px auto 0;
+      }
+    }
+    .right-col{}
+  }
+  .full-width-promo-block{
+    padding: 40px 0 35px;
+    .block-main-image{
+      img{}
+      &:after{}
+    }
+    .content{
+      .block-title{}
+      .description{}
+      .btn{
+        margin: 0 auto;
+      }
+    }
+  }
+  .info-block{
+    display: flex;
+    column-gap: 30px;
+    padding: 35px 0;
+    .left-col{
+      width: calc(100% - 333px - 10px);
+      .block-title{}
+      .features-list{
+        .list-el{
+          &:not(:last-child){}
+          &:before{}
+        }
+      }
+      .button-block{
+        margin: 40px 0 0;
+        .btn{}
+      }
+      .tech-list{
+        img{}
+      }
+    }
+    .right-col{
+      .block-main-image{
+        width: 333px;
+        height: auto;
+      }
+    }
+  }
+  .activity-news-block{
+    padding: 35px 0 20px;
+    >.block-title{
+      margin: 0 0 20px;
+    }
+    .content{
+      display: flex;
+      flex-direction: column;
+      row-gap: 30px;
+      >.left-col{
+        width: 100%;
+        .block-title{
+          margin: 0 0 20px;
+        }
+        .activity-list{
+          .activity-list-el{
+            &:not(:last-child){}
+            .time{}
+            .info{
+              b{}
+            }
+          }
+        }
+      }
+      >.right-col{
+        width: 100%;
+        .title-block{
+          margin: 0 0 20px;
+          .block-title{}
+          .show-more-link{}
+        }
+        .news-list{
+          .news-list-el{
+            column-gap: 35px;
+            &:not(:last-child){
+              margin: 0 0 18px;
+            }
+
+            .left-col{
+              width: calc(100% - 95px);
+              .title{}
+              .link{}
+            }
+            .right-col{
+              .day{}
+              .month{}
+            }
+          }
+        }
+      }
+    }
+  }
+  .advantages-block{
+    padding: 20px 0 20px;
+    .title-block{}
+    .advantages-list{
+      .list-el{
+        .image{
+          img{}
+        }
+        .text{}
+      }
+    }
+  }
+  .show-more-block{
+    padding: 30px 0 20px;
+  }
+}
+
+
+

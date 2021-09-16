@@ -1,0 +1,122 @@
+footer{
+  .footer-wrapper{
+    .footer{
+      display: flex;
+      flex-direction: column;
+      padding: 20px 0 30px;
+      .logo-block{
+        margin: 0 0 15px;
+        .link{
+          .image{}
+        }
+      }
+      .main-part{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 30px 0;
+        >.left-col{
+          width: 100%;
+          .address{}
+          .phone-block{
+            justify-content: space-between;
+            column-gap: 10px;
+            .column{
+              .department{
+                margin: 0 0 15px;
+              }
+              .phone-list{
+                .list-el{
+                  a{}
+                  &:before{}
+                  &.vodafone{
+                    &:before{}
+                  }
+                  &.lifecell{
+                    &:before{}
+                  }
+                  &.ks{
+                    &:before{}
+                  }
+                }
+              }
+            }
+          }
+          .social-media-messengers-block{
+            justify-content: space-between;
+            column-gap: 10px;
+            .left-col{
+              .link{
+                img{}
+              }
+            }
+            .right-col{
+              width: 150px;
+              .link{
+                img{}
+              }
+            }
+          }
+          .rate-block{}
+        }
+        >.right-col{
+          width: 100%;
+          grid-template-columns: repeat(2, 150px);
+          .column{
+            .menu-list{
+              &:last-child{
+                margin: 0;
+              }
+              >.list-el{
+                >.link{
+                  font-size: 14px;
+                  line-height: 13px;
+                  margin: 0 0 18px;
+                }
+              }
+              .sub-menu-list{}
+            }
+          }
+        }
+      }
+      .rate-part{
+        margin: 40px 0 0;
+        gap: 30px 10px;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        .column{
+          width: 150px;
+          padding: 10px;
+          .block-logo{
+            height: 12px;
+          }
+          .info{
+            column-gap: 8px;
+            .left-col{
+              span{}
+            }
+            .right-col{
+              .stars-block{
+                .star{}
+              }
+              .reviews{}
+            }
+          }
+          &.reviews{
+            justify-content: flex-start;
+            row-gap: 15px;
+            width: 100%;
+            .link{}
+          }
+        }
+      }
+    }
+  }
+  .copyrights-wrapper{
+    background: var(--color-light-blue);
+    .copyrights{
+      text-align: center;
+    }
+  }
+}
+

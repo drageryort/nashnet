@@ -1,0 +1,116 @@
+.loyal-program-page {
+  .page-title {}
+  .active-period{}
+  .experience-block{
+    .block-title{}
+    .loyal-table {
+      .table-top{
+        span {
+          &:nth-child(1) {}
+          &:nth-child(2) {}
+          &:nth-child(3) {}
+          &:nth-child(4) {}
+          &:nth-child(5) {}
+        }
+      }
+      .table-content{
+        .table-row{
+          span {
+            &:nth-child(1) {}
+            &:nth-child(2) {}
+            &:nth-child(3) {}
+            &:nth-child(4) {}
+            &:nth-child(5) {}
+          }
+        }
+      }
+    }
+    .tabs-list{
+      padding: 20px 24px 24px;
+      background: var(--color-white);
+      box-shadow: 0 0 40px rgba(0, 0, 0, 0.05);
+      border-radius: 14px;
+      .list-tab-selectors{
+        margin: 0 0 16px;
+        .active-selector{
+          padding: 18px 40px 18px 14px;
+        }
+        .selectors{
+          .selector{
+            padding: 18px 14px;
+          }
+        }
+      }
+      .list-tab-tabs{
+        .tab-block{
+          padding: 20px 14px;
+          background: var(--color-green-blue);
+          border-radius: 6px;
+          &:not(.active){
+            display: none;
+          }
+          li{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            &:not(:last-child){
+              margin: 0 0 20px;
+            }
+            .name{
+              font-size: 16px;
+              line-height: 120%;
+            }
+            .value{
+              font-weight: bold;
+              font-size: 16px;
+              line-height: 120%;
+            }
+          }
+        }
+      }
+    }
+  }
+  .conditions-block{
+    .block-title{}
+    .conditions-list{
+      .conditions-el{
+        &:not(:last-child){}
+        &:after{}
+      }
+    }
+    .conditions-text{}
+  }
+  .info-block{
+    .accordion-el{
+      &:not(:last-of-type){}
+      .accordion-title{
+        .accordion-trigger{
+          span{
+            &:first-child{}
+            &:last-child{}
+          }
+        }
+      }
+      .accordion-content{
+        p{
+          &:not(:last-child){}
+        }
+      }
+      &.active{
+        .accordion-title{
+          .accordion-trigger{
+            span{
+              &:first-child{}
+              &:last-child{}
+            }
+          }
+        }
+        .accordion-content{
+          p{
+            &:not(:last-child){}
+          }
+        }
+      }
+    }
+  }
+}

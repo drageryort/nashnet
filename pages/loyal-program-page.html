@@ -8,27 +8,213 @@
         <title>Loyal program page</title>
         <link rel="stylesheet" href="../styles/fonts.min.css">
         <link rel="stylesheet" href="../styles/style.min.css">
+        <link rel="stylesheet" href="../styles/tablet-styles.css">
+        <link rel="stylesheet" href="../styles/mobile-styles.css">
     </head>
     <body>
         <header>
-            <div class="top-header-block">
-                <div class="top-header container">
-                    <ul class="top-header__left-col">
-                        <li class="col-el">
+        <div class="top-header-block">
+            <div class="top-header container">
+                <ul class="top-header__left-col">
+                    <li class="col-el">
+                        <a href="#" class="link">
+                            <img src="../images/svg/header/tv.svg" alt="icon">
+                            Телебачення (IPTV)
+                        </a>
+                    </li>
+                    <li class="col-el">
+                        <a href="#" class="link">
+                            <img src="../images/svg/header/briefcase.svg" alt="icon">
+                            Для бізнесу
+                        </a>
+                    </li>
+                </ul>
+                <div class="top-header__right-col">
+                    <ul class="service-list">
+                        <li class="list-el">
                             <a href="#" class="link">
-                                <img src="../images/svg/header/tv.svg" alt="icon">
-                                Телебачення (IPTV)
+                                <img src="../images/svg/header/credit-card.svg" alt="pay">
+                                Оплата
                             </a>
                         </li>
-                        <li class="col-el">
+                        <li class="list-el">
                             <a href="#" class="link">
-                                <img src="../images/svg/header/briefcase.svg" alt="icon">
-                                Для бізнесу
+                                <img src="../images/svg/header/support.svg" alt="support">
+                                Тех. допомога
+                            </a>
+                        </li>
+                        <li class="list-el">
+                            <a href="#" class="link">
+                                <img src="../images/svg/header/user.svg" alt="cabinet">
+                                Особистий кабінет
                             </a>
                         </li>
                     </ul>
-                    <div class="top-header__right-col">
-                        <ul class="service-list">
+                    <ul class="social-button">
+                        <li class="list-el">
+                            <a href="#" class="link">
+                                <img src="../images/svg/header/facebook-icon.svg" alt="facebook">
+                            </a>
+                        </li>
+                        <li class="list-el">
+                            <a href="#" class="link">
+                                <img src="../images/svg/header/instagram-icon.svg" alt="instagram">
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="lang-selector-list">
+                        <li class="list-el">
+                            <a href="#" class="link active">
+                                ua
+                            </a>
+                        </li>
+                        <li class="list-el">
+                            <a href="#" class="link">
+                                ru
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="main-header-block">
+            <div class="main-header container">
+                <div class="main-header__left-col">
+                    <a href="" class="logo">
+                        <picture>
+                            <img src="../images/svg/common/big-logo.svg" alt="logo">
+                        </picture>
+                    </a>
+                    <menu class="main-menu desktop">
+                        <li class="list-el">
+                            <a href="#" class="link">
+                                Акції
+                            </a>
+                        </li>
+                        <li class="list-el">
+                            <a href="#" class="link">
+                                Тарифи
+                            </a>
+                        </li>
+                        <li class="list-el has-children">
+                            <a href="#" class="link">
+                                Абоненту
+                            </a>
+                            <div class="sub-menu-list-wrapper">
+                                <ul class="sub-menu-list">
+                                    <li class="list-el">
+                                        <a href="#" class="link">Відео сервер</a>
+                                    </li>
+                                    <li class="list-el">
+                                        <a href="#" class="link">IPTV</a>
+                                    </li>
+                                    <li class="list-el">
+                                        <a href="#" class="link">Інструкції</a>
+                                    </li>
+                                    <li class="list-el">
+                                        <a href="#" class="link">Документи</a>
+                                    </li>
+                                    <li class="list-el">
+                                        <a href="#" class="link">Питання та відповіді</a>
+                                    </li>
+                                    <li class="list-el">
+                                        <a href="#" class="link">Програма лояльності</a>
+                                    </li>
+                                    <li class="list-el">
+                                        <a href="#" class="link">Магазин</a>
+                                    </li>
+                                    <li class="list-el">
+                                        <a href="#" class="link">Відеонагляд</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="list-el">
+                            <a href="#" class="link">
+                                Покриття
+                            </a>
+                        </li>
+                        <li class="list-el">
+                            <a href="#" class="link">
+                                Контакти
+                            </a>
+                        </li>
+                        <li class="list-el">
+                            <a href="#" class="link">
+                                Про компанію
+                            </a>
+                        </li>
+                    </menu>
+                </div>
+                <div class="main-header__right-col">
+                    <button class="btn btn-blue-rounded desktop tablet">
+                        Підключитися
+                    </button>
+                    <div class="phone-block">
+                        <div class="link-wrapper desktop tablet">
+                            <a href="tel:0445851111" class="link">
+                                <img src="../images/svg/header/phone-call-icon.svg" alt="call-icon">
+                                (044) 585-11-11
+                            </a>
+                            <img src="../images/svg/common/arrow-down.svg" class="arrow" alt="arrow">
+                        </div>
+                        <button class="btn phone-btn mobile">
+                            <img src="../images/svg/header/phone-call-icon.svg" alt="call-icon">
+                        </button>
+                        <ul class="phone-list">
+                            <li class="list-el">
+                                <a href="tel:0505851111" class="link">
+                                    <img src="../images/svg/header/vodafone-icon.svg" alt="vodafone-icon">
+                                    (050) 585-11-11
+                                </a>
+                            </li>
+                            <li class="list-el">
+                                <a href="tel:0965851111" class="link">
+                                    <img src="../images/svg/header/ks-icon.svg" alt="ks-icon">
+                                    (096) 585-11-11
+                                </a>
+                            </li>
+                            <li class="list-el">
+                                <a href="tel:0935851111" class="link">
+                                    <img src="../images/svg/header/lifecell-icon.svg" alt="lifecell-icon">
+                                    (093) 585-11-11
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <button class="btn hamburger-menu-btn tablet mobile">
+                        <img src="../images/svg/common/hamburger-menu.svg" alt="hamburger-menu-icon">
+                    </button>
+                    <div class="hamburger-menu-block tablet mobile">
+                        <div class="top-part">
+                            <picture class="logo">
+                                <img src="../images/svg/common/big-logo.svg" alt="logo">
+                            </picture>
+                            <button class="close-btn">
+                                <img src="../images/svg/common/close-icon.svg" alt="close-icon">
+                            </button>
+                        </div>
+                        <menu class="main-menu">
+                            <li>
+                                <a class="link" href="#">Акції</a>
+                            </li>
+                            <li>
+                                <a class="link" href="#">Тарифи</a>
+                            </li>
+                            <li>
+                                <a class="link" href="#">Абоненту</a>
+                            </li>
+                            <li>
+                                <a class="link" href="#">Покриття</a>
+                            </li>
+                            <li>
+                                <a class="link" href="#">Контакти</a>
+                            </li>
+                            <li>
+                                <a class="link" href="#">Про компанію</a>
+                            </li>
+                        </menu>
+                        <ul class="sub-menu">
                             <li class="list-el">
                                 <a href="#" class="link">
                                     <img src="../images/svg/header/credit-card.svg" alt="pay">
@@ -48,115 +234,29 @@
                                 </a>
                             </li>
                         </ul>
-                        <ul class="social-button">
+                        <ul class="sub-menu">
                             <li class="list-el">
                                 <a href="#" class="link">
-                                    <img src="../images/svg/header/facebook-icon.svg" alt="facebook">
+                                    <img src="../images/svg/header/tv.svg" alt="icon">
+                                    Телебачення (IPTV)
                                 </a>
                             </li>
                             <li class="list-el">
                                 <a href="#" class="link">
-                                    <img src="../images/svg/header/instagram-icon.svg" alt="instagram">
+                                    <img src="../images/svg/header/briefcase.svg" alt="icon">
+                                    Для бізнесу
                                 </a>
                             </li>
                         </ul>
-                        <ul class="lang-selector-list">
-                            <li class="list-el">
-                                <a href="#" class="link active">
-                                  ua
-                                </a>
-                            </li>
-                            <li class="list-el">
-                                <a href="#" class="link">
-                                    ru
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="main-header-block">
-                <div class="main-header container">
-                    <div class="main-header__left-col">
-                        <a href="" class="logo">
-                            <picture>
-                                <img src="../images/svg/common/big-logo.svg" alt="logo">
-                            </picture>
-                        </a>
-                        <menu class="main-menu">
-                            <li class="list-el">
-                                <a href="#" class="link">
-                                    Акції
-                                </a>
-                            </li>
-                            <li class="list-el">
-                                <a href="#" class="link">
-                                    Тарифи
-                                </a>
-                            </li>
-                            <li class="list-el has-children">
-                                <a href="#" class="link">
-                                    Абоненту
-                                </a>
-                                <div class="sub-menu-list-wrapper">
-                                    <ul class="sub-menu-list">
-                                        <li class="list-el">
-                                            <a href="#" class="link">Відео сервер</a>
-                                        </li>
-                                        <li class="list-el">
-                                            <a href="#" class="link">IPTV</a>
-                                        </li>
-                                        <li class="list-el">
-                                            <a href="#" class="link">Інструкції</a>
-                                        </li>
-                                        <li class="list-el">
-                                            <a href="#" class="link">Документи</a>
-                                        </li>
-                                        <li class="list-el">
-                                            <a href="#" class="link">Питання та відповіді</a>
-                                        </li>
-                                        <li class="list-el">
-                                            <a href="#" class="link">Програма лояльності</a>
-                                        </li>
-                                        <li class="list-el">
-                                            <a href="#" class="link">Магазин</a>
-                                        </li>
-                                        <li class="list-el">
-                                            <a href="#" class="link">Відеонагляд</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li class="list-el">
-                                <a href="#" class="link">
-                                    Покриття
-                                </a>
-                            </li>
-                            <li class="list-el">
-                                <a href="#" class="link">
-                                    Контакти
-                                </a>
-                            </li>
-                            <li class="list-el">
-                                <a href="#" class="link">
-                                    Про компанію
-                                </a>
-                            </li>
-                        </menu>
-                    </div>
-                    <div class="main-header__right-col">
-                        <button class="btn btn-blue-rounded">
-                            Підключитися
-                        </button>
-                        <div class="phone-block">
-                            <div class="link-wrapper">
+                        <div class="phone-block mobile">
+                            <div class="link-wrapper mobile">
                                 <a href="tel:0445851111" class="link">
                                     <img src="../images/svg/header/phone-call-icon.svg" alt="call-icon">
                                     (044) 585-11-11
                                 </a>
-                                <img src="../images/svg/common/arrow-down.svg" class="arrow" alt="arrow">
+                                <img src="../images/svg/common/arrow-down.svg" class="arrow transition" alt="arrow">
                             </div>
-                            <ul class="phone-list">
+                            <ul class="phone-list transition">
                                 <li class="list-el">
                                     <a href="tel:0505851111" class="link">
                                         <img src="../images/svg/header/vodafone-icon.svg" alt="vodafone-icon">
@@ -177,10 +277,29 @@
                                 </li>
                             </ul>
                         </div>
+                        <div class="bottom-part">
+                            <ul class="socials">
+                                <li>
+                                    <a href=#">
+                                        <img src="../images/svg/header/facebook-icon.svg" alt="facebook-icon">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="../images/svg/header/instagram-icon.svg" alt="instagram-icon">
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="lang">
+                                <span class="active">ua</span>
+                                <span>ru</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </header>
+        </div>
+    </header>
         <main class="loyal-program-page">
             <div class="container breadcrumbs">
                 <a href="#">
@@ -198,7 +317,7 @@
                 <h2 class="block-title">
                     Чим довше з нами, тим більше переваг отримуєте!
                 </h2>
-                <div class="loyal-table">
+                <div class="loyal-table desktop">
                     <div class="table-top">
                         <span>Стаж обслуговування</span>
                         <span>Турбо-дні</span>
@@ -242,6 +361,110 @@
                             <span>100%</span>
                             <span>12%</span>
                         </div>
+                    </div>
+                </div>
+                <div class="tabs-list tablet mobile">
+                    <div class="tab-selector-as-select list-tab-selectors">
+                        <p class="active-selector">Від 6-ти до 12-ти місяців</p>
+                        <ul class="selectors">
+                            <li class="selector">Від 6-ти до 12-ти місяців</li>
+                            <li class="selector">Від 1 до 3 років</li>
+                            <li class="selector">Від 3 до 5 років</li>
+                            <li class="selector">Від 5 до 8 років</li>
+                            <li class="selector">Більше 8 років</li>
+                        </ul>
+                    </div>
+                    <div class="list-tab-tabs">
+                        <ul class="tab-block active">
+                            <li>
+                                <span class="name">Турбо-дні:</span>
+                                <span class="value">1</span>
+                            </li>
+                            <li>
+                                <span class="name">Швидкість:</span>
+                                <span class="value">+10%</span>
+                            </li>
+                            <li>
+                                <span class="name">Кредит довіри:</span>
+                                <span class="value">+10%</span>
+                            </li>
+                            <li>
+                                <span class="name">Кешбек:</span>
+                                <span class="value">2%</span>
+                            </li>
+                        </ul>
+                        <ul class="tab-block">
+                            <li>
+                                <span class="name">Турбо-дні:</span>
+                                <span class="value">3</span>
+                            </li>
+                            <li>
+                                <span class="name">Швидкість:</span>
+                                <span class="value">+25%</span>
+                            </li>
+                            <li>
+                                <span class="name">Кредит довіри:</span>
+                                <span class="value">+50%</span>
+                            </li>
+                            <li>
+                                <span class="name">Кешбек:</span>
+                                <span class="value">4%</span>
+                            </li>
+                        </ul>
+                        <ul class="tab-block">
+                            <li>
+                                <span class="name">Турбо-дні:</span>
+                                <span class="value">5</span>
+                            </li>
+                            <li>
+                                <span class="name">Швидкість:</span>
+                                <span class="value">+50%</span>
+                            </li>
+                            <li>
+                                <span class="name">Кредит довіри:</span>
+                                <span class="value">100%</span>
+                            </li>
+                            <li>
+                                <span class="name">Кешбек:</span>
+                                <span class="value">6%</span>
+                            </li>
+                        </ul>
+                        <ul class="tab-block">
+                            <li>
+                                <span class="name">Турбо-дні:</span>
+                                <span class="value">6</span>
+                            </li>
+                            <li>
+                                <span class="name">Швидкість:</span>
+                                <span class="value">+50%</span>
+                            </li>
+                            <li>
+                                <span class="name">Кредит довіри:</span>
+                                <span class="value">100%</span>
+                            </li>
+                            <li>
+                                <span class="name">Кешбек:</span>
+                                <span class="value">8%</span>
+                            </li>
+                        </ul>
+                        <ul class="tab-block">
+                            <li>
+                                <span class="name">Турбо-дні:</span>
+                                <span class="value">7</span>
+                            </li>
+                            <li>
+                                <span class="name">Швидкість:</span>
+                                <span class="value">+50%</span>
+                            </li>
+                            <li>
+                                <span class="name">Кредит довіри:</span>
+                                <span class="value">100%</span>
+                            </li>
+                            <li>
+                                <span class="name">Кешбек:</span>
+                                <span class="value">12%</span>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -416,7 +639,7 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="rate-block">
+                            <div class="rate-block desktop">
                                 <div class="column">
                                     <img class="block-logo" src="../images/svg/footer/google-logo.svg" alt="brand-label">
                                     <div class="info">
@@ -474,7 +697,7 @@
                                         <a href="#" class="link">
                                             Абоненту
                                         </a>
-                                        <ul class="sub-menu-list">
+                                        <ul class="sub-menu-list desktop">
                                             <li class="list-el">
                                                 <a href="#" class="link">Відео сервер</a>
                                             </li>
@@ -510,14 +733,33 @@
                                         <a href="#" class="link">
                                             Про компанію
                                         </a>
+                                    </li>
+                                    <li class="list-el">
                                         <a href="#" class="link">
                                             Вакансії
                                         </a>
                                     </li>
                                 </ul>
+                                <ul class="menu-list tablet mobile">
+                                    <li class="list-el">
+                                        <a href="#" class="link">
+                                            Телебачення (IPTV)
+                                        </a>
+                                    </li>
+                                    <li class="list-el">
+                                        <a href="#" class="link">
+                                            Для бізнесу
+                                        </a>
+                                    </li>
+                                    <li class="list-el">
+                                        <a href="#" class="link">
+                                            Для забудовників
+                                        </a>
+                                    </li>
+                                </ul>
                             </div>
                             <div class="column">
-                                <ul class="menu-list">
+                                <ul class="menu-list desktop">
                                     <li class="list-el">
                                         <a href="#" class="link">
                                             Телебачення (IPTV)
@@ -562,6 +804,56 @@
                                     </li>
                                 </ul>
                             </div>
+                        </div>
+                    </div>
+                    <div class="rate-part tablet mobile">
+                        <div class="column">
+                            <img class="block-logo" src="../images/svg/footer/google-logo.svg" alt="brand-label">
+                            <div class="info">
+                                <div class="left-col">
+                                    <span>4,6</span>
+                                </div>
+                                <div class="right-col">
+                                    <div class="stars-block">
+                                        <img class="star" src="../images/svg/common/full-star.svg" alt="full-star">
+                                        <img class="star" src="../images/svg/common/full-star.svg" alt="full-star">
+                                        <img class="star" src="../images/svg/common/full-star.svg" alt="full-star">
+                                        <img class="star" src="../images/svg/common/full-star.svg" alt="full-star">
+                                        <img class="star" src="../images/svg/common/half-star.svg" alt="half-star">
+                                    </div>
+                                    <span class="reviews">
+                                                Отзывов: 274
+                                            </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <img class="block-logo" src="../images/svg/footer/2ip.svg" alt="brand-label">
+                            <div class="info">
+                                <div class="left-col">
+                                    <span>4,0</span>
+                                </div>
+                                <div class="right-col">
+                                    <div class="stars-block">
+                                        <img class="star" src="../images/svg/common/full-star.svg" alt="full-star">
+                                        <img class="star" src="../images/svg/common/full-star.svg" alt="full-star">
+                                        <img class="star" src="../images/svg/common/full-star.svg" alt="full-star">
+                                        <img class="star" src="../images/svg/common/full-star.svg" alt="full-star">
+                                        <img class="star" src="../images/svg/common/empty-star.svg" alt="empty-star">
+                                    </div>
+                                    <span class="reviews">
+                                                Отзывов: 226
+                                            </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column reviews">
+                            <a href="#" class="link">
+                                Відгуки на Google
+                            </a>
+                            <a href="#" class="link">
+                                Відгуки на Facebook
+                            </a>
                         </div>
                     </div>
                 </div>

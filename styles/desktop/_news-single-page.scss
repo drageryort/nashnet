@@ -54,11 +54,11 @@
         width: 100%;
         .news-list-el{
           display: flex;
-          row-gap: 30px;
+          column-gap: 20px;
           align-items: center;
           justify-content: space-between;
           padding: 20px 30px 20px 25px;
-          border: 1px solid var(--color-blue);
+          border: 1px solid var(--color-light-gray);
           border-radius: 6px;
           &:not(:last-of-type){
             margin: 0 0 20px;

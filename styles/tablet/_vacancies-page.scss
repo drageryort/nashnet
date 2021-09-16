@@ -1,0 +1,92 @@
+.vacancies-page{
+  .top-banner-block{
+    .block-main-image{
+      height: 220px;
+      &:after{}
+    }
+    .block-content{
+      .page-title{}
+      .btn{}
+    }
+  }
+  .brief-info-block{
+    .block-text{}
+  }
+  .vacancies-list-block{
+    .vacancies-list-el{
+        &:not(:last-child){}
+        .vacancy-title{
+          flex-direction: column;
+          align-items: flex-start;
+          padding: 35px 85px 35px 35px;
+          row-gap: 12px;
+          .name{}
+          .details{
+            flex-direction: row-reverse;
+            column-gap: 30px;
+            .cost{
+              top: -1px;
+            }
+            .date{}
+          }
+          .accordion-trigger{
+            top: 50px;
+            img{}
+          }
+        }
+        .vacancy-content{
+          padding: 0 35px;
+          .requirements{
+            &:not(:last-child){}
+            .list-title{
+              margin: 0 0 12px;
+            }
+            .requirements-list{
+              li{
+                &:not(:last-child){}
+                &:before{}
+              }
+            }
+          }
+        }
+        &.active{
+          .accordion-title{
+            .accordion-trigger{
+              img{}
+            }
+          }
+          .accordion-content{
+            padding: 0 35px 35px;
+            p{
+              &:not(:last-child){}
+            }
+          }
+        }
+      }
+  }
+
+  .pop-up-wrapper{
+    .pop-up{
+      .stage1{
+        .pop-up-title{}
+        .pop-up-form{
+          .input-field{
+            &[name='tel'],&[name='name']{}
+          }
+          label{
+            span{
+              &.input-file-button{}
+              &.input-file-info{}
+            }
+          }
+        }
+        .btn{}
+      }
+      .stage2{
+        .pop-up-icon{}
+        .pop-up-title{}
+        .pop-up-text{}
+      }
+    }
+  }
+}

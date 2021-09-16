@@ -1,0 +1,124 @@
+.vacancies-page{
+  padding: 0 0 45px;
+  .top-banner-block{
+    .block-main-image{
+      height: auto;
+      width: 100%;
+      &:after{}
+    }
+    .block-content{
+      .page-title{
+        font-size: 30px;
+        line-height: 24px;
+      }
+      .btn{}
+    }
+  }
+  .brief-info-block{
+    .block-text{}
+  }
+  .vacancies-list-block{
+    .vacancies-list-el{
+        &:not(:last-child){}
+        .vacancy-title{
+          padding: 16px 50px 16px 16px;
+          row-gap: 8px;
+          .name{
+            font-size: 20px;
+            line-height: 120%;
+          }
+          .details{
+            column-gap: 20px;
+            .cost{}
+            .date{}
+          }
+          .accordion-trigger{
+            top: 30px;
+            img{}
+          }
+        }
+        .vacancy-content{
+          padding: 0 16px;
+          .requirements{
+            &:not(:last-child){
+              margin: 0 0 20px;
+            }
+            .list-title{}
+            .requirements-list{
+              li{
+                &:not(:last-child){}
+                &:before{}
+              }
+            }
+          }
+        }
+        &.active{
+          .accordion-title{
+            .accordion-trigger{
+              img{}
+            }
+          }
+          .accordion-content{
+            padding: 0 16px 16px;
+            p{
+              &:not(:last-child){}
+            }
+          }
+        }
+      }
+  }
+
+  .pop-up-wrapper{
+    .pop-up{
+      width: 100%;
+      min-height: 100vh;
+      max-height: 100%;
+      overflow-y: auto;
+      .stage1{
+        height: 100vh;
+        padding: 20px 15px;
+        border-radius: 0;
+        .pop-up-title{
+          max-width: calc(100% - 48px);
+          font-size: 20px;
+          line-height: 120%;
+          text-align: left;
+        }
+        .pop-up-form{
+          padding: 0;
+          row-gap: 16px;
+          position: static;
+          .input-field-label{
+            &[name='tel'],&[name='name']{
+              width: 100%;
+            }
+          }
+          .input-file{
+            margin: 14px 0 0;
+            span{
+              &.input-file-button{}
+              &.input-file-info{}
+            }
+          }
+        }
+        .btn{
+          width: calc(100% - 30px);
+          position: absolute;
+          bottom: 20px;
+          left: 50%;
+          transform: translateX(-50%);
+        }
+      }
+      .stage2{
+        padding: 15px;
+        border-radius: 0;
+        .pop-up-icon{}
+        .pop-up-title{
+          font-size: 20px;
+          line-height: 120%;
+        }
+        .pop-up-text{}
+      }
+    }
+  }
+}

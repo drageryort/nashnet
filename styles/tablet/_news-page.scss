@@ -1,0 +1,24 @@
+.news-page{
+  .page-title{}
+  .news-list{
+    flex-wrap: nowrap;
+    flex-direction: column;
+    .news-list-el{
+      width: 100%;
+      .banner-block{
+        height: 280px;
+      }
+      .content-block{
+        .date{}
+        .news-title{}
+        .news-extract{}
+        .btn{}
+      }
+    }
+  }
+
+  .show-more-btn-block{
+    .btn{}
+  }
+  .pagination-block{}
+}

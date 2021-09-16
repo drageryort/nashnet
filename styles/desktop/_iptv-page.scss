@@ -35,19 +35,18 @@
       .features-list{
         margin: 0 0 30px;
         .list-el{
+          padding: 0 0 0 35px;
           font-size: 16px;
           line-height: 34px;
           &:before {
             content: url(../images/svg/common/checked-green.svg);
-            margin: 0 10px 0 0;
-            position: relative;
-            top: 7px;
+            position: absolute;
+            top: 5px;
+            left: 0;
           }
         }
       }
-      .btn{
-        padding: 14px 24px;
-      }
+      .btn{}
     }
   }
   .iptv-content-info-block-wrapper{
@@ -74,14 +73,15 @@
         .content-info-list{
           margin: 30px 0;
           .content-info-el{
+            padding: 0 0 0 35px;
             font-size: 16px;
             line-height: 34px;
             color: var(--color-white);
             &:before {
               content: url(../images/svg/common/checked-green.svg);
-              margin: 0 10px 0 0;
-              position: relative;
-              top: 7px;
+              position: absolute;
+              top: 5px;
+              left: 0;
             }
           }
         }
@@ -118,13 +118,14 @@
       .device-info-list {
         margin: 0 0 30px;
         .device-info-el {
+          padding: 0 0 0 35px;
           font-size: 16px;
           line-height: 34px;
           &:before {
             content: url(../images/svg/common/checked-green.svg);
-            margin: 0 10px 0 0;
-            position: relative;
-            top: 7px;
+            position: absolute;
+            top: 5px;
+            left: 0;
           }
         }
       }
@@ -171,6 +172,9 @@
       .instructions-list-el{
         height: 250px;
         width: calc((100% - 90px) / 4);
+        box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.05);
+        border-radius: 14px;
+        overflow: hidden;
         .link{
           display: flex;
           flex-direction: column;

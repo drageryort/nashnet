@@ -1,0 +1,39 @@
+.video-security-page{
+  .top-banner-block{
+    .block-main-image{
+      height: 220px;
+    }
+    .block-content{
+      .page-title{
+        font-size: 40px;
+      }
+      .btn{}
+    }
+  }
+  .content-block{
+    flex-direction: column;
+    row-gap: 30px;
+    .left-col{
+      width: 100%;
+      .col-title{}
+      .text-block{
+        &:not(:last-child){
+          margin: 0 0 15px;
+        }
+        p{}
+        ul{
+          li{}
+        }
+      }
+    }
+    .right-col{
+      width: 100%;
+      .col-title{}
+      .tech-list{
+        .tech-el{}
+      }
+      .description{}
+      .btn{ }
+    }
+  }
+}

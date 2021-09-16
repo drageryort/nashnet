@@ -1,0 +1,612 @@
+.container{
+  max-width: calc(100% - 30px);
+}
+@media (max-width: 660px){
+  .desktop, .tablet{
+    &:not(.mobile){
+      display: none !important;
+    }
+  }
+}
+
+/////////////////////////////////////////////////////////////////
+//Tabs
+/////////////////////////////////////////////////////////////////
+.tab-selector-block{
+  max-width: 100%;
+  margin: 0 0 0 auto;
+  overflow-x: scroll;
+  .tab-selector-list-wrapper{
+    padding: 0 15px;
+    width: max-content;
+    .tab-selector-list{
+      .tab-selector{
+        font-size: 14px;
+        &:first-child{}
+        &:last-child{}
+        &.active{}
+      }
+    }
+  }
+}
+.tab-content{
+  &.active{}
+}
+
+/////////////////////////////////////////////////////////////////
+//Labels
+/////////////////////////////////////////////////////////////////
+//Equipment label
+.equipment-image-part{
+  .label{
+    //label type
+    &.promo-label{}
+    &.novelty-label{}
+    &.speed-label{
+      img{}
+      span{}
+    }
+  }
+}
+
+/////////////////////////////////////////////////////////////////
+//Cards
+/////////////////////////////////////////////////////////////////
+
+//Hot proposition card
+.hot-propositions-el{
+  width: 100%;
+  .top-part{
+    .block-main-image{
+      height: 180px;
+      &:after{}
+    }
+    .timer{
+      .icon{}
+      .info-part{
+        .value{}
+        .name{}
+      }
+    }
+    .description{
+      width: calc(100% - 32px);
+      position: absolute;
+      bottom: 16px;
+      left: 16px;
+      .el-title{
+        font-size: 20px;
+        line-height: 120%;
+      }
+      .el-text{
+        display: none;
+      }
+    }
+  }
+  .bottom-part{
+    padding: 0 16px 16px;
+    justify-content: space-between;
+    column-gap: 25px;
+    .left-col{
+      .top-row, .mid-row{
+        flex-direction: column;
+        padding: 10px 0;
+        .info-wrapper{
+          &:not(:last-child){
+            margin: 0 0 5px;
+          }
+          .info{
+            font-size: 16px;
+            line-height: 20px;
+          }
+          .sale{}
+          .link{}
+        }
+      }
+      .bottom-row{
+        padding: 15px 0 0;
+        .old-price{}
+        .new-price{}
+        .economy{}
+        .btn{
+          width: 100%;
+        }
+        .present-btn{
+          width: max-content;
+          margin: 20px auto 0;
+          position: relative;
+          left: unset;
+          transform: unset;
+        }
+      }
+    }
+    .right-col{}
+    .gift-pop-up{
+      .pop-up{
+        width: calc(100% - 52px);
+        min-height: 370px;
+        padding: 20px 20px 40px;
+        .pop-up-title{
+          width: calc(100% - 40px);
+          margin: 0 0 20px;
+          font-size: 20px;
+          line-height: 120%;
+          text-align: left;
+        }
+        .pop-up-content{
+          .block-main-image{}
+          .label{
+            img{}
+            span{}
+          }
+          .gift-name{}
+          .gift-attr-list{
+            .list-el{}
+          }
+        }
+        .btn{}
+        .close-btn{}
+      }
+    }
+  }
+  &.present{
+    .bottom-part{
+      .left-col{
+        .top-row, .mid-row{
+          .info-wrapper{
+            span{
+              max-width: 100%;
+              white-space: nowrap;
+              overflow: hidden;
+              text-overflow: ellipsis;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+//Promotion card
+.promotions-el{
+  min-width: 100%;
+  width: 100%;
+  height: 395px;
+  &.passed{}
+  .block-main-image{
+    height: 200px;
+    &:after{
+      display: none;
+    }
+  }
+  .label{
+    &.passed-label{}
+    &.calendar-label{
+      .icon{}
+      .info-part{
+        .date{}
+      }
+    }
+    &.pos-top-left{}
+    .pos-top-right{}
+    .pos-bottom-left{}
+    .pos-bottom-right{}
+  }
+  .description{
+    .el-title{}
+    .el-text{}
+    .buttons-block{
+      display: flex;
+      flex-direction: column;
+      margin: auto 0 0;
+      .btn{
+        margin: 0 0 18px;
+        background: transparent;
+        border: 1px solid var(--color-blue);
+        color: var(--color-blue);
+
+      }
+      .link{
+        color: var(--color-blue);
+        .icon{
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+//Equipment card
+.equipment-card{
+  width: 100%;
+  min-width: 100%;
+  .equipment-image-part{
+    .image{}
+    .label{
+
+      //label position
+      &.pos-top-left{}
+      &.pos-top-right{}
+      &.pos-bottom-left{}
+      &.pos-bottom-right{}
+    }
+  }
+  .equipment-description-part{
+    row-gap: unset;
+    .equipment-name{
+      margin: 0 0 5px;
+    }
+    .price-row{
+      flex-direction: column;
+      justify-content: unset;
+      align-items: unset;
+      row-gap: 6px;
+      padding: 13px 0 0;
+      margin: 0 0 20px;
+      .price-col{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        .old-price{
+          top: -12px;
+        }
+        .actual-price{}
+      }
+    }
+    .button-row{
+      .btn{
+        width: 135px;
+      }
+    }
+    .cash-back-row{
+      margin: 15px auto 0;
+      img{}
+      span{}
+    }
+  }
+}
+
+//Channel card
+.channel-card{
+  height: 110px;
+  width: calc((100% - 10px) / 2);
+  padding: 18px 5px 14px;
+  .logo{
+    margin: 0 0 6px;
+    width: 85px;
+    height: 50px;
+    img{}
+  }
+  .name{
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .label{
+    &.pos-top-right{}
+    &.pos-top-left{}
+    &.pos-bottom-right{}
+    &.pos-bottom-left{}
+    &.hd-label{}
+  }
+}
+
+
+//Tarrifs card
+.tariffs-el{
+  min-width: 290px;
+  width: 290px;
+  .tariff-top{
+    .name{}
+    .date{}
+    .timer{
+      .info-part{
+        .name{}
+        .value{}
+      }
+    }
+  }
+  .tariff-base-info{
+    .tariff-name{
+      .icon{}
+    }
+    .tariff-recommendation{}
+    .tariff-speed{}
+  }
+  .iptv-tariff-slider{
+    .iptv-tariff-text{}
+    .iptv-tariff-slider-el{
+      .iptv-tariff-name{
+        .icon{}
+      }
+      .iptv-tariff-description{}
+      .link{}
+    }
+    .dots-navigation{
+      .dots{
+        span{}
+        &.active{
+          span{}
+        }
+      }
+    }
+  }
+  .additional-attributes{
+    .block-text{}
+    .label{
+      .attr-name{}
+      .attr-price{}
+    }
+  }
+  .price-block{
+    .old-price{}
+    .new-price{}
+    .economy{}
+  }
+  .btn{}
+}
+
+/////////////////////////////////////////////////////////////////
+//Blocks
+/////////////////////////////////////////////////////////////////
+
+//Breadcrumbs
+.breadcrumbs{
+  padding: 10px 0 20px;
+  a, span{}
+}
+
+//Question block
+.questions-block-wrapper{
+  .questions-block{
+    padding: 30px 0 40px;
+    .left-col{
+      .block-main-image{}
+    }
+    .right-col{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      .block-title{
+        margin: 0 0 6px;
+        font-size: 20px;
+      }
+      .block-text{}
+      #question-form{
+        width: 100%;
+        .form-fields{
+          flex-direction: column;
+          row-gap: 16px;
+          .input-field-label{
+            width: 100%;
+          }
+        }
+        .btn{
+          width: 100%;
+          margin: 45px auto 0;
+        }
+      }
+    }
+  }
+}
+
+//Show-more-block
+.show-more-block {
+  &.active {
+    .content {
+      max-height: 2000px;
+
+      &:before {
+      }
+    }
+    .show-more-btn {}
+  }
+
+  .content {
+    max-height: 180px;
+
+    &:before {
+      height: 105px;
+    }
+    p {
+    }
+  }
+
+  .show-more-btn {
+    img {
+    }
+  }
+}
+
+//Equipment slider block
+.equipment-slider-block{
+  .slider-block{
+    .slider-btn{
+      &.left{}
+      &.right{}
+    }
+    .slider-content{}
+    .dots-navigation{
+      margin: 15px 0 0;
+    }
+  }
+}
+
+//Check coverage map
+.check-coverage-map{
+  .check-address{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    .block-title{
+      max-width: 100%;
+    }
+    .check-availability-form{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      row-gap: 15px;
+      .input-field-label{
+        &[name='street']{
+          width: 100%;
+        }
+        &[name='house']{
+          width: 90px;
+        }
+      }
+    }
+  }
+  .map-wrapper{
+    height: 500px;
+    .image{}
+    .check-result{
+      width: calc(100% - 20px);
+      padding: 20px;
+      right: 50%;
+      transform: translateX(-50%);
+      .list{
+        li{
+          &:not(:last-of-type){}
+          &:before{
+            top: 0;
+          }
+          &.positive{
+            &:before{}
+          }
+          &.negative{
+            &:before{}
+          }
+        }
+      }
+      small{
+        margin: 0 0 30px;
+      }
+      .btn{}
+    }
+  }
+  .legend{
+    padding: 20px;
+    .legend-list{
+      .legend-el{
+        .icon{}
+      }
+    }
+  }
+  .pop-up-wrapper{
+    .pop-up{
+      width: calc(100% - 30px);
+      min-height: 395px;
+      background: var(--color-white);
+      border-radius: 14px;
+      .stage1{
+        padding: 30px 20px 20px;
+        .pop-up-title{
+          max-width: 230px;
+          margin: 0 auto 18px;
+          font-size: 20px;
+          line-height: 120%;
+        }
+        .address{
+          padding: 13px;
+          .name{
+            margin: 0 0 5px;
+          }
+          .value{}
+        }
+        .pop-up-form{
+          flex-direction: column;
+          margin: 20px 0 0;
+          row-gap: 15px;
+          .input-field-label{
+            width: 100%;
+          }
+          .btn{
+            width: 100%;
+          }
+        }
+      }
+      .stage2{
+        padding: 30px 20px 20px;
+        .result-icon{}
+        .result-title{
+          font-size: 20px;
+        }
+        .result-subtitle{
+          margin: 8px 0 0;
+        }
+        .data-list{
+          margin: 35px 0 0;
+          .data-list-el{
+            .name{}
+            .value{}
+          }
+        }
+      }
+    }
+  }
+}
+
+//Promotion info block
+.promotions-info-block{
+  .block-title{
+    font-size: 20px;
+    line-height: 120%;
+  }
+  .content{
+    .left-col{
+      .block-main-image{
+        height: 200px;
+        img{}
+      }
+      .calendar{
+        margin: 0 0 20px;
+        &.actual{
+          flex-wrap: wrap;
+          justify-content: center;
+          row-gap: 30px;
+          .icon{}
+          .description{
+            max-width: calc(100% - 55px - 30px);
+            .name{}
+            .value{
+              font-size: 24px;
+              line-height: 23px;
+            }
+          }
+          .btn{
+            margin: 0 auto;
+          }
+        }
+        &.passed{
+          font-size: 16px;
+          line-height: 14px;
+          color: var(--color-placeholder-gray);
+        }
+      }
+      .info-text{
+        margin: 0 0 30px;
+        p{
+          &:not(:last-child){}
+        }
+        .bordered-text{
+          p{}
+        }
+      }
+      .tariffs{
+        .title{
+          margin: 0 0 20px;
+          font-size: 20px;
+          line-height: 120%;
+        }
+        .tariffs-list{}
+      }
+    }
+    .right-col{
+      p{
+        &:not(:last-child){}
+      }
+      .bordered-text{
+        p{}
+      }
+    }
+  }
+}

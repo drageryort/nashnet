@@ -1,5 +1,5 @@
-.settings-instructions-page{
-  padding: 100px;
+.shop-catalog-page{
+  padding: 0 0 40px;
   .page-title{
     padding: 0 0 15px;
     font-weight: 700;
@@ -13,78 +13,196 @@
   .tab-content-block{
     padding: 15px 0;
     .tab-content{
-      .tab-content-title{
-        margin: 0 0 20px;
-        font-weight: bold;
-        font-size: 30px;
-        line-height: 120%;
+      .equipment-card-list{
+        padding: 0 0 15px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
       }
-      .description{
-        margin: 0 0 20px;
-        font-size: 16px;
-        line-height: 120%;
-        &:last-of-type{
-          margin: 0 0 30px;
-        }
-      }
-      .btn{
-        margin: 0 0 60px;
-      }
-      .accordion-pack{
-        &:not(:last-of-type){
-          margin: 0 0 30px;
-        }
-        .pack-title{
-          margin: 0 0 20px;
-          font-weight: bold;
-          font-size: 20px;
-          line-height: 120%;
-        }
-        .accordion-el{
-          &:not(:last-of-type){
-            margin: 0 0 10px;
+      .services-list-block{
+        padding: 20px 24px 24px;
+        background: var(--color-white);
+        box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.05);
+        border-radius: 14px;
+        .service-list-pack{
+          &:not(:last-child){
+            margin: 0 0 30px;
           }
-          .accordion-title{
-            padding: 25px 60px 25px 30px;
-            font-weight: 700;
+          .pack-title{
+            margin: 0 0 20px;
+            font-weight: bold;
             font-size: 16px;
             line-height: 120%;
-            cursor: pointer;
           }
-          .accordion-content{
-            padding: 0 30px;
-            p{
-              margin: 0 0 20px;
-              font-size: 16px;
-              line-height: 120%;
-              &:not(:last-of-type){
-                margin: 0 0 20px;
+          .services-list{
+            li{
+              display: flex;
+              padding: 15px;
+              justify-content: space-between;
+              align-items: flex-start;
+              background: var(--color-sky-blue);
+              border-radius: 6px;
+              &:not(:last-child){
+                margin: 0 0 10px;
+              }
+              .name, .value{
+                font-size: 16px;
+                line-height: 120%;
+              }
+              .name{
+                max-width: calc(100% - 150px);
               }
             }
           }
         }
       }
-      .instructions-pack-wrapper{
-        .pack-title{
+      .show-more-btn-block{
+        padding: 45px 0 15px;
+        .btn{
+          margin: 0 auto;
+        }
+      }
+      .pagination-block{
+        justify-content: center;
+        padding: 15px 0 0;
+      }
+    }
+  }
+  .show-more-block{
+    padding: 85px 0 0;
+  }
+  .pop-up-wrapper{
+    .pop-up{
+      width: 670px;
+      height: 525px;
+      min-height: 525px;
+      max-height: 90vh;
+      border-radius: 14px;
+      background: var(--color-white);
+      overflow-y: auto;
+      .stage1{
+        height: 100%;
+        min-height: inherit;
+        padding: 40px 40px 50px;
+        .pop-up-title{
           margin: 0 0 20px;
           font-weight: bold;
-          font-size: 20px;
+          font-size: 24px;
           line-height: 120%;
+          text-align: center;
         }
-        .instructions-pack{
+        .ordering-equipment{
           display: flex;
+          align-items: center;
+          justify-content: space-between;
+          padding: 14px 30px 14px 14px;
+          margin: 0 0 20px;
           column-gap: 30px;
-          .pack-list{
-            width: calc((100% - 3*30px) / 4);
-            .link{
-              font-weight: 500;
+          background: var(--color-green-blue);
+          border-radius: 10px;
+          .image-part{
+            width: 235px;
+            height: 145px;
+            border-radius: 6px;
+            overflow: hidden;
+          }
+          .description-part{
+            display: flex;
+            flex-direction: column;
+            width: calc(100% - 30px - 235px);
+            .equipment-name{
+              font-weight: bold;
               font-size: 16px;
               line-height: 120%;
-              text-decoration-line: underline;
-              color: var(--color-blue);
-              &:not(:last-of-type){
-                margin: 0 0 10px;
+            }
+            .equipment-price{
+              display: flex;
+              flex-direction: column;
+              margin: 18px 0 0;
+              .old-price{
+                font-size: 10px;
+                line-height: 120%;
+                color: var(--color-placeholder-gray);
               }
+              .actual-price{
+                font-size: 16px;
+                line-height: 120%;
+              }
+            }
+          }
+        }
+        .pop-up-form{
+          display: flex;
+          flex-wrap: wrap;
+          width: 100%;
+          align-items: center;
+          gap: 15px 20px;
+          .input-field-label{
+            &[name="name"]{
+              width: 284px;
+            }
+            &[name="tel"]{
+              width: 283px;
+            }
+            &[name="street"]{
+              width: 411px;
+            }
+            &[name="house"]{
+              width: 68px;
+            }
+            &[name="flat"]{
+              width: 68px;
+            }
+          }
+        }
+        .btn{
+          margin: 40px auto 0;
+        }
+      }
+      .stage2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        min-height: inherit;
+        padding: 50px;
+        .pop-up-icon{
+          margin: 0 0 20px;
+          width: 64px;
+          height: 64px;
+        }
+        .pop-up-title{
+          font-weight: bold;
+          font-size: 24px;
+          line-height: 120%;
+          text-align: center;
+        }
+        .pop-up-text{
+          margin: 10px 0 0;
+          width: 560px;
+          font-size: 16px;
+          line-height: 120%;
+          text-align: center;
+        }
+        .order-info-list{
+          margin: 20px 0 0;
+          li{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            column-gap: 6px;
+            &:not(:last-child){
+              margin: 0 0 10px;
+            }
+            .name{
+              font-size: 16px;
+              line-height: 120%;
+            }
+            .value{
+              font-weight: bold;
+              font-size: 16px;
+              line-height: 120%;
             }
           }
         }

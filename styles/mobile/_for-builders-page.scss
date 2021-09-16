@@ -1,0 +1,155 @@
+.for-builders-page{
+  .top-banner-block{
+    margin: 0 auto 15px;
+    .block-main-image{
+      &:after{}
+    }
+    .block-content{
+      row-gap: 30px;
+      .page-title{
+        font-size: 24px;
+        line-height: 24px;
+      }
+      .btn{}
+    }
+  }
+  .slogan{
+    padding: 15px 0;
+    .block-title{
+      margin: 0 0 20px;
+      font-size: 20px;
+      span{}
+    }
+    .block-text{}
+  }
+  .advantages-block{
+    padding: 15px 0 25px;
+    .block-title{
+      margin: 0 0 30px;
+      font-size: 20px;
+    }
+    .advantages-list{
+      .advantage{
+        width: 100%;
+        .image-part{
+          .image{}
+        }
+        .block-text{}
+      }
+    }
+  }
+  .net-construction-block{
+    padding: 25px 0 30px ;
+    row-gap: 30px;
+    .left-col{
+      width: 100%;
+      .block-main-image{
+        width: 300px;
+        height: 185px;
+      }
+      &:after {
+        width: 180px;
+        height: 170px;
+        left: 147px;
+        right: unset;
+        bottom: -27px;
+      }
+    }
+    .right-col{
+      width:100%;
+      .block-title{
+        margin: 0 0 20px;
+        font-size: 20px;
+      }
+      .block-text{
+        text-align: center;
+      }
+    }
+    &:after{
+      display: none;
+    }
+  }
+  .our-services-block{
+    padding: 30px 0 15px;
+    .block-title{
+      font-size: 20px;
+    }
+    .services-list{
+      .services-el{
+        flex-direction: column;
+        row-gap: 10px;
+        min-height: auto;
+        padding: 10px 20px 20px;
+        .picture-part{
+          width: 100px;
+          height: 100px;
+          picture{}
+        }
+        .block-text{
+          width: 100%;
+          text-align: center;
+        }
+      }
+    }
+  }
+  .our-partners-block{
+    padding: 15px 0 10px;
+    .block-title{
+      margin: 0 0 20px;
+      font-size: 20px;
+    }
+    .block-text{}
+    .partners-list{
+      gap: 30px;
+      padding: 0;
+      .partners-el{
+        padding: 15px 10px 10px;
+        width: calc((100% - 30px) / 2);
+        .image{}
+        .text-block{}
+      }
+    }
+  }
+
+
+
+  .pop-up-wrapper{
+    .pop-up{
+      width: calc(100% - 30px);
+      min-height: 300px;
+      .stage1{
+        min-height: inherit;
+        padding: 30px 20px;
+        .pop-up-title{
+          max-width: calc(100% - 45px);
+          margin: 0 0 15px;
+          font-size: 20px;
+        }
+        .pop-up-form{
+          flex-direction: column;
+          align-items: center;
+          row-gap: 20px;
+          .input-field-label{
+            &[name='tel'],&[name='name']{
+              width: 100%;
+            }
+          }
+        }
+        .btn{
+          margin: 35px 0 0;
+        }
+      }
+      .stage2{
+        min-height: inherit;
+        padding: 30px 20px;
+        .pop-up-icon{}
+        .pop-up-title{
+          font-size: 20px;
+        }
+        .pop-up-text{
+          width: 100%;
+        }
+      }
+    }
+  }
+}

@@ -138,7 +138,7 @@
     .accordion-el{
       background: var(--color-white);
       border-radius: 14px;
-      &:not(:last-child){
+      &:not(:last-of-type){
         margin: 0 0 10px;
       }
       .accordion-title{
@@ -160,7 +160,7 @@
           font-size: 16px;
           line-height: 120%;
           &:not(:last-child){
-            margin: 0 0 10px;
+            margin: 0 0 20px;
           }
         }
       }

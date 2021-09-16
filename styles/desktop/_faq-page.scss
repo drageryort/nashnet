@@ -1,0 +1,41 @@
+.faq-page{
+  padding: 0 0 100px;
+  .page-title{
+    padding: 0 0 15px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 120%;
+  }
+  .faq-list{
+    padding: 15px 0 0;
+    .accordion-el{
+      .accordion-title{
+        padding: 25px 60px 25px 30px;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 120%;
+        cursor: pointer;
+      }
+      .accordion-content{
+        padding: 0 30px;
+      }
+      &.active{
+        .accordion-content{
+          padding: 0 30px 30px;
+          p{
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 120%;
+            &:not(:last-child) {
+              margin: 0 0 15px;
+            }
+            a{
+              color: var(--color-blue);
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+    }
+  }
+}
