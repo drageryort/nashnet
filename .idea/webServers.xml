@@ -2,12 +2,11 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="0fede162-58c4-403f-b395-dbb2c2e4b90d" name="mine" url="http://nashnet.webfuture.top">
-        <fileTransfer host="mithril.isp-host.net.in" port="21" rootFolder="/www/nashnet.webfuture.top">
+      <webServer id="0fede162-58c4-403f-b395-dbb2c2e4b90d" name="mine (project level)" url="http://nashnet.webfuture.top">
+        <fileTransfer rootFolder="/www/nashnet.webfuture.top" host="mithril.isp-host.net.in" port="21">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
-          <option name="port" value="21" />
         </fileTransfer>
       </webServer>
       <webServer id="81553c9f-62ad-4da8-bdc5-65d1eb6a3419" name="icecream" url="http://ic332509.ftp.tools">
@@ -15,7 +14,6 @@
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
-          <option name="port" value="21" />
         </fileTransfer>
       </webServer>
     </option>

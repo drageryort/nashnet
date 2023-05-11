@@ -5,157 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="abea276b-e93b-4ec5-bcae-28b416f6f6b4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/images/png/network-coverage/ordered-form-image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/svg/common/distance-icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/svg/common/gift-orange-icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/svg/common/group-icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/svg/common/hamburger-menu.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/svg/common/mask-icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/svg/common/negative-small-icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/svg/common/positive-small-icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/svg/common/wind-icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/svg/home/city-long.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/network-coverage-page.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/desktop/_network-coverage-page.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/mobile-styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/mobile/_about-page.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/mobile/_channels-actual-pack-page.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/mobile/_channels-archive-pack-page.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/mobile/_common.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/mobile/_contacts-page.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/mobile/_documents-page.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/mobile/_faq-page.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/mobile/_footer.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/mobile/_for-builders-page.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/mobile/_for-business-page.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/mobile/_header.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/mobile/_home.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/mobile/_instructions-payment-page.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/mobile/_iptv-page.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/mobile/_loyal-program-page.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/mobile/_network-coverage-page.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/mobile/_news-page.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/mobile/_news-single-page.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/mobile/_payment-page.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/mobile/_payment-result-page.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/mobile/_product-page.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/mobile/_promotions-category-page.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/mobile/_promotions-page.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/mobile/_promotions-single-page.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/mobile/_seo-page.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/mobile/_settings-instructions-page.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/mobile/_shop-page.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/mobile/_subscriber-page.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/mobile/_vacancies-page.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/mobile/_videosecurity-page.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/tablet-styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/tablet/_about-page.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/tablet/_channels-actual-pack-page.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/tablet/_channels-archive-pack-page.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/tablet/_common.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/tablet/_contacts-page.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/tablet/_documents-page.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/tablet/_faq-page.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/tablet/_footer.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/tablet/_for-builders-page.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/tablet/_for-business-page.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/tablet/_header.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/tablet/_home.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/tablet/_instructions-payment-page.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/tablet/_iptv-page.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/tablet/_loyal-program-page.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/tablet/_network-coverage-page.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/tablet/_news-page.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/tablet/_news-single-page.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/tablet/_payment-page.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/tablet/_payment-result-page.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/tablet/_product-page.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/tablet/_promotions-category-page.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/tablet/_promotions-page.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/tablet/_promotions-single-page.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/tablet/_seo-page.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/tablet/_settings-instructions-page.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/tablet/_shop-page.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/tablet/_subscriber-page.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/tablet/_vacancies-page.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/tablet/_videosecurity-page.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/png/for-builders/top-banner.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/png/for-builders/top-banner.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/png/for-business/top-banner.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/png/for-business/top-banner.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/png/home/full-width-promo.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/png/home/full-width-promo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/png/shop/equipment.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/png/shop/equipment.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/svg/contacts/mock-map.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/svg/contacts/mock-map.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/svg/payment-page/monobank-logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/svg/payment-page/monobank-logo.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/about-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/about-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/channels-actualpack-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/channels-actualpack-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/channels-archivepack-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/channels-archivepack-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/contacts-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/contacts-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/documents-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/documents-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/faq-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/faq-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/for-builders-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/for-builders-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/for-business-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/for-business-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/instruction-payment-mono-mobile-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/instruction-payment-mono-mobile-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/instruction-payment-privat-desktop-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/instruction-payment-privat-desktop-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/instruction-payment-privat-mobile-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/instruction-payment-privat-mobile-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/iptv-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/iptv-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/loyal-program-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/loyal-program-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/news-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/news-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/news-single-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/news-single-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/payment-bank-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/payment-bank-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/payment-cash-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/payment-cash-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/payment-online-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/payment-online-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/payment-result-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/payment-result-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/product-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/product-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/promotions-category-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/promotions-category-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/promotions-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/promotions-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/promotions-single-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/promotions-single-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/seo-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/seo-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/settings-instruction-computer-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/settings-instruction-computer-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/settings-instruction-media-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/settings-instruction-media-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/settings-instruction-router-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/settings-instruction-router-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/settings-instruction-smartTV-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/settings-instruction-smartTV-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/shop-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/shop-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/shop-services-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/shop-services-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/subscriber-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/subscriber-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/vacancies-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/vacancies-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/videosecurity-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/videosecurity-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/desktop/_about-page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/desktop/_about-page.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/desktop/_channels-actual-pack-page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/desktop/_channels-actual-pack-page.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/desktop/_color.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/desktop/_color.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/desktop/_common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/desktop/_common.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/desktop/_contacts-page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/desktop/_contacts-page.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/desktop/_documents-page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/desktop/_documents-page.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/desktop/_faq-page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/desktop/_faq-page.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/desktop/_for-builders-page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/desktop/_for-builders-page.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/desktop/_for-business-page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/desktop/_for-business-page.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/desktop/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/desktop/_header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/desktop/_home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/desktop/_home.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/desktop/_instructions-payment-page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/desktop/_instructions-payment-page.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/desktop/_iptv-page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/desktop/_iptv-page.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/desktop/_loyal-program-page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/desktop/_loyal-program-page.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/desktop/_news-page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/desktop/_news-page.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/desktop/_news-single-page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/desktop/_news-single-page.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/desktop/_payment-page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/desktop/_payment-page.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/desktop/_payment-result-page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/desktop/_payment-result-page.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/desktop/_product-page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/desktop/_product-page.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/desktop/_promotions-category-page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/desktop/_promotions-category-page.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/desktop/_promotions-page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/desktop/_promotions-page.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/desktop/_promotions-single-page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/desktop/_promotions-single-page.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/desktop/_seo-page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/desktop/_seo-page.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/desktop/_settings-instructions-page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/desktop/_settings-instructions-page.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/desktop/_shop-page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/desktop/_shop-page.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/desktop/_subscriber-page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/desktop/_subscriber-page.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/desktop/_vacancies-page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/desktop/_vacancies-page.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/desktop/_videosecurity-page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/desktop/_videosecurity-page.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/style.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/mobile-styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/mobile-styles.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/mobile-styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/mobile-styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/style.min.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/tablet-styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/tablet-styles.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/tablet-styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/tablet-styles.scss" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/.tmp/" />
-    <ignored path="$PROJECT_DIR$/temp/" />
-    <ignored path="$PROJECT_DIR$/tmp/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -163,37 +24,6 @@
   </component>
   <component name="FavoritesManager">
     <favorites_list name="vash-net" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/styles/mobile/_for-builders-page.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="52" column="19" selection-start-line="52" selection-start-column="19" selection-end-line="52" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/styles/mobile/_for-business-page.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-90">
-              <caret line="34" column="24" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/styles/mobile/_about-page.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="59" column="27" lean-forward="true" selection-start-line="59" selection-start-column="27" selection-end-line="59" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -314,6 +144,7 @@
     <option name="width" value="1440" />
     <option name="height" value="775" />
   </component>
+  <component name="ProjectId" id="2PeSgeZgY4QAqwp8ydPB5ctlaNe" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -329,34 +160,6 @@
               <item name="vash-net" type="b2602c69:ProjectViewProjectNode" />
               <item name="vash-net" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="vash-net" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vash-net" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vash-net" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vash-net" type="462c0819:PsiDirectoryNode" />
-              <item name="styles" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vash-net" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vash-net" type="462c0819:PsiDirectoryNode" />
-              <item name="styles" type="462c0819:PsiDirectoryNode" />
-              <item name="desktop" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vash-net" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vash-net" type="462c0819:PsiDirectoryNode" />
-              <item name="styles" type="462c0819:PsiDirectoryNode" />
-              <item name="mobile" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vash-net" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vash-net" type="462c0819:PsiDirectoryNode" />
-              <item name="styles" type="462c0819:PsiDirectoryNode" />
-              <item name="tablet" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -364,20 +167,25 @@
       <pane id="Scope" />
     </panes>
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/styles/mobile" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/watchers.xml" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -395,18 +203,7 @@
       <recent name="D:\Icecream\vash-net\pages" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -446,12 +243,14 @@
       <workItem from="1631519534084" duration="46286000" />
       <workItem from="1631692311182" duration="6795000" />
       <workItem from="1631704868872" duration="14855000" />
-      <workItem from="1631778979492" duration="14742000" />
+      <workItem from="1631778979492" duration="15313000" />
+      <workItem from="1631801650349" duration="646000" />
+      <workItem from="1683816169602" duration="2276000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="579999000" />
+    <option name="totallyTimeSpent" value="581216000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -464,15 +263,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" sideWeight="0.50141644" side_tool="true" weight="0.18638466" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49858356" visible="true" weight="0.2881692" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49858356" visible="true" weight="0.2966443" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.49834764" weight="0.3286119" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50231326" side_tool="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Version Control" order="2" sideWeight="0.4990086" weight="0.3286119" />
-      <window_info anchor="bottom" id="File Transfer" order="3" sideWeight="0.49966952" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="File Transfer" order="3" sideWeight="0.49966952" weight="0.3286119" />
       <window_info anchor="bottom" id="Messages" order="4" weight="0.3286119" />
       <window_info anchor="bottom" id="Docker" order="5" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="6" />
@@ -485,11 +283,11 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Remote Host" order="3" weight="0.3295302" />
+      <window_info active="true" anchor="right" id="Remote Host" order="3" visible="true" weight="0.3295302" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
@@ -1062,24 +860,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/styles/mobile/_about-page.scss">
+    <entry file="file://$PROJECT_DIR$/styles/mobile/_for-builders-page.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="59" column="27" lean-forward="true" selection-start-line="59" selection-start-column="27" selection-end-line="59" selection-end-column="27" />
+        <state relative-caret-position="396">
+          <caret line="52" column="19" selection-start-line="52" selection-start-column="19" selection-end-line="52" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/styles/mobile/_for-business-page.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-90">
+        <state relative-caret-position="612">
           <caret line="34" column="24" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/styles/mobile/_for-builders-page.scss">
+    <entry file="file://$PROJECT_DIR$/styles/mobile/_about-page.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="52" column="19" selection-start-line="52" selection-start-column="19" selection-end-line="52" selection-end-column="19" />
+        <state relative-caret-position="1062">
+          <caret line="59" column="27" selection-start-line="59" selection-start-column="27" selection-end-line="59" selection-end-column="27" />
         </state>
       </provider>
     </entry>
